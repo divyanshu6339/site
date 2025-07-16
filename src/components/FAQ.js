@@ -1,78 +1,102 @@
 import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
-const FaqItem = ({ question, answer }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  return (
-    <div className="bg-white bg-opacity-95 rounded-2xl shadow-lg overflow-hidden">
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex justify-between items-center text-left py-6 px-8 focus:outline-none"
-      >
-        <span className="text-2xl font-medium text-gray-900">{question}</span>
-        <svg
-          className={`w-8 h-8 text-gray-800 transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-        </svg>
-      </button>
-      <div
-        className={`transition-all duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
-      >
-        <div className="px-8 pb-8 text-gray-600">
-           <div className="border-t border-gray-200 pt-6">
-            <p className="text-xl">{answer}</p>
-           </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const FAQ = () => {
-    const faqData = [
+const faqData = [
     {
-      question: 'What is JFT AI Chatbot?',
-      answer: 'JFT AI Chatbot is an AI-driven customer support solution that integrates with your digital platforms to provide real-time, intelligent responses to customer inquiries, enhancing user engagement and satisfaction.',
+      question: "How much does it cost to hire a software developer in the US?",
+      answer: "At Alpixn Technologies, we understand that the cost of hiring software engineers in the US varies based on experience, skill set, and location. On average, salaries range from $80,000 to $150,000 annually, with senior developers commanding higher rates."
     },
     {
-      question: 'How does the chatbot learn and adapt?',
-      answer: 'Our chatbot uses machine learning algorithms to analyze interactions and user feedback. This continuous learning process allows it to improve its understanding, adapt its responses, and become more effective over time.',
+      question: "How much does it cost to hire a team of software developers?",
+      answer: "When you hire a dedicated software development team from Alpixn Technologies, costs typically range from $100,000 to $500,000 annually. We offer competitive pricing, especially for offshore teams, while ensuring top-tier quality and results for complex projects."
     },
     {
-      question: 'Is JFT AI Chatbot easy to integrate?',
-      answer: 'Yes, our chatbot is designed for seamless integration. We provide comprehensive documentation and support to help you connect it with your existing websites, applications, and internal systems with minimal effort.',
+      question: "How do I hire a good software developer?",
+      answer: "To hire top software developers, we recommend clearly defining your project's technical requirements and preferred tech stack. Our team ensures that we assess problem-solving skills, technical expertise, and passion for growth, helping you attract the best talent in the industry."
     },
     {
-      question: 'How does JFT AI Chatbot handle sensitive data?',
-      answer: 'We prioritize data security. All interactions are encrypted, and the chatbot complies with industry-standard privacy regulations. We have robust protocols in place to ensure sensitive customer information is handled securely.',
+      question: "Why hire dedicated developers instead of freelancers?",
+      answer: "We believe that hiring dedicated developers from Alpixn Technologies ensures you get a committed, stable team focused solely on your project. Unlike freelancers, we offer consistent quality, seamless collaboration, and adherence to security protocols, making your project a priority."
     },
     {
-      question: 'Can I customize the chat flows?',
-      answer: 'Absolutely. We offer powerful tools that allow you to customize chat flows to match your specific business requirements, ensuring the chatbot guides customers through a journey that aligns with your processes.',
+      question: "How do I hire experienced software developers for enterprise applications?",
+      answer: "At Alpixn Technologies, we specialize in hiring experienced software developers for enterprise applications. Our developers bring deep expertise in technologies like .NET and PHP, ensuring the creation of scalable, secure, and efficient solutions tailored to your unique business needs."
     },
     {
-        question: 'What support options are available?',
-        answer: 'We offer a range of support options, including detailed documentation, email support, and dedicated technical assistance to ensure you get the most out of our chatbot solution.'
+      question: "What are the benefits of hiring dedicated software engineers for long-term projects?",
+      answer: "Hiring dedicated software engineers from Alpixn Technologies ensures that your long-term project receives focused attention, reducing disruptions and enhancing collaboration. Our engineers provide specialized expertise, ensuring that your solution is scalable, high-quality, and delivered on time."
+    },
+    {
+      question: "How do I find the right software developer for my project?",
+      answer: "To find the right software developer, we recommend outlining your technical needs and conducting thorough assessments. At Alpixn Technologies, we focus on candidates with the right skill set, problem-solving abilities, and a collaborative mindset to ensure the perfect match for your project."
+    },
+    {
+      question: "What is the advantage of hiring developers from a reputed company?",
+      answer: "Hiring from a reputed company like Alpixn Technologies provides access to a vetted talent pool, established development processes, and a strong support structure. This ensures accountability, reliability, and high-quality deliverables, backed by the company's reputation and track record."
     }
   ];
 
-  return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="text-center mb-16">
-          <h2 className="text-5xl sm:text-6xl font-bold text-white">FAQs about <span className="text-cyan-400">JFT AI Chatbot</span></h2>
+const AccordionItem = ({ question, answer, isOpen, onClick }) => {
+    return (
+      <div className="border-b border-gray-700">
+        <button
+          onClick={onClick}
+          className="w-full flex justify-between items-center text-left py-6"
+        >
+          <span className="text-xl font-medium text-white">{question}</span>
+          <motion.div
+            animate={{ rotate: isOpen ? 180 : 0 }}
+            transition={{ duration: 0.3 }}
+          >
+            <svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
+          </motion.div>
+        </button>
+        <AnimatePresence>
+          {isOpen && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.3, ease: 'easeInOut' }}
+              className="overflow-hidden"
+            >
+              <p className="pb-6 text-gray-300">
+                {answer}
+              </p>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
-      <div className="space-y-6">
-        {faqData.map((item, index) => (
-          <FaqItem key={index} question={item.question} answer={item.answer} />
-        ))}
-      </div>
-    </div>
-  );
-};
+    );
+  };
+
+const FAQ = () => {
+    const [openIndex, setOpenIndex] = useState(null);
+
+    const handleClick = (index) => {
+        setOpenIndex(openIndex === index ? null : index);
+    };
+
+    return (
+        <section className="bg-gray-900 py-20 sm:py-28">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-16">
+                    <h2 className="text-4xl lg:text-5xl font-extrabold text-white">FAQ's</h2>
+                </div>
+                <div>
+                    {faqData.map((faq, index) => (
+                        <AccordionItem 
+                            key={index}
+                            question={faq.question}
+                            answer={faq.answer}
+                            isOpen={openIndex === index}
+                            onClick={() => handleClick(index)}
+                        />
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+}
 
 export default FAQ; 

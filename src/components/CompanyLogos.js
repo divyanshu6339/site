@@ -16,10 +16,15 @@ const logos = [
   { src: logo6, alt: 'KFM 24/7' },
 ];
 
-const CompanyLogos = () => {
+const CompanyLogos = ({ title, logos }) => {
+  const isTrustedBy = title === 'Trusted By';
+  const bgColor = isTrustedBy ? 'bg-white' : 'bg-gray-900';
+  const textColor = isTrustedBy ? 'text-gray-700' : 'text-gray-300';
+
   return (
-    <div className="bg-[#020c1b] py-8 sm:py-12">
+    <div className={`${bgColor} py-12 sm:py-16`}>
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        {title && <h2 className={`text-center text-lg font-semibold ${textColor} uppercase tracking-widest mb-10`}>{title}</h2>}
         <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 md:gap-x-16 lg:gap-x-20">
           {logos.map((logo, index) => (
             <div key={index} className="flex justify-center">

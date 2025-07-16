@@ -15,7 +15,7 @@ const insightsData = [
   {
     image: insight2,
     title: 'Corporate Cabs',
-    description: 'Jellyfish Technologies partnered with Corporate Cabs, developing a seamless Android app for POS terminals, ensuring efficient online...',
+    description: 'Alpixn Technologies partnered with Corporate Cabs, developing a seamless Android app for POS terminals, ensuring efficient online...',
     link: '#',
     bgColor: 'bg-sky-200',
     rotation: 'rotate-6'

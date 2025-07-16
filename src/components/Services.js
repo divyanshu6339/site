@@ -42,22 +42,21 @@ const servicesData = [
 ];
 
 const ServiceCard = ({ imgSrc, title, description }) => (
-  <div className="bg-[#00070E] border border-gray-800 rounded-lg p-8 text-center flex flex-col items-center h-full">
-    <img src={imgSrc} alt={title} className="h-20 mb-6" />
-    <h3 className="text-xl font-semibold text-blue-500 mb-4">{title}</h3>
-    <p className="text-gray-400 text-sm">{description}</p>
+  <div className="bg-gray-900 border border-gray-700 rounded-lg p-8 text-center flex flex-col items-center h-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/20">
+    <h3 className="text-3xl font-bold text-white mb-5">{title}</h3>
+    <p className="text-gray-300 text-lg">{description}</p>
   </div>
 );
 
-const Services = () => {
+const Services = ({ title, description, services }) => {
   return (
-    <div className="py-24 px-4">
-      <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-white mb-4">Software Development Service we offer</h2>
-        <p className="text-lg text-gray-400">"Building Intelligent Software That Powers Business Growth."</p>
+    <div className="py-24 px-4 bg-black">
+      <div className="text-center mb-20 max-w-screen-xl mx-auto">
+        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">{title}</h2>
+        <p className="text-xl text-gray-300">{description}</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {servicesData.map((service, index) => (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {services && services.map((service, index) => (
           <ServiceCard key={index} {...service} />
         ))}
       </div>

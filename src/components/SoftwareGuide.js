@@ -23,17 +23,17 @@ const guideData = {
 const engagementModels = [
     {
         title: 'Offshore Dedicated Team',
-        description: "Jellyfish Technologies' hire dedicated team engagement model functions as an Offshore Development Center (ODC), delivering a talented workforce. This specialized team works exclusively on the client's project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, and high-quality standards.",
+        description: "Alpixn Technologies' hire dedicated team engagement model functions as an Offshore Development Center (ODC), delivering a talented workforce. This specialized team works exclusively on the client's project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, and high-quality standards.",
         points: ['Client-Centric Team Formation', 'Direct Reporting and Transparency', 'Scalability and Flexibility', 'Quality and Efficiency']
     },
     {
         title: 'Staff Augmentation',
-        description: "Jellyfish Technologies offers a staff augmentation approach, bolstering a client's in-house team with specialized skills, fostering collaboration, and optimizing project results. Ideal for companies aiming to enhance their workforce with specific expertise for better project outcomes.",
+        description: "Alpixn Technologies offers a staff augmentation approach, bolstering a client's in-house team with specialized skills, fostering collaboration, and optimizing project results. Ideal for companies aiming to enhance their workforce with specific expertise for better project outcomes.",
         points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication']
     },
     {
         title: 'Project-Based',
-        description: "Jellyfish Technologies' project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery, meeting quality standards and fostering collaboration for successful outcomes.",
+        description: "Alpixn Technologies' project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery, meeting quality standards and fostering collaboration for successful outcomes.",
         points: ['Fixed Budget', 'Milestones and Deliverables', 'Resource Allocation', 'Risk Mitigation']
     }
 ];
@@ -85,7 +85,7 @@ const SoftwareGuide = () => {
             <div className="bg-[#00070E] text-white pb-24 px-4">
                 <div className="max-w-7xl mx-auto text-center">
                     <h2 className="text-4xl font-bold mb-6">Engagement Model</h2>
-                    <p className="text-gray-400 mb-16 max-w-4xl mx-auto">As an industry-leading technology company, Jellyfish Technologies offers diverse and flexible engagement models tailored to meet the distinct needs of its clients. Here are the three Engagement Models that Jellyfish Technologies have based its functionality on as follows:</p>
+                    <p className="text-gray-400 mb-16 max-w-4xl mx-auto">As an industry-leading technology company, Alpixn Technologies offers diverse and flexible engagement models tailored to meet the distinct needs of its clients. Here are the three Engagement Models that Alpixn Technologies have based its functionality on as follows:</p>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         {engagementModels.map(model => (
                             <div key={model.title} className="bg-[#0D121F] border-2 border-gray-800 rounded-lg text-left h-full flex flex-col">

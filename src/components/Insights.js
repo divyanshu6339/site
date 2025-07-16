@@ -36,7 +36,7 @@ const Insights = () => {
     {
       image: image1,
       title: 'Prompt-to-Flowchart: Generating Flowcharts from Natural Language using GenAI',
-      author: 'Jellyfish Technologies',
+      author: 'Alpixn Technologies',
       rotation: '-rotate-3'
     },
     {
@@ -48,7 +48,7 @@ const Insights = () => {
     {
       image: image3,
       title: 'Cache-Augmented Generation (CAG): A Revolutionary Alternative to RAG',
-      author: 'Jellyfish Technologies',
+      author: 'Alpixn Technologies',
       rotation: '-rotate-2'
     }
   ];

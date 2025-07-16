@@ -105,7 +105,7 @@ const EngagementFAQ = () => {
             </span> to Hire Best Node.js
           </h2>
           <p className="mt-8 max-w-4xl mx-auto text-xl text-gray-300">
-            Jellyfish Technologies offers versatile engagement models for Node.js application development services, providing innovative solutions. Get the best fit for your business.
+            Alpixn Technologies offers versatile engagement models for Node.js application development services, providing innovative solutions. Get the best fit for your business.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mb-32">

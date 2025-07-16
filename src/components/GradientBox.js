@@ -59,7 +59,7 @@ const CaseStudy = () => {
             </div>
 
             <p className="text-gray-700">
-              Jellyfish Technologies collaborated with Payleadr to create a customizable platform, integrating a PCI-compliant payment gateway, mobile-centric web app, and efficient scheduling, streamlining transactions, enhancing customer support, and driving business growth.
+              Alpixn Technologies collaborated with Payleadr to create a customizable platform, integrating a PCI-compliant payment gateway, mobile-centric web app, and efficient scheduling, streamlining transactions, enhancing customer support, and driving business growth.
             </p>
 
             <div className="border-t border-gray-500 pt-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">

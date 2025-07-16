@@ -2,52 +2,49 @@ import React from 'react';
 
 const reasons = [
   {
-    number: '01',
-    text: 'One-Stop Solution',
+    title: 'Vast Experience',
+    description: 'With over a decade of excellence since 2011, Jellyfish Technologies brings a wealth of vast experience to mobile app development. Specializing in diverse technologies, we offer tailored solutions for iOS, Android, hybrid, on-demand, wearable, and cross-platform apps. Our seasoned team ensures cutting-edge solutions, driving digital innovation across industries.',
   },
   {
-    number: '02',
-    text: 'Leader in Outsourcing',
+    title: 'Scalable Solutions',
+    description: 'Jellyfish Technologies pioneers scalable solutions in mobile app development, ensuring adaptability to evolving business needs. Our range of expertise goes from mobile app development, App optimization, custom app solutions and applications to application maintenance. Integrating these expertise we provide comprehensive solutions for various industries and verticals.',
   },
   {
-    number: '03',
-    text: 'Quality Assurance',
+    title: 'Agile Methodology',
+    description: 'At Jellyfish Technologies, we employ a robust Agile methodology to craft sustainable and high-quality mobile applications. Utilizing frameworks such as Scrum, Kanban, and Extreme Programming, we ensure an efficient development life cycle. Our commitment lies in effectively automating and enhancing essential mobile app development processes and consistently delivering top-tier solutions.',
   },
   {
-    number: '04',
-    text: 'Kick-Off in 5 Days or less',
+    title: 'Dedicated Teams',
+    description: 'Our certified mobile app developers are adept at industry best practices, guaranteeing the delivery of top-notch solutions. Our clients benefit from the assurance of working with a team that advances the latest technological trends, resulting in reliable and innovative app solutions.',
   },
   {
-    number: '05',
-    text: 'Wide Tech Expertise',
+    title: 'Quality Assurance',
+    description: 'Jellyfish Technologies takes pride in its rigorous quality assurance processes tailored for mobile app development. Ensuring each product adheres to the highest standards, our team implements meticulous quality checks at every stage. This commitment guarantees the delivery of effective and flawless mobile app solutions.',
   },
   {
-    number: '06',
-    text: 'Quality Development and On-Time Delivery',
+    title: 'Optimum performance',
+    description: 'We specialize in delivering highly personalized solutions for optimum performance. Our bespoke approach caters to specific needs and preferences, optimizing functionality, elevating user experiences, and enhancing efficiency. Clients praise our products for their outstanding performance, solidifying their satisfaction with doing business with us.',
   },
 ];
 
-const ReasonCard = ({ number, text }) => (
-  <div className="bg-[#0f1a3e] border border-gray-700 rounded-lg p-6 h-40 flex flex-col justify-between">
-    <span className="text-4xl font-bold text-blue-400">{number}</span>
-    <p className="text-xl font-semibold text-gray-200">{text}</p>
+const ReasonCard = ({ title, description }) => (
+  <div className="bg-gray-900 p-8 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/30">
+    <h3 className="text-3xl font-bold text-white mb-4">{title}</h3>
+    <p className="text-gray-400 text-lg leading-relaxed">{description}</p>
   </div>
 );
 
 const WhyChooseUs = () => {
   return (
-    <div className="bg-[#04102a] text-white py-20">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-black py-24 px-4">
+      <div className="max-w-screen-xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-5xl sm:text-6xl font-bold mb-4">
-            Why Choose Alpixn Technologies?
-          </h2>
-          <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-            With over <span className="text-blue-400">14+ years</span> of experience in the <span className="text-blue-400">software development industry</span>, Jellyfish Technologies is a trusted choice, backed by a proven track record of successful projects.
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">Why Choose Jellyfish Technologies as Your Mobile App Development Company?</h2>
+          <p className="text-xl text-gray-400 max-w-4xl mx-auto">
+            Tailored precision meets innovation in our custom mobile app development services, ensuring your business receives solutions perfectly attuned to its requirements. Let’s find out more about our key parameters:
           </p>
         </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {reasons.map((reason, index) => (
             <ReasonCard key={index} {...reason} />
           ))}

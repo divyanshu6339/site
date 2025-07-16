@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
       animation: {
         fadeInUp: 'fadeInUp 1s ease-out forwards',
         'reveal-up': 'reveal-up 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards',

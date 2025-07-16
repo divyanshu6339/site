@@ -9,7 +9,7 @@ const insightsData = [
   {
     image: insightImage1,
     title: 'Understanding Similarity Scoring in RAG Systems: Types and Implementations',
-    author: 'Jellyfish Technologies',
+    author: 'Alpixn Technologies',
     rotation: '-rotate-3'
   },
   {
@@ -21,7 +21,7 @@ const insightsData = [
   {
     image: insightImage3,
     title: 'Prompt-to-Flowchart: Generating Flowcharts from Natural Language using GenAI',
-    author: 'Jellyfish Technologies',
+    author: 'Alpixn Technologies',
     rotation: '-rotate-2'
   },
 ];
@@ -46,8 +46,8 @@ const InsightCard = ({ image, title, author, rotation }) => {
       
       {/* The text card */}
       <div className="bg-white text-black p-6 rounded-lg -mt-4 relative z-10 shadow-lg transition-shadow duration-300 group-hover:shadow-xl">
-        <h3 className="font-bold text-lg mb-2">{title}</h3>
-        <p className="text-gray-600">By {author}</p>
+        <h3 className="font-bold text-xl mb-2">{title}</h3>
+        <p className="text-gray-600 text-lg">By {author}</p>
       </div>
     </div>
   );
@@ -56,9 +56,9 @@ const InsightCard = ({ image, title, author, rotation }) => {
 const LatestInsights = () => {
   return (
     <div className="bg-[#020c1b] text-white py-20 sm:py-28">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-24">
-          <h2 className="text-5xl sm:text-6xl font-bold">
+          <h2 className="text-6xl sm:text-7xl font-bold">
             Our latest{' '}
             <span className="relative inline-block">
               <span className="relative z-10">insights</span>
@@ -70,12 +70,12 @@ const LatestInsights = () => {
               </svg>
             </span>
           </h2>
-          <p className="mt-8 text-2xl text-gray-300">
+          <p className="mt-8 text-3xl text-gray-300">
             Over 1,100 articles on technology and talent
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-screen-xl mx-auto">
           {insightsData.map((insight, index) => (
             <InsightCard key={index} {...insight} />
           ))}

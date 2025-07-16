@@ -8,6 +8,14 @@ import ProductsPage from './pages/ProductsPage';
 import AboutPage from './pages/AboutPage';
 import ResourcesPage from './pages/ResourcesPage';
 import ContactPage from './pages/ContactPage';
+import SoftwareDevelopmentPage from './pages/SoftwareDevelopmentPage';
+import MobileAppDevelopmentPage from './pages/MobileAppDevelopmentPage';
+import ApplicationModernizationPage from './pages/ApplicationModernizationPage';
+import HireDedicatedDevelopersPage from './pages/HireDedicatedDevelopersPage';
+import UIUXServicesPage from './pages/UIUXServicesPage';
+import SaaSDevelopmentPage from './pages/SaaSDevelopmentPage';
+import WebAppDevelopmentPage from './pages/WebAppDevelopmentPage';
+import APIIntegrationPage from './pages/ApiIntegrationPage';
 import './App.css';
 
 function App() {
@@ -22,6 +30,14 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/services/software-development" element={<SoftwareDevelopmentPage />} />
+        <Route path="/services/mobile-app-development" element={<MobileAppDevelopmentPage />} />
+        <Route path="/services/application-modernization" element={<ApplicationModernizationPage />} />
+        <Route path="/services/hire-dedicated-developers" element={<HireDedicatedDevelopersPage />} />
+        <Route path="/services/ui-ux-services" element={<UIUXServicesPage />} />
+        <Route path="/services/saas-development" element={<SaaSDevelopmentPage />} />
+        <Route path="/services/web-app-development" element={<WebAppDevelopmentPage />} />
+        <Route path="/services/api-integration" element={<APIIntegrationPage />} />
       </Routes>
     </Router>
   );
