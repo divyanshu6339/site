@@ -21,7 +21,7 @@ const genAiServices = [
 const tangibleResults = [
     { title: 'Strategic Use Case Identification', description: 'As a trusted generative AI consulting company in India, we help you find the right high-impact use cases aligned with your business goals. Our generative AI experts will ensure your investment is focused, actionable, and tied to measurable outcomes —maximizing ROI from day one.', icon: 'strategic-use-case-identification' },
     { title: 'Minimized AI Implementation Risks', description: 'Our generative AI consulting services help make the needful PoC-driven with clear feasibility studies and data-driven insights that offer concrete directions and reduce guesswork. Through guided, expert-led planning, we de-risk deployment so you can avoid expensive setbacks.', icon: 'minimized-ai-implementation-risks' },
-    { title: 'Custom Technology Roadmaps', description: 'The genAI consulting team at Jellyfish Technologies creates detailed, scalable roadmaps for integrating AI into your current systems. As a top generative AI consultancy, we deliver strategy tied to execution, technology adoption, and long-term growth and innovation.', icon: 'custom-technology-roadmaps' },
+    { title: 'Custom Technology Roadmaps', description: 'The genAI consulting team at Alpixn Technologies creates detailed, scalable roadmaps for integrating AI into your current systems. As a top generative AI consultancy, we deliver strategy tied to execution, technology adoption, and long-term growth and innovation.', icon: 'custom-technology-roadmaps' },
     { title: 'Cost-Effective AI Adoption', description: 'We navigate your AI journey with efficient planning and tailored generative AI services that cut through complexity. We are one of the top AI consulting companies aimed at value-driven implementation—cutting costs and quickening time-to-impact across organizations.', icon: '' }
 ];
 
@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -103,7 +103,7 @@ const AiSuccessStorySection = () => {
                         Real Results, Real Clients: Our AI Success Stories
                     </h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Looking for premium generative AI consultants? Our genAI consulting experts at Jellyfish Technologies are seasoned professionals with in-depth domain knowledge who bring a strategic perspective to every engagement. We design intelligent, future-ready solutions specific to your business requirements—empowering innovation, scalability, and enterprise-wide transformation.
+                        Looking for premium generative AI consultants? Our genAI consulting experts at Alpixn Technologies are seasoned professionals with in-depth domain knowledge who bring a strategic perspective to every engagement. We design intelligent, future-ready solutions specific to your business requirements—empowering innovation, scalability, and enterprise-wide transformation.
                     </p>
                 </div>
                 <div className={`bg-gray-900/50 ring-1 ring-white/10 rounded-2xl p-6 md:p-8 transition-all duration-700 ease-out delay-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
@@ -177,7 +177,7 @@ const WhyChooseUsSection = () => {
           Why Choose Us for Generative AI Consulting
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-          Collaborate with Jellyfish Technologies to harness the strategic depth of our generative AI consultants—providing customized AI advisory services that simplify complexity, drive innovation, and enable your business with scalable, future-proof solutions engineered for long-lasting impact and growth.
+          Collaborate with Alpixn Technologies to harness the strategic depth of our generative AI consultants—providing customized AI advisory services that simplify complexity, drive innovation, and enable your business with scalable, future-proof solutions engineered for long-lasting impact and growth.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsGenAi.map((reason, index) => (
@@ -200,7 +200,7 @@ const IndustriesServedSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Industries We Serve</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        With years of cross-industry experience, Jellyfish Technologies provides generative AI consulting services tailored to all business needs. From finance to healthcare to retail, manufacturing, and tech — we empower organizations to unlock the potential of AI with precision and business insight.
+                        With years of cross-industry experience, Alpixn Technologies provides generative AI consulting services tailored to all business needs. From finance to healthcare to retail, manufacturing, and tech — we empower organizations to unlock the potential of AI with precision and business insight.
                     </p>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
@@ -292,7 +292,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies provides adaptive engagement models for scale, accuracy, and speed. Whether you’re starting domain-specific AI initiatives or enhancing internal capabilities, we provide custom Llama integration services tailored to your objectives.
+                        Alpixn Technologies provides adaptive engagement models for scale, accuracy, and speed. Whether you’re starting domain-specific AI initiatives or enhancing internal capabilities, we provide custom Llama integration services tailored to your objectives.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -348,7 +348,7 @@ const GenAIConsultingPage = () => {
                 >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Next-Gen Generative AI Consulting Services</h1>
                 <p className="text-lg md:text-xl mb-6">
-                    Accelerate your business growth with Jellyfish Technologies, a leading generative AI consulting services provider. From concept to launch, our scalable GenAI development services help implement brilliant ideas into real-world solutions. Our expert team of Gen AI consultants is experienced in developing tailor-made AI solutions that accelerate efficiency, innovation, and impact.
+                    Accelerate your business growth with Alpixn Technologies, a leading generative AI consulting services provider. From concept to launch, our scalable GenAI development services help implement brilliant ideas into real-world solutions. Our expert team of Gen AI consultants is experienced in developing tailor-made AI solutions that accelerate efficiency, innovation, and impact.
                 </p>
                 <motion.button
                     className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"
@@ -405,7 +405,7 @@ const GenAIConsultingPage = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Jellyfish Technologies brings proven expertise in generative AI consulting services to help you redefine what’s possible. Our gen AI consultants blend innovation with execution for high-value outcomes.
+              Alpixn Technologies brings proven expertise in generative AI consulting services to help you redefine what’s possible. Our gen AI consultants blend innovation with execution for high-value outcomes.
             </motion.p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {genAiServices.map((service, index) => (

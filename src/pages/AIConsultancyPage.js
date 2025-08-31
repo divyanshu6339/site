@@ -14,7 +14,7 @@ const genAiServices = [
     { title: 'AI Strategy Development', description: 'As a premier AI consulting company, we build tailor-made AI strategies that align with your business goals and objectives, ensuring every initiative brings tangible value, increases productivity, and drives sustainable growth.', icon: 'ai-strategy-development' },
     { title: 'AI Use Case Identification', description: 'Our AI consulting services help identify and prioritize high-impact use cases that drive faster ROI and enable businesses to address challenges while paving the path for intelligent decision-making and automation.', icon: 'ai-use-case-identification' },
     { title: 'AI Vendor Selection Guidance', description: 'We offer expert AI consultancy services to guide your end-to-end vendor selection process, ensuring you choose the right platforms and tools that align with your business needs, technical landscape, and maximize long-term outcomes.', icon: 'ai-vendor-selection-guidance' },
-    { title: 'AI Risk and Compliance Advisory', description: 'Jellyfish Technologies provides AI risk and compliance advisory to ensure your artificial intelligence implementation meets legal, ethical, and privacy standards- thereby helping build trust and accountability while minimizing risks.', icon: 'ai-risk-and-compliance-advisory' },
+    { title: 'AI Risk and Compliance Advisory', description: 'Alpixn Technologies provides AI risk and compliance advisory to ensure your artificial intelligence implementation meets legal, ethical, and privacy standards- thereby helping build trust and accountability while minimizing risks.', icon: 'ai-risk-and-compliance-advisory' },
     { title: 'AI Change Management Support', description: 'Our AI consulting services catalyze change in your organization by helping teams understand the value of AI, adapting to inevitable changes through targeted training, effective communication, and aligning leaders and vision.', icon: 'ai-change-management-support' }
 ];
 
@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -177,7 +177,7 @@ const WhyChooseUsSection = () => {
             Why Choose Us for AI Consulting Services
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            At Jellyfish Technologies, we offer more than advice—we deliver strategic clarity. Armed with deep expertise and a business-first approach, our AI consulting services catalyze into confident, outcome-driven action amidst complexity.
+            At Alpixn Technologies, we offer more than advice—we deliver strategic clarity. Armed with deep expertise and a business-first approach, our AI consulting services catalyze into confident, outcome-driven action amidst complexity.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsGenAi.map((reason, index) => (
@@ -200,7 +200,7 @@ const IndustriesServedSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Industries We Serve</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies provides strategic AI direction to enterprises in multiple industries. We provide artificial intelligence consulting services that produce relevant outcomes, be it in fintech or manufacturing.
+                        Alpixn Technologies provides strategic AI direction to enterprises in multiple industries. We provide artificial intelligence consulting services that produce relevant outcomes, be it in fintech or manufacturing.
                     </p>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
@@ -223,7 +223,7 @@ const TestimonialsSection = () => {
                 <div className="text-center mb-12">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>See what our clients have to say</h2>
                      <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        From strategy formulation to execution support, our clients rely on us to streamline their next steps confidently and clearly. Jellyfish Technologies is proud to be a results-driven AI consulting firm focused on real business outcomes.
+                        From strategy formulation to execution support, our clients rely on us to streamline their next steps confidently and clearly. Alpixn Technologies is proud to be a results-driven AI consulting firm focused on real business outcomes.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -293,7 +293,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies, a trusted AI consulting company, provides flexible engagement models designed to cater to your project objective, deadlines, and team setup — providing agility, transparency, and performance at all levels.
+                        Alpixn Technologies, a trusted AI consulting company, provides flexible engagement models designed to cater to your project objective, deadlines, and team setup — providing agility, transparency, and performance at all levels.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -321,15 +321,15 @@ const EngagementModelsSection = () => {
 const FaqSection = () => {
     const [open, setOpen] = useState(null);
     const faqs = [
-        { q: 'How can my company benefit from AI consulting?', a: 'AI consultancy services assist firms in deriving data-driven insights, automating workflows, and enhancing decision-making. Jellyfish Technologies provides AI that is designed to de-risk and optimize your operations while adding demonstrable business value to customer engagement.' },
+        { q: 'How can my company benefit from AI consulting?', a: 'AI consultancy services assist firms in deriving data-driven insights, automating workflows, and enhancing decision-making. Alpixn Technologies provides AI that is designed to de-risk and optimize your operations while adding demonstrable business value to customer engagement.' },
         { q: 'What are the benefits of hiring an AI consultant for my business?', a: 'Content for this answer is not available yet.' },
         { q: 'How can AI Consulting help businesses balance costs and benefits in AI investments?', a: 'Content for this answer is not available yet.' },
-        { q: 'What industries does Jellyfish Technologies Consulting serve?', a: 'Content for this answer is not available yet.' },
-        { q: 'What kind of AI technologies does Jellyfish Technologies specialize in?', a: 'Content for this answer is not available yet.' },
-        { q: 'What services does Jellyfish Technologies offer in artificial intelligence consulting?', a: 'Content for this answer is not available yet.' },
-        { q: 'What is Jellyfish Technologies’s approach to AI consulting?', a: 'Content for this answer is not available yet.' },
-        { q: 'Does Jellyfish Technologies have any experience in implementing AI solutions?', a: 'Content for this answer is not available yet.' },
-        { q: 'How does Jellyfish Technologies ensure the success of its AI projects?', a: 'Content for this answer is not available yet.' },
+        { q: 'What industries does Alpixn Technologies Consulting serve?', a: 'Content for this answer is not available yet.' },
+        { q: 'What kind of AI technologies does Alpixn Technologies specialize in?', a: 'Content for this answer is not available yet.' },
+        { q: 'What services does Alpixn Technologies offer in artificial intelligence consulting?', a: 'Content for this answer is not available yet.' },
+        { q: 'What is Alpixn Technologies’s approach to AI consulting?', a: 'Content for this answer is not available yet.' },
+        { q: 'Does Alpixn Technologies have any experience in implementing AI solutions?', a: 'Content for this answer is not available yet.' },
+        { q: 'How does Alpixn Technologies ensure the success of its AI projects?', a: 'Content for this answer is not available yet.' },
         { q: 'What should I keep in mind when choosing an AI consulting partner for my company?', a: 'Content for this answer is not available yet.' },
         { q: 'Do I need any technical knowledge to use your service?', a: 'Content for this answer is not available yet.' }
     ];
@@ -406,7 +406,7 @@ const AIConsultancyPage = () => {
                 >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Artificial Intelligence Consulting Company</h1>
                 <p className="text-lg md:text-xl mb-6">
-                    At Jellyfish Technologies, we are not just advisors—we’re AI strategy partners. As a leading AI consulting company, we help businesses with expert guidance, customized roadmaps, and strategic insights, navigating the world of artificial intelligence. We help you identify the right AI opportunities; create a clear plan, reduce risks, and move faster with insights backed by real data.
+                    At Alpixn Technologies, we are not just advisors—we’re AI strategy partners. As a leading AI consulting company, we help businesses with expert guidance, customized roadmaps, and strategic insights, navigating the world of artificial intelligence. We help you identify the right AI opportunities; create a clear plan, reduce risks, and move faster with insights backed by real data.
                 </p>
                 <motion.button
                     className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"

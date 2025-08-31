@@ -15,7 +15,7 @@ const caseStudies = [
     logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/FMIntegrated-logo.svg', 
     image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/FM-Integrated-768x768.webp', 
     title: 'AI Chatbot Development for Enterprise IT Organization with Next-Gen SaaS Platform', 
-    description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.', 
+    description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.', 
     points: ['Smart AI Training & Adaptability for enhanced learning capabilities.', 'Automated & Scalable Management for streamlined operations.', 'Real-Time Insights & Optimization for data-driven decisions.', 'Seamless Deployment & Integration across enterprise systems.'], 
     tags: ['US', 'PYTHON', 'LANGCHAIN', 'AI CHATBOT'] 
   },
@@ -61,7 +61,7 @@ const aiServices = [
   { num: '01', title: 'Gen AI Custom App Development', description: 'We build custom generative AI applications that solve real-world business challenges—automating workflows, boosting engagement, and driving innovation—offering business-specific, scalable solutions aligned with your growth goals.' },
   { num: '02', title: 'Gen AI Model Fine-Tuning', description: 'Our domain-specific large language model fine-tuning solutions reduce hallucinations and improve accuracy while generating contextually intelligent, business-ready results via expert-led generative AI development services tailored to your data and goals.' },
   { num: '03', title: 'Gen AI Multimodal Solutions', description: 'AI developers build next-gen multimodal generative AI services and solutions to help organizations gain advanced automation, richer insights, and more seamless user experiences while handling data across different formats like text, image, and audio.' },
-  { num: '04', title: 'Generative AI Model Integration', description: 'Jellyfish Technologies seamless generative AI integration services help you integrate AI into your existing systems—breaking down silos, improving efficiency, and providing enterprise-grade performance without disrupting workflows or your digital ecosystem.' },
+  { num: '04', title: 'Generative AI Model Integration', description: 'Alpixn Technologies seamless generative AI integration services help you integrate AI into your existing systems—breaking down silos, improving efficiency, and providing enterprise-grade performance without disrupting workflows or your digital ecosystem.' },
   { num: '05', title: 'Gen AI Infrastructure & Deployment', description: 'We build a robust, scalable AI infrastructure setup and deployment, ensuring your generative AI applications are secure, high-performing, and production-ready, using modern cloud, MLOps, and enterprise IT best practices.' },
   { num: '06', title: 'Gen AI Support & Optimization', description: 'We provide continuous support to keep your GenAI systems optimized, compliant, and effective—addressing drift, amplifying output, and maximizing the long-term value of your investment with leading AI development services.' }
 ];
@@ -186,7 +186,7 @@ const WhyChooseUsSection = () => {
           Why Choose Us for Generative AI Development Services
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-          At Jellyfish Technologies, we are a strategic AI partner, not just a service provider. Backed by deep industry knowledge and end-to-end capabilities, we empower businesses to mitigate risk, drive innovation, and realize sustainable value with generative AI.
+          At Alpixn Technologies, we are a strategic AI partner, not just a service provider. Backed by deep industry knowledge and end-to-end capabilities, we empower businesses to mitigate risk, drive innovation, and realize sustainable value with generative AI.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsFeatures.map((reason, index) => (
@@ -215,7 +215,7 @@ const GuideSection = () => {
             ]
         },
         process: {
-            title: 'Our Gen AI Development Process at Jellyfish Technologies',
+            title: 'Our Gen AI Development Process at Alpixn Technologies',
             content: [
                 { text: 'We follow a comprehensive 6-step approach to deliver enterprise-grade generative AI solutions that drive measurable business impact and sustainable growth.' },
                 { title: 'Discovery & Strategy:', text: 'We begin by understanding your business objectives, identifying AI use cases, and developing a comprehensive AI strategy aligned with your goals and technical infrastructure.' },
@@ -391,7 +391,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-2xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        At Jellyfish Technologies, we understand that every business has its specific requirements. That's why we offer flexible engagement models based on your project scope, execution style, and growth strategy. Whether you want a long-term AI partner, a team for targeted support, or delivery on a fixed scope—we've got a model to match.
+                        At Alpixn Technologies, we understand that every business has its specific requirements. That's why we offer flexible engagement models based on your project scope, execution style, and growth strategy. Whether you want a long-term AI partner, a team for targeted support, or delivery on a fixed scope—we've got a model to match.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -439,7 +439,7 @@ const GenAIDevelopmentPage = () => {
   const services = [
     {
       title: 'Gen AI Custom App Development',
-      description: 'We at Jellyfish Technologies build custom generative AI applications that solve real-world business challenges—automating workflows, boosting engagement, and driving innovation—offering business-specific, scalable solutions aligned with your growth goals.',
+      description: 'We at Alpixn Technologies build custom generative AI applications that solve real-world business challenges—automating workflows, boosting engagement, and driving innovation—offering business-specific, scalable solutions aligned with your growth goals.',
     },
     {
       title: 'Gen AI Model Fine-Tuning',
@@ -451,7 +451,7 @@ const GenAIDevelopmentPage = () => {
     },
     {
       title: 'Generative AI Model Integration',
-      description: 'Jellyfish Technologiess seamless generative AI integration services help you integrate AI into your existing systems—breaking down silos, improving efficiency, and providing enterprise-grade performance without disrupting workflows or your digital ecosystem.',
+      description: 'Alpixn Technologiess seamless generative AI integration services help you integrate AI into your existing systems—breaking down silos, improving efficiency, and providing enterprise-grade performance without disrupting workflows or your digital ecosystem.',
     },
     {
       title: 'Gen AI Infrastructure & Deployment',

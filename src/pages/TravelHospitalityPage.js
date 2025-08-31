@@ -49,15 +49,15 @@ const clutchTestimonials = [
 ];
 
 const engagementModelsTravelHospitality = [
-    { title: 'Dedicated Team', description: 'Jellyfish Technologies’ dedicated team model functions as an Offshore Development Center (ODC), delivering a tailored approach. This works exclusively on the client’s project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, & high-quality standards.', points: ['Client-Centric Team Formation', 'Direct Reporting And Transparency', 'Scalability And Flexibility', 'Quality And Efficiency'] },
-    { title: 'Team Augmentation', description: 'Jellyfish Technologies offers a team augmentation approach and access to top-notch UI and UX design services tailored to your specific needs. Ideal for short-term support or filling skill gaps, this model provides flexibility and immediate access to the expertise required.', points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication'] },
-    { title: 'Project Based', description: 'Jellyfish Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery, meeting quality standards, and fostering collaboration for successful outcomes.', points: ['Fixed Budget', 'Milestones And Deliverables', 'Resource Allocation', 'Risk Mitigation'] },
+    { title: 'Dedicated Team', description: 'Alpixn Technologies’ dedicated team model functions as an Offshore Development Center (ODC), delivering a tailored approach. This works exclusively on the client’s project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, & high-quality standards.', points: ['Client-Centric Team Formation', 'Direct Reporting And Transparency', 'Scalability And Flexibility', 'Quality And Efficiency'] },
+    { title: 'Team Augmentation', description: 'Alpixn Technologies offers a team augmentation approach and access to top-notch UI and UX design services tailored to your specific needs. Ideal for short-term support or filling skill gaps, this model provides flexibility and immediate access to the expertise required.', points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication'] },
+    { title: 'Project Based', description: 'Alpixn Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery, meeting quality standards, and fostering collaboration for successful outcomes.', points: ['Fixed Budget', 'Milestones And Deliverables', 'Resource Allocation', 'Risk Mitigation'] },
 ];
 
 const faqsTravelHospitality = [
     { q: 'What do travel agency software solutions include?', a: 'Travel agency software solutions typically incorporate administrative tools for client management, secure online payment processing, and an integrated online booking engine for flights, hotels, and transportation services, enhancing efficiency for both travelers and agents.' },
     { q: 'How much does it cost for travel and hospitality application development?', a: 'The cost to develop a travel app can range from $10,000 to over $250,000. [2] A basic app with simple features might cost between $10,000 and $30,000, while a mid-level app with more features like real-time updates and trip planning can range from $70,000 to $120,000. [2, 4, 5] Advanced, feature-rich apps with AI, AR, and complex integrations can exceed $120,000. [2]' },
-    { q: 'How does Jellyfish Technologies ensure data security and privacy in its travel software solutions?', a: 'Jellyfish Technologies ensures data security and privacy by adhering to regulations like GDPR and CCPA, which involves practices like data encryption, secure authentication, and transparent data handling policies. [3, 15] Key strategies include implementing strong access controls, using multi-factor authentication, regularly updating software, and training employees on data protection to minimize risks from human error and cyber threats. [10, 12, 17]' }
+    { q: 'How does Alpixn Technologies ensure data security and privacy in its travel software solutions?', a: 'Alpixn Technologies ensures data security and privacy by adhering to regulations like GDPR and CCPA, which involves practices like data encryption, secure authentication, and transparent data handling policies. [3, 15] Key strategies include implementing strong access controls, using multi-factor authentication, regularly updating software, and training employees on data protection to minimize risks from human error and cyber threats. [10, 12, 17]' }
 ];
 
 const userGuideContentTravelHospitality = {
@@ -118,7 +118,7 @@ const TravelHospitalityServicesSection = ({services}) => {
               Travel & Hospitality Software Development Services We Offer
             </h2>
             <p className={`text-lg text-gray-400 max-w-4xl mx-auto mb-12 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                Jellyfish Technologies develops custom travel and hospitality software solutions, automating processes, and enhancing productivity. From seamless booking management to efficient sales recording and payment processing, our integrated systems ensure a flawless customer experience, empowering your business for success in the industry.
+                Alpixn Technologies develops custom travel and hospitality software solutions, automating processes, and enhancing productivity. From seamless booking management to efficient sales recording and payment processing, our integrated systems ensure a flawless customer experience, empowering your business for success in the industry.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (
@@ -177,7 +177,7 @@ const FeaturedCaseStudyTravelHospitality = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Jellyfish Technologies collaborated with Payleadr to create a customizable platform, integrating a PCI-compliant payment gateway, mobile-centric web app, and efficient scheduling, streamlining transactions, enhancing customer support, and driving business growth.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Alpixn Technologies collaborated with Payleadr to create a customizable platform, integrating a PCI-compliant payment gateway, mobile-centric web app, and efficient scheduling, streamlining transactions, enhancing customer support, and driving business growth.</p>
                         <img src={StaffAugmentationImage} alt="Payleadr Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -226,10 +226,10 @@ const WhyChooseUsTravelHospitalitySection = () => {
       <div ref={ref} className="py-24 bg-gray-900/50">
         <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
           <h2 className={`text-4xl md:text-5xl font-bold mb-4 transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-              Why Choose Jellyfish Technologies as a travel & hospitality Software Development Company?
+              Why Choose Alpixn Technologies as a travel & hospitality Software Development Company?
           </h2>
           <p className={`max-w-4xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-              Jellyfish Technologies offers a dedicated team for intelligent travel and hospitality software solutions. With in-house dedicated teams and an agile approach, our software engineers leverage state-of-the-art technology to enhance user experience and streamline operations, ensuring success in the dynamic travel industry.
+              Alpixn Technologies offers a dedicated team for intelligent travel and hospitality software solutions. With in-house dedicated teams and an agile approach, our software engineers leverage state-of-the-art technology to enhance user experience and streamline operations, ensuring success in the dynamic travel industry.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {whyChooseUsTravelHospitality.map((reason, index) => (
@@ -318,7 +318,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Engagement Model</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers versatile engagement models for travel and hospitality application development services, providing innovative solutions to match clients’ unique requirements. Let’s explore these engagement models.
+                        Alpixn Technologies offers versatile engagement models for travel and hospitality application development services, providing innovative solutions to match clients’ unique requirements. Let’s explore these engagement models.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

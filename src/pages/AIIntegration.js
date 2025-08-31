@@ -26,7 +26,7 @@ const tangibleResults = [
 ];
 
 const whyChooseUsGenAi = [
-    { title: 'No-Downtime Deployment', description: 'At Jellyfish Technologies, we deploy generative AI systems to your current infrastructure without disrupting business operations. Our AI integration services ensure operational continuity while delivering fast, stable, and reliable performance enhancements.' },
+    { title: 'No-Downtime Deployment', description: 'At Alpixn Technologies, we deploy generative AI systems to your current infrastructure without disrupting business operations. Our AI integration services ensure operational continuity while delivering fast, stable, and reliable performance enhancements.' },
     { title: 'Business-First Approach', description: 'We prioritize business outcomes over buzzwords. Our generative AI integration services are strategically aligned with your objectives, leveraging cutting-edge technologies to address genuine challenges, enhance ROI, and fuel sustainable growth.' },
     { title: 'Flexible Tech Integration', description: 'We offer flexibility across platforms—OpenAI, Azure OpenAI, AWS Bedrock, and more. As a vendor-neutral generative AI integration company, we recommend tailored solutions that serve your business best without locking you in.' },
     { title: 'Dedicated AI Delivery Teams', description: 'You work with a specialized team of AI engineers, project managers, and domain experts. Our delivery units ensure focused execution and deep technical leadership across every generative AI system we implement.' },
@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -147,7 +147,7 @@ const TangibleResultsSection = () => {
             How Our Gen AI Integration Services Deliver Real Results
           </h2>
           <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            With Jellyfish Technologies as your generative AI integration services company, you gain access to enterprise-grade implementations that scale with your business. Our solutions are designed for dependability, security, and consistent performance, supported by technical knowledge you can rely on.
+            With Alpixn Technologies as your generative AI integration services company, you gain access to enterprise-grade implementations that scale with your business. Our solutions are designed for dependability, security, and consistent performance, supported by technical knowledge you can rely on.
           </p>
           <div className="mt-8">
              <button className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300">Not Sure Where to Begin with AI? Get Expert Guidance</button>
@@ -293,7 +293,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies, a trusted generative AI integration services company, provides flexible engagement models designed to cater to your project objective, deadlines, and team setup — providing agility, transparency, and performance at all levels.
+                        Alpixn Technologies, a trusted generative AI integration services company, provides flexible engagement models designed to cater to your project objective, deadlines, and team setup — providing agility, transparency, and performance at all levels.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -406,7 +406,7 @@ const AIIntegration = () => {
                 >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">High-End Generative AI Integration Services</h1>
                 <p className="text-lg md:text-xl mb-6">
-                    Your next big leap begins with Generative AI Integration Services. Jellyfish Technologies empowers businesses to leverage Gen AI’s full potential with precision integration, scalable architecture, and purpose-built models that drive revenue, reduce friction, and future-proof your tech stack.
+                    Your next big leap begins with Generative AI Integration Services. Alpixn Technologies empowers businesses to leverage Gen AI’s full potential with precision integration, scalable architecture, and purpose-built models that drive revenue, reduce friction, and future-proof your tech stack.
                 </p>
                 <motion.button
                     className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"
@@ -521,7 +521,7 @@ const AIIntegration = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Jellyfish Technologies helps you adopt and implement advanced artificial intelligence integration services to accelerate implementation, reduce risk, and realize value.
+              Alpixn Technologies helps you adopt and implement advanced artificial intelligence integration services to accelerate implementation, reduce risk, and realize value.
             </motion.p>
             <motion.button
               className="bg-gray-800 text-white font-bold py-4 px-8 rounded-full hover:bg-gray-700 transition duration-300 text-lg"

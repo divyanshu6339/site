@@ -175,7 +175,7 @@ const FeaturedCaseStudyAutomotive = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Jellyfish Technologies partnered with a leading automotive OEM to develop the core software for their next-generation EV battery management system. The platform optimizes charging cycles, enhances battery lifespan, and provides critical safety monitoring, forming the heart of the vehicle\'s powertrain.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Alpixn Technologies partnered with a leading automotive OEM to develop the core software for their next-generation EV battery management system. The platform optimizes charging cycles, enhances battery lifespan, and provides critical safety monitoring, forming the heart of the vehicle\'s powertrain.</p>
                         <img src={StaffAugmentationImage} alt="EV Powertrain Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>

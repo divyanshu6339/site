@@ -28,10 +28,10 @@ const phpTechExpertise = ['Cakephp', 'Codeignitor', 'Composer', 'Doctrine', 'Lar
 
 const clientTestimonials = [
     { author: 'James Anderson', company: 'Co-Founder, Shootzu', text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment. About 1,200 users are registered to the platform, and the app is fully-functioning. The team added value with their responsiveness and efficiency." },
-    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Jellyfish provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
-    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Jellyfish Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
-    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Jellyfish Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
-    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Jellyfish Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
+    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Alpixn provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
+    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Alpixn Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
+    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Alpixn Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
+    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Alpixn Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
 ];
 
 const phpSolutions = [
@@ -47,13 +47,13 @@ const phpSolutions = [
 ];
 
 const engagementModelsPHP = [
-    { title: 'Dedicated Team', description: 'Hire dedicated PHP developers from Jellyfish Technologies for long-term projects. Our dedicated team model provides you with a full-time, expert PHP development team focused solely on your project.', points: ['Client-Centric Approach', 'Direct Reporting and Transparency', 'Scalability and Flexibility', 'Quality and Efficiency'] },
-    { title: 'Staff Augmentation', description: 'Enhance your in-house capabilities by hiring PHP coders from Jellyfish Technologies. Our staff augmentation model allows you to seamlessly integrate top PHP developers into your existing team for specific tasks.', points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication'] },
-    { title: 'Project-Based', description: 'Opt for our project-based model to hire PHP programmers for specific, time-bound projects. Jellyfish Technologies delivers tailored PHP solutions, ensuring timely delivery and exceptional quality for your web development needs.', points: ['Fixed Budget', 'Milestones and Deliverables', 'Resource Allocation', 'Risk Mitigation'] },
+    { title: 'Dedicated Team', description: 'Hire dedicated PHP developers from Alpixn Technologies for long-term projects. Our dedicated team model provides you with a full-time, expert PHP development team focused solely on your project.', points: ['Client-Centric Approach', 'Direct Reporting and Transparency', 'Scalability and Flexibility', 'Quality and Efficiency'] },
+    { title: 'Staff Augmentation', description: 'Enhance your in-house capabilities by hiring PHP coders from Alpixn Technologies. Our staff augmentation model allows you to seamlessly integrate top PHP developers into your existing team for specific tasks.', points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication'] },
+    { title: 'Project-Based', description: 'Opt for our project-based model to hire PHP programmers for specific, time-bound projects. Alpixn Technologies delivers tailored PHP solutions, ensuring timely delivery and exceptional quality for your web development needs.', points: ['Fixed Budget', 'Milestones and Deliverables', 'Resource Allocation', 'Risk Mitigation'] },
 ];
 
 const faqsPHP = [
-    { q: 'How Much Does It Cost to Hire a PHP Developer?', a: 'The cost to hire a PHP developer varies based on experience, project complexity, and engagement model. Whether you hire PHP developers in the USA or globally, Jellyfish Technologies offers competitive rates without compromising on quality.' },
+    { q: 'How Much Does It Cost to Hire a PHP Developer?', a: 'The cost to hire a PHP developer varies based on experience, project complexity, and engagement model. Whether you hire PHP developers in the USA or globally, Alpixn Technologies offers competitive rates without compromising on quality.' },
     { q: 'What Can Our PHP Developers Do for You?', a: 'Our PHP developers can build a wide range of custom solutions, including dynamic websites, robust web applications, eCommerce platforms, CMS, and custom APIs. They are skilled in using frameworks like Laravel and Symfony to deliver high-performance, secure, and scalable products tailored to your business needs.' },
     { q: 'Why and When to Hire PHP Developers?', a: 'You should hire PHP developers when you need a cost-effective, reliable, and scalable web solution. PHP is ideal for projects ranging from small business websites to large-scale enterprise applications, especially when rapid development and a strong ecosystem of frameworks and libraries are beneficial.' },
     { q: 'Do You Ensure the Security and Confidentiality of Our Intellectual Property?', a: 'Yes, we take intellectual property and security very seriously. We sign a Non-Disclosure Agreement (NDA) before starting any project to ensure your ideas and data are confidential. Our development process follows strict security protocols to protect your IP at every stage.' }
@@ -219,7 +219,7 @@ const ReliableSolutionsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold">Hire Best PHP Developers for Custom Solutions</h2>
                     <p className="mt-4 text-lg text-gray-400 max-w-4xl mx-auto">
-                        Hire top PHP developers from Jellyfish Technologies for custom PHP development services. Our expert PHP developers develop high-end software solutions for multiple industries and domains.
+                        Hire top PHP developers from Alpixn Technologies for custom PHP development services. Our expert PHP developers develop high-end software solutions for multiple industries and domains.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -263,7 +263,7 @@ const FeaturedCaseStudyPHP = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Jellyfish Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Alpixn Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
                         <img src={StaffAugmentationImage} alt="FM Integrated Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -351,7 +351,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Engagement Models to Hire PHP Developers</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers versatile engagement models for PHP development services, delivering tailored solutions to meet your specific needs. Lets explore.
+                        Alpixn Technologies offers versatile engagement models for PHP development services, delivering tailored solutions to meet your specific needs. Lets explore.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

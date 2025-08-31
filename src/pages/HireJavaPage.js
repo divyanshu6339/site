@@ -28,10 +28,10 @@ const javaTechExpertise = ['Gradle', 'Hibernate', 'Jackson', 'Jakarta', 'Lombook
 
 const clientTestimonials = [
     { author: 'James Anderson', company: 'Co-Founder, Shootzu', text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment. About 1,200 users are registered to the platform, and the app is fully-functioning. The team added value with their responsiveness and efficiency." },
-    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Jellyfish provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
-    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Jellyfish Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
-    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Jellyfish Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
-    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Jellyfish Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
+    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Alpixn provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
+    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Alpixn Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
+    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Alpixn Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
+    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Alpixn Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
 ];
 
 const javaSolutions = [
@@ -72,7 +72,7 @@ const userGuideContentJava = {
             { title: 'Specialized Expertise and Skills', text: 'Dedicated Java programmers possess deep knowledge of the Java ecosystem, including frameworks like Spring, Hibernate, and Java EE.' },
             { title: 'Cost-Efficiency and Scalability', text: 'With offshore Java developers, businesses can reduce costs associated with recruitment, training, and infrastructure. Dedicated engagement models also allow for easy scalability of the team.' },
             { title: 'Access to Advanced Technologies', text: 'Dedicated Java developers stay ahead of industry trends, offering expertise in integrating advanced technologies like AI and Big Data for intelligent solutions, and cloud development for scalable and secure architectures. Hiring Java app developers ensures your project benefits from cutting-edge innovations.' },
-            { title: 'Flexibility in Engagement Models', text: 'Businesses can customize engagement models to suit their unique needs. With Jellyfish Technologies, you can choose from flexible models to hire Java web application programmers or hire Java mobile app developers tailored to your requirements.' },
+            { title: 'Flexibility in Engagement Models', text: 'Businesses can customize engagement models to suit their unique needs. With Alpixn Technologies, you can choose from flexible models to hire Java web application programmers or hire Java mobile app developers tailored to your requirements.' },
             { title: 'Data Security and Confidentiality', text: 'When you hire a dedicated Java development team, you ensure your project and data are protected by strict NDA agreements and secure development practices.' },
             { title: 'Post-Development Support', text: 'Our Java web developers provide seamless post-launch maintenance, ensuring your application remains updated, secure, and functional.' }
         ]
@@ -266,7 +266,7 @@ const FeaturedCaseStudyJava = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Jellyfish Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Alpixn Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
                         <img src={StaffAugmentationImage} alt="FM Integrated Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -354,7 +354,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Engagement Models to Hire Best Java Programmers</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers flexible engagement models for Java development services, designed to deliver customized solutions that fit your business requirements. Explore the ideal model for your project.
+                        Alpixn Technologies offers flexible engagement models for Java development services, designed to deliver customized solutions that fit your business requirements. Explore the ideal model for your project.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

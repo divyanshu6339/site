@@ -174,7 +174,7 @@ const AboutPage = () => {
                                 </span>
                             </h2>
                             <p className="mt-8 text-lg text-gray-400 max-w-3xl mx-auto">
-                                Get acquainted with our leaders whose innovation and intellect are the driving force behind the astute status of Jellyfish Technologies.
+                                Get acquainted with our leaders whose innovation and intellect are the driving force behind the astute status of Alpixn Technologies.
           </p>
         </div>
                         <div className="flex flex-wrap justify-center gap-x-24 gap-y-19">
@@ -220,7 +220,7 @@ const AboutPage = () => {
                     </div>
                 </div>
                 
-                {/* Life at Jellyfish Section */}
+                {/* Life at Alpixn Section */}
                 <div className="relative opacity-0" ref={addToRefs}>
                     <img src={lifeAtJellyfish} alt="Team collaboration" className="absolute inset-0 w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-blue-800/80"></div>

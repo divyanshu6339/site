@@ -10,7 +10,7 @@ import Insights from '../components/Insights';
 
 // --- NEW DATA ARRAYS ---
 const retailServices = [
-    { title: 'Custom Retail Software Development', description: 'We at Jellyfish Technologies deliver the retail software services you need, from retail custom POS software systems to inventory management software systems. Our retail software developers understand your requirements and develop custom retail software solutions that can scale the business, prevent fraud, work seamlessly with third-party tools, and more.' },
+    { title: 'Custom Retail Software Development', description: 'We at Alpixn Technologies deliver the retail software services you need, from retail custom POS software systems to inventory management software systems. Our retail software developers understand your requirements and develop custom retail software solutions that can scale the business, prevent fraud, work seamlessly with third-party tools, and more.' },
     { title: 'Pos Systems & Billing', description: 'Our expert custom POS software developers deliver seamless retail POS systems. We offer POS integrations built with automated invoicing, payment processing, and security features that work seamlessly with all payment forms, such as bank cards, checks, and mobile payments. Our solutions enable payment methods: by card, cash, phone, or wearable devices.' },
     { title: 'Commercial Operations', description: 'We deliver industry-leading retail software application solutions tailored for commercial operations. Our software services automate and streamline processes for product information, merchandise, and promotion management, delivering comprehensive tools to enhance efficiency and drive success in retail businesses.' },
     { title: 'Inventory Management', description: 'Our inventory management software services empower businesses—retailers, manufacturers, and suppliers with control and visibility across stores and warehouses. Our application development solutions facilitate accurate stock accounting, enable customer demand forecasting, and ensure optimized operations and enhanced efficiency throughout the supply chain.' },
@@ -20,7 +20,7 @@ const retailServices = [
 
 const exploreRetailSolutions = [
     { number: '01', title: 'E-commerce Solutions', description: 'We develop exciting e-commerce solutions for online retailers, offering comprehensive features like product catalogs, shopping carts, and payment gateways. From UI/UX design to software development and support, our services ensure seamless omnichannel experiences, encompassing mobile apps, marketplaces, CRM solutions, and trade portals.' },
-    { number: '02', title: 'Virtual Try-On Solutions', description: 'We at Jellyfish Technologies offer virtual try-on software solutions, developed by AR and AI dedicated retail software developers, that cater to diverse industries. From AR/VR-based retail apps to virtual fitting rooms and immersive experiences, we provide innovative software development solutions to enhance the brand’s online shopping experiences with cutting-edge technology.' },
+    { number: '02', title: 'Virtual Try-On Solutions', description: 'We at Alpixn Technologies offer virtual try-on software solutions, developed by AR and AI dedicated retail software developers, that cater to diverse industries. From AR/VR-based retail apps to virtual fitting rooms and immersive experiences, we provide innovative software development solutions to enhance the brand’s online shopping experiences with cutting-edge technology.' },
     { number: '03', title: 'Demand/Sales Forecasting', description: 'We develop intelligent software solutions offering demand forecasting and predictive analysis services, utilizing algorithms to analyze sales and market data to generate demand forecasts. Our solutions optimize inventory, ensure stock availability, and reduce over/understocking also automate processes by generating purchase orders based on previous demand patterns.' },
     { number: '04', title: 'Chatbot Development', description: 'We provide intelligent chatbot development services to enterprises. Utilizing AI and NLP technology, we integrate interactive chatbots, enhancing customer engagement and satisfaction. Offering 24/7 support, they minimize wait times and communicate fluently in multiple languages, broadening sales opportunities and enriching the customer experience.' },
     { number: '05', title: 'Recommendation Engines', description: 'Our certified retail software developers utilize collaborative filtering algorithms and provide recommendation engines for your existing IT infrastructure. Our solutions employ machine learning techniques such as clustering and matrix factorization to enhance accuracy and relevance, optimize user engagement, and drive sales.' },
@@ -31,12 +31,12 @@ const exploreRetailSolutions = [
 ];
 
 const whyChooseUsRetail = [
-    { title: 'Efficient Operations', description: 'Jellyfish Technologies ensures efficient retail operations by leveraging streamlined processes and optimized workflows, enhancing productivity, and reducing overhead costs through their cutting-edge software solutions.' },
-    { title: 'Advanced Tech Stack', description: 'With an advanced tech stack, Jellyfish Technologies empowers retail businesses with cutting-edge technologies, enabling seamless integration of AI, IoT, blockchain, and other innovations to enhance customer experiences and drive growth.' },
-    { title: '14+ Years Of Expertise', description: 'Jellyfish Technologies’ leading industry technologies come with 14+ years of experience in retail application development, gaining insights and expertise that result in robust, scalable, and future-proof solutions tailored to the unique challenges and opportunities of the retail industry.' },
-    { title: 'Certified Experts', description: 'Jellyfish Technologies boasts a team of certified experts proficient in the latest technologies and methodologies, ensuring the highest quality standards in retail software development and maintenance—delivering exceptional results and value to clients.' },
-    { title: 'Faster Delivery', description: 'Embrace a culture of continuous delivery with Jellyfish Technologies, leveraging agile methodologies and DevOps practices to rapidly iterate, test, and deploy software updates, ensuring timely enhancements, bug fixes, and feature releases to meet evolving business needs and customer demands.' },
-    { title: 'Client-Centric Approach', description: 'Experience a client-centric approach with Jellyfish Technologies, where the needs, goals, and feedback of clients are prioritized throughout the software development lifecycle, promoting collaboration, transparency, and solutions that exceed expectations and drive business success.' }
+    { title: 'Efficient Operations', description: 'Alpixn Technologies ensures efficient retail operations by leveraging streamlined processes and optimized workflows, enhancing productivity, and reducing overhead costs through their cutting-edge software solutions.' },
+    { title: 'Advanced Tech Stack', description: 'With an advanced tech stack, Alpixn Technologies empowers retail businesses with cutting-edge technologies, enabling seamless integration of AI, IoT, blockchain, and other innovations to enhance customer experiences and drive growth.' },
+    { title: '14+ Years Of Expertise', description: 'Alpixn Technologies’ leading industry technologies come with 14+ years of experience in retail application development, gaining insights and expertise that result in robust, scalable, and future-proof solutions tailored to the unique challenges and opportunities of the retail industry.' },
+    { title: 'Certified Experts', description: 'Alpixn Technologies boasts a team of certified experts proficient in the latest technologies and methodologies, ensuring the highest quality standards in retail software development and maintenance—delivering exceptional results and value to clients.' },
+    { title: 'Faster Delivery', description: 'Embrace a culture of continuous delivery with Alpixn Technologies, leveraging agile methodologies and DevOps practices to rapidly iterate, test, and deploy software updates, ensuring timely enhancements, bug fixes, and feature releases to meet evolving business needs and customer demands.' },
+    { title: 'Client-Centric Approach', description: 'Experience a client-centric approach with Alpixn Technologies, where the needs, goals, and feedback of clients are prioritized throughout the software development lifecycle, promoting collaboration, transparency, and solutions that exceed expectations and drive business success.' }
 ];
 
 const clutchTestimonials = [
@@ -49,9 +49,9 @@ const clutchTestimonials = [
 ];
 
 const engagementModelsRetail = [
-    { title: 'Offshore Development', description: 'Jellyfish Technologies’ dedicated team model functions as an Offshore Development Center (ODC), delivering a tailored approach. This works exclusively on the client’s project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, & high-quality standards.', points: ['Client-Centric Team Formation', 'Direct Reporting And Transparency', 'Scalability And Flexibility', 'Quality And Efficiency'] },
-    { title: 'Dedicated Team Model', description: 'Jellyfish Technologies offers a team augmentation approach and access to top-notch UI and UX design services tailored to your specific needs. Ideal for short-term support or filling skill gaps, this model provides flexibility and immediate access to the expertise required.', points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication'] },
-    { title: 'Project-Based', description: 'Jellyfish Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery, meeting quality standards, and fostering collaboration for successful outcomes.', points: ['Fixed Budget', 'Milestones And Deliverables', 'Resource Allocation', 'Risk Mitigation'] },
+    { title: 'Offshore Development', description: 'Alpixn Technologies’ dedicated team model functions as an Offshore Development Center (ODC), delivering a tailored approach. This works exclusively on the client’s project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, & high-quality standards.', points: ['Client-Centric Team Formation', 'Direct Reporting And Transparency', 'Scalability And Flexibility', 'Quality And Efficiency'] },
+    { title: 'Dedicated Team Model', description: 'Alpixn Technologies offers a team augmentation approach and access to top-notch UI and UX design services tailored to your specific needs. Ideal for short-term support or filling skill gaps, this model provides flexibility and immediate access to the expertise required.', points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication'] },
+    { title: 'Project-Based', description: 'Alpixn Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery, meeting quality standards, and fostering collaboration for successful outcomes.', points: ['Fixed Budget', 'Milestones And Deliverables', 'Resource Allocation', 'Risk Mitigation'] },
 ];
 
 const faqsRetail = [
@@ -182,7 +182,7 @@ const FeaturedCaseStudyRetail = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Jellyfish Technologies collaborated with Payleadr to create a customizable platform, integrating a PCI-compliant payment gateway, mobile-centric web app, and efficient scheduling, streamlining transactions, enhancing customer support, and driving business growth.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Alpixn Technologies collaborated with Payleadr to create a customizable platform, integrating a PCI-compliant payment gateway, mobile-centric web app, and efficient scheduling, streamlining transactions, enhancing customer support, and driving business growth.</p>
                         <img src={StaffAugmentationImage} alt="Payleadr Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -231,10 +231,10 @@ const WhyChooseUsRetailSection = () => {
       <div ref={ref} className="py-24 bg-gray-900/50">
         <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
           <h2 className={`text-4xl md:text-5xl font-bold mb-4 transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-              Why Choose Jellyfish Technologies as a Retail Software Development Company?
+              Why Choose Alpixn Technologies as a Retail Software Development Company?
           </h2>
           <p className={`max-w-4xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-              Jellyfish Technologies offers industry-leading retail software development due to its agile methodology, seamless integration of modern technologies, 24*7 availability, and provision of smart & innovative solutions. Stay ahead of the competition with our expertise in delivering intelligent, scalable, and innovative software solutions for retail businesses.
+              Alpixn Technologies offers industry-leading retail software development due to its agile methodology, seamless integration of modern technologies, 24*7 availability, and provision of smart & innovative solutions. Stay ahead of the competition with our expertise in delivering intelligent, scalable, and innovative software solutions for retail businesses.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {whyChooseUsRetail.map((reason, index) => (
@@ -327,7 +327,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Engagement Model</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers versatile engagement models for Retail application development services, providing innovative solutions to match clients’ unique requirements. Let’s explore these engagement models.
+                        Alpixn Technologies offers versatile engagement models for Retail application development services, providing innovative solutions to match clients’ unique requirements. Let’s explore these engagement models.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -410,7 +410,7 @@ const RetailPage = () => {
                     initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.8, delay: 0.3 }}>
                     <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Retail Software Development Services</h1>
                     <p className="text-lg md:text-xl mb-6">
-                        Jellyfish Technologies builds advanced retail software solutions to help retailers boost their operations, improve the customer experience, and ensure sustainable growth at each step of the retail value chain. We offer integration, process optimization, data analysis, and ML demand prediction services to improve your operations.
+                        Alpixn Technologies builds advanced retail software solutions to help retailers boost their operations, improve the customer experience, and ensure sustainable growth at each step of the retail value chain. We offer integration, process optimization, data analysis, and ML demand prediction services to improve your operations.
                     </p>
                     <motion.button className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition" whileHover={{ scale: 1.05 }}>
                         Get a custom quote

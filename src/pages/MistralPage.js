@@ -15,7 +15,7 @@ const mistralServices = [
     { title: 'Mistral AI Deployment and Scaling', description: 'Our Mistral AI integration and customization services ensure hassle-free deployment and scaling. We optimize Mistral models for production environments, enabling businesses to turn ideas into scalable Mistral AI solutions more quickly and efficiently.', icon: 'mistral-ai-deployment-and-scaling' },
     { title: 'Mistral Model Performance Optimization', description: 'Enhance model efficiency and minimize errors through our expert Mistral AI fine-tuning services. We carefully optimize Mistral models for higher accuracy, lower costs, and better outcomes for businesses needing smarter, scalable Mistral AI integration services.', icon: 'mistral-model-performance-optimization' },
     { title: 'Mistral Multimodal Application Development', description: 'Unlock more innovative customer experiences with multimodal Mistral AI solutions. We build bespoke Mistral applications that combine text, images, and workflows—ideal for businesses seeking Mistral AI for enterprise workflow automation across industries.', icon: 'mistral-multimodal-application-development' },
-    { title: 'Mistral AI Consulting & Integration Strategy', description: 'Navigate the AI journey confidently with Jellyfish Technologies’ Mistral AI consulting services. We provide Mistral AI implementation consulting and strategy support to align your vision with tailored, real-world Mistral AI integration with existing systems.', icon: 'mistral-ai-consulting-integration-strategy' }
+    { title: 'Mistral AI Consulting & Integration Strategy', description: 'Navigate the AI journey confidently with Alpixn Technologies’ Mistral AI consulting services. We provide Mistral AI implementation consulting and strategy support to align your vision with tailored, real-world Mistral AI integration with existing systems.', icon: 'mistral-ai-consulting-integration-strategy' }
 ];
 
 const mistralBenefits = [
@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -177,7 +177,7 @@ const WhyChooseUsSection = () => {
             Why Choose Us for Mistral AI Integration Services
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            Jellyfish Technologies stands out with full-spectrum Mistral AI consulting services—delivering custom AI solutions leveraging Mistral models, fine-tuned for performance, integrated with ease, and built alongside your objectives.
+            Alpixn Technologies stands out with full-spectrum Mistral AI consulting services—delivering custom AI solutions leveraging Mistral models, fine-tuned for performance, integrated with ease, and built alongside your objectives.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsMistral.map((reason, index) => (
@@ -224,7 +224,7 @@ const TestimonialsSection = () => {
                 <div className="text-center mb-12">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>See what our clients have to say</h2>
                      <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies’ Mistral AI integration and customization services are praised for quick deployment, thoughtful execution, and AI solutions that scale, enabling teams to stay agile while minimizing overhead and manual work.
+                        Alpixn Technologies’ Mistral AI integration and customization services are praised for quick deployment, thoughtful execution, and AI solutions that scale, enabling teams to stay agile while minimizing overhead and manual work.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -294,7 +294,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers flexible engagement models tailored to your business needs. Whether scaling teams or launching fixed-scope AI projects, we ensure strategic delivery, faster execution, and seamless Mistral AI integration services.
+                        Alpixn Technologies offers flexible engagement models tailored to your business needs. Whether scaling teams or launching fixed-scope AI projects, we ensure strategic delivery, faster execution, and seamless Mistral AI integration services.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -322,7 +322,7 @@ const EngagementModelsSection = () => {
 const FaqSection = () => {
     const [open, setOpen] = useState(null);
     const faqs = [
-        { q: 'What are Mistral AI integration and customization services?', a: 'Mistral AI integration and customization services help businesses integrate Mistral models into their existing applications. At Jellyfish Technologies, we customize Mistral AI solutions for enterprise-grade performance, providing custom Mistral AI model development and seamless AI integration to boost operational efficiency and innovation.' },
+        { q: 'What are Mistral AI integration and customization services?', a: 'Mistral AI integration and customization services help businesses integrate Mistral models into their existing applications. At Alpixn Technologies, we customize Mistral AI solutions for enterprise-grade performance, providing custom Mistral AI model development and seamless AI integration to boost operational efficiency and innovation.' },
         { q: 'How can Mistral AI integration services benefit my startup or enterprise?', a: 'Startups can benefit from rapid prototyping and cost-effective scaling, while enterprises can leverage Mistral AI for robust workflow automation, enhanced data analysis, and creating sophisticated internal tools. For both, it translates to increased efficiency, a better competitive edge, and smarter, data-driven operations.' },
         { q: 'What are the advantages of custom AI solutions using Mistral models?', a: 'Custom solutions offer superior accuracy because they are trained on your specific data. They provide better performance, as they are optimized for your unique workflows, and enhanced security, as your proprietary data remains in your control. This leads to more relevant outputs and a higher return on investment compared to generic models.' },
         { q: 'How can Mistral AI be used for enterprise workflow automation?', a: 'Mistral AI can automate tasks like summarizing long reports, routing customer support tickets, extracting key information from documents (like invoices or contracts), generating code, and powering internal knowledge base chatbots. This frees up employees from repetitive tasks to focus on more strategic work.' },
@@ -406,7 +406,7 @@ const MistralPage = () => {
                 >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Enterprise-Grade Mistral AI Integration Services</h1>
                 <p className="text-lg md:text-xl mb-6">
-                    Experience the power of precision-built AI. At Jellyfish Technologies, we provide premium Mistral AI integration services, customizing Mistral models to boost enterprise automation, improve decision-making, and embed intelligent insights directly into your existing systems with zero disruption.
+                    Experience the power of precision-built AI. At Alpixn Technologies, we provide premium Mistral AI integration services, customizing Mistral models to boost enterprise automation, improve decision-making, and embed intelligent insights directly into your existing systems with zero disruption.
                 </p>
                 <motion.button
                     className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"
@@ -463,7 +463,7 @@ const MistralPage = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Jellyfish Technologies delivers tailored Mistral AI integration services, including custom models, intelligent automation, and seamless API integration, that speed up results, reduce friction, and bring enterprise-grade precision to every layer of your business.
+              Alpixn Technologies delivers tailored Mistral AI integration services, including custom models, intelligent automation, and seamless API integration, that speed up results, reduce friction, and bring enterprise-grade precision to every layer of your business.
             </motion.p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {mistralServices.map((service, index) => (

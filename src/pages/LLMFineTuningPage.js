@@ -20,7 +20,7 @@ const genAiServices = [
 
 const tangibleResults = [
     { title: 'Domain-Aligned Model Behavior', description: 'We fine tune large language models to your domain language, processes, and standards, optimizing to make the outputs more relevant and consistent with your business objectives and minimizing context errors in critical tasks.', icon: 'domain-aligned-model-behavior' },
-    { title: 'Secure Data Fine Tuning', description: 'Our LLM fine tuning services prioritize data privacy and regulatory compliance. At Jellyfish Technologies, fine tuning occurs within secure environments, so your sensitive information is protected during the tuning process without sacrificing model performance.', icon: 'secure-data-fine-tuning' },
+    { title: 'Secure Data Fine Tuning', description: 'Our LLM fine tuning services prioritize data privacy and regulatory compliance. At Alpixn Technologies, fine tuning occurs within secure environments, so your sensitive information is protected during the tuning process without sacrificing model performance.', icon: 'secure-data-fine-tuning' },
     { title: 'Task-Specific LLM Training', description: 'We train LLMs on case-specific data to achieve highly relevant and accurate performance. Whether it’s legal summarization or customer service, your model responds as though it were architected for the task from day one.', icon: 'task-specific-llm-training' },
     { title: 'Enterprise Workflow Integration', description: 'Fine-tuned models are only good if they function where you do. We ensure seamless integration into your existing enterprise systems—so your AI delivers immediate impact without disrupting operations.', icon: 'enterprise-workflow-integration' }
 ];
@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -103,7 +103,7 @@ const AiSuccessStorySection = () => {
                         Case Studies: Harnessing AI for Scalable Business Growth
                     </h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Our AI solutions go beyond experimentation. We enable you to transform disruptive technology into scalable, operationalized systems that accelerate growth, reveal actionable insights, and modernize operations. At Jellyfish Technologies, our AI is designed to scale, perform, and impact.
+                        Our AI solutions go beyond experimentation. We enable you to transform disruptive technology into scalable, operationalized systems that accelerate growth, reveal actionable insights, and modernize operations. At Alpixn Technologies, our AI is designed to scale, perform, and impact.
                     </p>
                 </div>
                 <div className={`bg-gray-900/50 ring-1 ring-white/10 rounded-2xl p-6 md:p-8 transition-all duration-700 ease-out delay-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
@@ -293,7 +293,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        We offer flexible engagement models tailored to your business objectives, technical needs, and budget at Jellyfish Technologies. We have you covered, whether you need full-time professionals, part-time experts, or a clearly defined project scope.
+                        We offer flexible engagement models tailored to your business objectives, technical needs, and budget at Alpixn Technologies. We have you covered, whether you need full-time professionals, part-time experts, or a clearly defined project scope.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -405,7 +405,7 @@ const LLMFineTuningPage = () => {
                 >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">LLM Fine Tuning Services</h1>
                 <p className="text-lg md:text-xl mb-6">
-                    Generic models understand language. We make them understand your business. At Jellyfish Technologies, we fine-tune Large Language Models (LLMs) that align pre-trained AI with your KPIs, delivering the right-sized, high-performing NLP implementations fluent in your domain.
+                    Generic models understand language. We make them understand your business. At Alpixn Technologies, we fine-tune Large Language Models (LLMs) that align pre-trained AI with your KPIs, delivering the right-sized, high-performing NLP implementations fluent in your domain.
                 </p>
                 <motion.button
                     className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"

@@ -28,10 +28,10 @@ const salesforceTechExpertise = ['Trailhead', 'Visualforce', 'CRM', 'Apex', 'Mar
 
 const clientTestimonials = [
     { author: 'James Anderson', company: 'Co-Founder, Shootzu', text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment. About 1,200 users are registered to the platform, and the app is fully-functioning. The team added value with their responsiveness and efficiency." },
-    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Jellyfish provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
-    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Jellyfish Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
-    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Jellyfish Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
-    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Jellyfish Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
+    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Alpixn provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
+    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Alpixn Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
+    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Alpixn Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
+    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Alpixn Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
 ];
 
 const salesforceSolutions = [
@@ -63,7 +63,7 @@ const faqsSalesforce = [
     { q: 'How do you hire Salesforce developers?', a: 'We have a rigorous hiring process that includes a technical assessment of skills in Apex, LWC, and integrations, a review of their portfolio and certifications, and multiple rounds of interviews to evaluate their problem-solving abilities and communication skills. This ensures we only provide top-tier, certified Salesforce professionals.' },
     { q: 'How much does Salesforce cost?', a: 'Salesforce pricing varies depending on the edition and the number of users. It is a subscription-based service with different tiers to suit businesses of different sizes. Development costs for custom solutions are separate and depend on the scope and complexity of the project.' },
     { q: 'How to find the best Salesforce development company?', a: 'To find the best company, look for one with a strong portfolio of successful Salesforce projects, a team of certified developers, and positive client reviews. It’s also important to choose a partner that understands your industry and offers transparent communication and flexible engagement models.' },
-    { q: 'Can I hire Salesforce developers of my choice from Jellyfish Technologies?', a: 'Yes, absolutely. We provide you with a shortlist of our best-fit, pre-vetted Salesforce developers, and you have the final say. You can interview the candidates to ensure they have the right technical skills and are a good cultural fit for your team.' },
+    { q: 'Can I hire Salesforce developers of my choice from Alpixn Technologies?', a: 'Yes, absolutely. We provide you with a shortlist of our best-fit, pre-vetted Salesforce developers, and you have the final say. You can interview the candidates to ensure they have the right technical skills and are a good cultural fit for your team.' },
     { q: 'What are the advantages of Salesforce consulting services?', a: 'Salesforce consulting services provide strategic guidance to help you maximize your ROI on the Salesforce platform. Consultants can help you with roadmap planning, process optimization, and choosing the right solutions to align your CRM strategy with your business goals, ensuring a successful and impactful implementation.' }
 ];
 
@@ -286,7 +286,7 @@ const FeaturedCaseStudySalesforce = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Jellyfish Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Alpixn Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
                         <img src={StaffAugmentationImage} alt="FM Integrated Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -375,7 +375,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Engagement Models to Hire Best Salesforce Programmers</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers flexible engagement models for Salesforce development services, designed to deliver customized solutions. Explore your options below.
+                        Alpixn Technologies offers flexible engagement models for Salesforce development services, designed to deliver customized solutions. Explore your options below.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

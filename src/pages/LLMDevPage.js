@@ -28,7 +28,7 @@ const whyTrustUsLlm = [
 const whyChooseUsLlm = [
     { title: 'Clear, Collaborative Communication', description: 'As a transparent LLM development firm, we work closely with your internal teams—providing milestone-based tracking, shared documentation, and direct access to decision-makers at each step of the project lifecycle.', icon: 'clear-collaborative-communication' },
     { title: 'Platform-Agnostic Integration', description: 'Our LLM development solutions are designed for seamless integration into any enterprise environment — cloud, on-premise, hybrid – to help you scale without disrupting existing infrastructure or core business systems.', icon: 'platform-agnostic-integration' },
-    { title: 'Stable, Scalable Architecture', description: 'Jellyfish Technologies delivers secure, modular LLM model development that scales along your users, data, and feature roadmap—enabling you to lower rework, increase uptime, and get ready for future expansion.', icon: 'stable-scalable-architecture' },
+    { title: 'Stable, Scalable Architecture', description: 'Alpixn Technologies delivers secure, modular LLM model development that scales along your users, data, and feature roadmap—enabling you to lower rework, increase uptime, and get ready for future expansion.', icon: 'stable-scalable-architecture' },
     { title: 'Enterprise-Grade Security', description: 'From construction to finance to legal, every large language model development solution we deliver follows stringent security practices, ensuring compliance with industry regulations while protecting proprietary data across industries.', icon: 'enterprise-grade-security' },
     { title: 'LLM-First Development Strategy', description: 'We focus exclusively on large language model development, ensuring every solution—from architecture to training—is purpose-built for enterprise needs, business logic, and measurable value, leveraging modern LLM development services.', icon: 'llm-first-development-strategy' },
     { title: 'Proven Delivery Track Record', description: 'We have deployed scalable, production-ready LLM business solutions across industries, enabling clients to deliver faster time to market and measurable ROI, driving reduced manual effort and knowledge task automation.', icon: 'proven-delivery-track-record' }
@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -103,7 +103,7 @@ const AiSuccessStorySection = () => {
                         AI Success Stories That Deliver Strategic Impact
                     </h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        We don’t just implement AI—we help organizations implement it purposefully. At Jellyfish Technologies, our approach ensures that every AI initiative is backed by a long-term strategy, grounded in technical feasibility, and designed for sustainable transformation.
+                        We don’t just implement AI—we help organizations implement it purposefully. At Alpixn Technologies, our approach ensures that every AI initiative is backed by a long-term strategy, grounded in technical feasibility, and designed for sustainable transformation.
                     </p>
                 </div>
                 <div className={`bg-gray-900/50 ring-1 ring-white/10 rounded-2xl p-6 md:p-8 transition-all duration-700 ease-out delay-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
@@ -147,7 +147,7 @@ const WhyTrustUsSection = () => {
             Why Leading Brands Trust Our LLM Development Expertise
           </h2>
           <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            Our process ensures transparency, compliance, and control from model architecture to deployment and beyond. That’s why the leading enterprises rely on Jellyfish Technologies to deliver secure, high-impact LLM systems.
+            Our process ensures transparency, compliance, and control from model architecture to deployment and beyond. That’s why the leading enterprises rely on Alpixn Technologies to deliver secure, high-impact LLM systems.
           </p>
           <div className="mt-8">
              <button className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300">Not Sure Where to Begin with AI? Get Expert Guidance</button>
@@ -177,7 +177,7 @@ const WhyChooseUsSection = () => {
             Why Choose Us for Large Language Model Development Services
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            At Jellyfish Technologies, we provide structured, end-to-end LLM development while considering performance, security, and return on investment (ROI), fully aligned with your operational goals, data architecture, and compliance requirements.
+            At Alpixn Technologies, we provide structured, end-to-end LLM development while considering performance, security, and return on investment (ROI), fully aligned with your operational goals, data architecture, and compliance requirements.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsLlm.map((reason, index) => (
@@ -276,7 +276,7 @@ const EngagementModelsSection = () => {
         },
         {
             title: 'Staff Augmentation',
-            description: 'Rapidly scale your internal team using Jellyfish Technologies’ LLM specialists—perfect when you want to reduce the time-to-market, fill skills gaps, or procure special expertise without long-term resource encumbrance.',
+            description: 'Rapidly scale your internal team using Alpixn Technologies’ LLM specialists—perfect when you want to reduce the time-to-market, fill skills gaps, or procure special expertise without long-term resource encumbrance.',
             points: ['Tailored Expertise', 'Seamless Integration', 'Cost-effective Solution', 'Transparent Communication'],
             icon: 'staff-augmentation'
         },
@@ -294,7 +294,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        We offer flexible engagement models tailored to your business objectives, technical needs, and budget at Jellyfish Technologies. We have you covered, whether you need full-time professionals, part-time experts, or a clearly defined project scope.
+                        We offer flexible engagement models tailored to your business objectives, technical needs, and budget at Alpixn Technologies. We have you covered, whether you need full-time professionals, part-time experts, or a clearly defined project scope.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -406,7 +406,7 @@ const LLMDevPage = () => {
                 >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Large Language Model Development Services</h1>
                 <p className="text-lg md:text-xl mb-6">
-                    As an industry-leading large language model development company, Jellyfish Technologies enables enterprises to build custom Large Language Model (LLM) solutions that automate reasoning, extract deep insights, and enhance digital intelligence across operations.
+                    As an industry-leading large language model development company, Alpixn Technologies enables enterprises to build custom Large Language Model (LLM) solutions that automate reasoning, extract deep insights, and enhance digital intelligence across operations.
                 </p>
                 <motion.button
                     className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"

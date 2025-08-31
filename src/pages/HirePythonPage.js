@@ -18,7 +18,7 @@ const pythonSkills = [
 ];
 
 const whyPartnerPython = [
-    { title: 'Expert Vetted Developers', description: 'At Jellyfish Technologies, we offer expert-vetted Python developers for hire who excel in delivering high-quality code. When you hire dedicated Python developers from us, you’re choosing top-tier Python coders who bring experience and innovation to your projects.' },
+    { title: 'Expert Vetted Developers', description: 'At Alpixn Technologies, we offer expert-vetted Python developers for hire who excel in delivering high-quality code. When you hire dedicated Python developers from us, you’re choosing top-tier Python coders who bring experience and innovation to your projects.' },
     { title: 'Future-proof Applications', description: 'Our Python consultancy ensures that you hire Python developers who create future-proof applications. With our Python developers for hire, your software will remain agile, scalable, and aligned with the latest industry standards.' },
     { title: 'Transparency and Integrity', description: 'We believe in maintaining transparency and integrity in all our Python services. When you hire dedicated Python developers from us, you’ll experience clear communication and a collaborative approach that ensures your project’s success.' },
     { title: 'Ongoing Maintenence & Support', description: 'Our commitment to you doesn’t end with project delivery. Our Python programmers offer ongoing maintenance and support, ensuring your application runs smoothly. Trust our Python consultancy for continuous improvements and troubleshooting.' }
@@ -28,10 +28,10 @@ const pythonTechExpertise = ['Django', 'Flask', 'Matplotlib', 'Numpy', 'OpenCV',
 
 const clientTestimonials = [
     { author: 'James Anderson', company: 'Co-Founder, Shootzu', text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment. About 1,200 users are registered to the platform, and the app is fully-functioning. The team added value with their responsiveness and efficiency." },
-    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Jellyfish provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
-    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Jellyfish Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
-    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Jellyfish Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
-    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Jellyfish Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
+    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Alpixn provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
+    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Alpixn Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
+    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Alpixn Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
+    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Alpixn Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
 ];
 
 const pythonSolutions = [
@@ -53,7 +53,7 @@ const engagementModelsPython = [
 ];
 
 const faqsPython = [
-    { q: 'Why hire a dedicated Python development team from Jellyfish Technologies?', a: 'By choosing to hire a dedicated Python development team from Jellyfish Technologies, you gain access to specialized expertise, seamless project integration, and ongoing support, ensuring your project’s success and scalability.' },
+    { q: 'Why hire a dedicated Python development team from Alpixn Technologies?', a: 'By choosing to hire a dedicated Python development team from Alpixn Technologies, you gain access to specialized expertise, seamless project integration, and ongoing support, ensuring your project’s success and scalability.' },
     { q: 'Will I be able to communicate with the developers that I hire?', a: 'Yes, absolutely. We prioritize direct communication and transparency. You will have direct access to the developers you hire through regular channels like Slack, Zoom, and email to ensure seamless collaboration and alignment.' },
     { q: 'How much does a Python developer cost?', a: "The cost to hire a Python developer varies based on experience, location, and project complexity, typically ranging from $40 to over $150 per hour. [4, 5, 6] We offer competitive pricing and flexible engagement models to fit your budget and project requirements." },
     { q: 'What kind of applications can you build using Python?', a: "Python's versatility makes it suitable for a wide range of applications, including web development (with frameworks like Django and Flask), data science, machine learning, AI, automation scripts, IoT applications, and enterprise-level software. [1, 2]" }
@@ -80,7 +80,7 @@ const userGuideContentPython = {
             { title: 'Experience with Web Frameworks:', text: 'Look for Python developers experienced in popular frameworks like Django, Flask, or Pyramid. These frameworks are essential for building robust web applications quickly and efficiently.' },
             { title: 'Database Knowledge:', text: 'A skilled Python coder for hire should have experience with both relational (e.g., PostgreSQL, MySQL) and non-relational databases (e.g., MongoDB). Understanding how to manage and optimize database queries is crucial.' },
             { title: 'Knowledge of DevOps Tools:', text: 'Familiarity with DevOps practices and tools like Docker, Jenkins, and Kubernetes is beneficial, as these tools help automate deployment and manage applications at scale.' },
-            { title: 'Experience with Version Control:', text: 'Proficiency in version control systems like Git is crucial for collaboration and maintaining code integrity. When you hire dedicated Python developers from Jellyfish Technologies, you can be confident that they possess all these essential skills and more, ensuring your project’s success.' }
+            { title: 'Experience with Version Control:', text: 'Proficiency in version control systems like Git is crucial for collaboration and maintaining code integrity. When you hire dedicated Python developers from Alpixn Technologies, you can be confident that they possess all these essential skills and more, ensuring your project’s success.' }
         ]
     },
     'Why Python Developers are Invaluable to Your Tech Team': {
@@ -90,9 +90,9 @@ const userGuideContentPython = {
             { title: 'Rapid Development Cycles:', text: 'Python’s simple and readable syntax enables developers to write and deploy code faster. When you hire dedicated Python developers, you can expect shorter development cycles, which translates to quicker time-to-market for your products.' },
             { title: 'Strong Community Support:', text: 'Python boasts a vast and active community, which means that Python programmers for hire have access to a wealth of resources, libraries, and frameworks. This strong community support helps in troubleshooting, accelerating development, and ensuring the use of best practices.' },
             { title: 'Cross-Platform Compatibility:', text: 'Python’s cross-platform nature allows developers to create applications that run seamlessly on various operating systems. This is particularly valuable for businesses looking to reach a wider audience.' },
-            { title: 'Long-Term Support and Maintenance:', text: 'When you hire Python developers from Jellyfish Technologies, you don’t just get a one-time service. Our developers provide ongoing maintenance and support, ensuring that your applications remain up-to-date and functional as your business evolves.' }
+            { title: 'Long-Term Support and Maintenance:', text: 'When you hire Python developers from Alpixn Technologies, you don’t just get a one-time service. Our developers provide ongoing maintenance and support, ensuring that your applications remain up-to-date and functional as your business evolves.' }
         ],
-        outro: 'By choosing Python developers for hire from Jellyfish Technologies, you’re not just adding a skill set to your team—you’re investing in the long-term success and scalability of your tech projects.'
+        outro: 'By choosing Python developers for hire from Alpixn Technologies, you’re not just adding a skill set to your team—you’re investing in the long-term success and scalability of your tech projects.'
     }
 };
 
@@ -265,7 +265,7 @@ const FeaturedCaseStudyPython = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Jellyfish Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Alpixn Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
                         <img src={StaffAugmentationImage} alt="FM Integrated Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -354,7 +354,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Engagement Models to Hire Best Python Developers</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers versatile engagement models for Python development services, delivering tailored solutions to meet your specific needs. Explore our engagement models.
+                        Alpixn Technologies offers versatile engagement models for Python development services, delivering tailored solutions to meet your specific needs. Explore our engagement models.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

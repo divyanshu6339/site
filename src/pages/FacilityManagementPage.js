@@ -32,11 +32,11 @@ const exploreFacilitySolutions = [
 
 const whyChooseUsFacility = [
     { title: 'Experienced Developers', description: 'Our software development dedicated team comprises expert software developers with an average experience of 5+ years in diverse technologies and domains. Their deep technical expertise enables them to deliver innovative software solutions.' },
-    { title: 'Advanced Tech Stack', description: 'With an advanced tech stack, Jellyfish Technologies empowers retail businesses with cutting-edge technologies, enabling seamless integration of AI, IoT, blockchain, and other innovations to enhance customer experiences and drive growth.' },
-    { title: 'Agile Principles', description: 'We at Jellyfish Technologies embrace agile development methodologies. We prioritize collaboration, adaptability, and continuous improvement, ensuring swift development cycles and responsiveness to changing project needs and market demands.' },
+    { title: 'Advanced Tech Stack', description: 'With an advanced tech stack, Alpixn Technologies empowers retail businesses with cutting-edge technologies, enabling seamless integration of AI, IoT, blockchain, and other innovations to enhance customer experiences and drive growth.' },
+    { title: 'Agile Principles', description: 'We at Alpixn Technologies embrace agile development methodologies. We prioritize collaboration, adaptability, and continuous improvement, ensuring swift development cycles and responsiveness to changing project needs and market demands.' },
     { title: 'Cross-functional Teams', description: 'Our diverse teams bring together expertise from various domains, promoting innovation, problem-solving, and collaborative perspectives to deliver innovative and smarter CRM solutions that address all aspects of various industries and client requirements.' },
     { title: '24*7 Support', description: 'Our 24*7 support services ensure prompt resolution to any technical issues or queries. With a dedicated support team available round-the-clock, we provide timely assistance and effective problem-solving, ensuring uninterrupted operations.' },
-    { title: 'Talent Quality', description: 'Jellyfish Technologies employs a rigorous screening process, ensuring only the top 5% of software developers are hired. Our developers possess exceptional technical skills, problem-solving abilities, and a deep understanding of industry best practices.' }
+    { title: 'Talent Quality', description: 'Alpixn Technologies employs a rigorous screening process, ensuring only the top 5% of software developers are hired. Our developers possess exceptional technical skills, problem-solving abilities, and a deep understanding of industry best practices.' }
 ];
 
 const clutchTestimonials = [
@@ -49,9 +49,9 @@ const clutchTestimonials = [
 ];
 
 const engagementModelsFacility = [
-    { title: 'Dedicated Team', description: 'Jellyfish Technologies provides a fully managed, dedicated team of facility management software developers. We offer long-term collaboration, seamless integration with your existing processes, and flexibility to scale resources as needed for project development.', points: ['Client-Centric Approach', 'Direct Reporting And Transparency', 'Scalability And Flexibility', 'Quality And Efficiency'] },
-    { title: 'Team Augmentation', description: 'We extend your in-house capabilities by adding our skilled facility management software experts from Jellyfish Technologies. It provides quick access to specialized talent, filling skill gaps and accelerating project timelines while maintaining the development process.', points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication'] },
-    { title: 'Project-Based', description: 'For clients with well-defined facility management software requirements, Jellyfish Technologies offers a project-based model. This approach provides end-to-end development services, from conceptualization to deployment, with a focus on delivering top-notch solutions.', points: ['Fixed Budget', 'Milestones And Deliverables', 'Resource Allocation', 'Risk Mitigation'] },
+    { title: 'Dedicated Team', description: 'Alpixn Technologies provides a fully managed, dedicated team of facility management software developers. We offer long-term collaboration, seamless integration with your existing processes, and flexibility to scale resources as needed for project development.', points: ['Client-Centric Approach', 'Direct Reporting And Transparency', 'Scalability And Flexibility', 'Quality And Efficiency'] },
+    { title: 'Team Augmentation', description: 'We extend your in-house capabilities by adding our skilled facility management software experts from Alpixn Technologies. It provides quick access to specialized talent, filling skill gaps and accelerating project timelines while maintaining the development process.', points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication'] },
+    { title: 'Project-Based', description: 'For clients with well-defined facility management software requirements, Alpixn Technologies offers a project-based model. This approach provides end-to-end development services, from conceptualization to deployment, with a focus on delivering top-notch solutions.', points: ['Fixed Budget', 'Milestones And Deliverables', 'Resource Allocation', 'Risk Mitigation'] },
 ];
 
 const faqsFacility = [
@@ -201,7 +201,7 @@ const FeaturedCaseStudyFacility = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Jellyfish Technologies partnered with Patra Corporation to develop a secure cloud-based certificate vault, enabling instant access to financial documents, streamlining processes, enhancing the customer experience, and reducing costs. This results in a successful partnership with repeat business.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Alpixn Technologies partnered with Patra Corporation to develop a secure cloud-based certificate vault, enabling instant access to financial documents, streamlining processes, enhancing the customer experience, and reducing costs. This results in a successful partnership with repeat business.</p>
                         <img src={StaffAugmentationImage} alt="CertVault Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -223,7 +223,7 @@ const ExploreFacilitySolutionsSection = () => {
                         Types of Facility Management Solutions We Develop
                     </h2>
                     <p className={`mt-4 text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies specializes in innovative facility management solutions. We develop cutting-edge software for building automation, maintenance tracking, space optimization, energy monitoring, asset management, work order processing, and security systems.
+                        Alpixn Technologies specializes in innovative facility management solutions. We develop cutting-edge software for building automation, maintenance tracking, space optimization, energy monitoring, asset management, work order processing, and security systems.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -250,10 +250,10 @@ const WhyChooseUsFacilitySection = () => {
       <div ref={ref} className="py-24 bg-gray-900/50">
         <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
           <h2 className={`text-4xl md:text-5xl font-bold mb-4 transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-              Why Choose Jellyfish Technologies as Your Facility Management Software Development Company?
+              Why Choose Alpixn Technologies as Your Facility Management Software Development Company?
           </h2>
           <p className={`max-w-4xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-              Jellyfish Technologies delivers high-tech facility management solutions with in-house dedicated teams and an agile approach. Our diverse industry expertise and innovative tech stack incorporation ensure our solutions are future-proof, aligning with your unique requirements.
+              Alpixn Technologies delivers high-tech facility management solutions with in-house dedicated teams and an agile approach. Our diverse industry expertise and innovative tech stack incorporation ensure our solutions are future-proof, aligning with your unique requirements.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {whyChooseUsFacility.map((reason, index) => (
@@ -342,7 +342,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Engagement Model</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers versatile engagement models for facility management software development services, providing innovative solutions to match clients’ unique requirements. Let’s explore these engagement models.
+                        Alpixn Technologies offers versatile engagement models for facility management software development services, providing innovative solutions to match clients’ unique requirements. Let’s explore these engagement models.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -425,7 +425,7 @@ const FacilityManagementPage = () => {
                     initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.8, delay: 0.3 }}>
                     <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Facility Management Software Development Services</h1>
                     <p className="text-lg md:text-xl mb-6">
-                        Jellyfish Technologies provides high-end facility management services for various industries. Our custom-built software solutions are intelligent and reliable, backed by dedicated, certified facility software developers. With 14+ years of extensive experience and domain knowledge, our services take your businesses ahead of market trends.
+                        Alpixn Technologies provides high-end facility management services for various industries. Our custom-built software solutions are intelligent and reliable, backed by dedicated, certified facility software developers. With 14+ years of extensive experience and domain knowledge, our services take your businesses ahead of market trends.
                     </p>
                     <motion.button className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition" whileHover={{ scale: 1.05 }}>
                         Get a custom quote

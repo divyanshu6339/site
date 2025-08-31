@@ -67,19 +67,19 @@ const secondArticlesData = [
     image: articleImg7,
     title: 'How Natural Language Processing is Transforming Industries',
     author: 'By Vivek Sadh',
-    link: 'https://www.jellyfishtechnologies.com/how-nlp-is-transforming-industries/',
+    link: 'https://www.Alpixntechnologies.com/how-nlp-is-transforming-industries/',
   },
   {
     image: articleImg8,
     title: 'Cache-Augmented Generation (CAG): A Revolutionary Alternative To RAG',
-    author: 'By Jellyfish Technologies',
-    link: 'https://www.jellyfishtechnologies.com/cag-a-revolutionary-alternative-to-rag/',
+    author: 'By Alpixn Technologies',
+    link: 'https://www.Alpixntechnologies.com/cag-a-revolutionary-alternative-to-rag/',
   },
   {
     image: articleImg9,
     title: 'Generative AI in Insurance: Use Case and Benefits',
     author: 'By Neeraj Kumar',
-    link: 'https://www.jellyfishtechnologies.com/generative-ai-in-insurance-use-case-and-benefits/',
+    link: 'https://www.Alpixntechnologies.com/generative-ai-in-insurance-use-case-and-benefits/',
   },
 ];
 
@@ -88,37 +88,37 @@ const newArticlesData = [
     image: articleImg1,
     title: 'Machine Learning in FinTech: Use Cases and Applications',
     author: 'By Ashish Goel',
-    link: 'https://www.jellyfishtechnologies.com/machine-learning-in-fintech-use-cases-and-applications/',
+    link: 'https://www.Alpixntechnologies.com/machine-learning-in-fintech-use-cases-and-applications/',
   },
   {
     image: articleImg2,
     title: 'RAG Vs CAG A Technical Comparison',
     author: 'By Ashish Goel',
-    link: 'https://www.jellyfishtechnologies.com/rag-vs-cag-a-technical-comparison/',
+    link: 'https://www.Alpixntechnologies.com/rag-vs-cag-a-technical-comparison/',
   },
   {
     image: articleImg3,
     title: 'Understanding Similarity Scoring in RAG Systems: Types and Implementations',
-    author: 'By Jellyfish Technologies',
-    link: 'https://www.jellyfishtechnologies.com/similarity-scoring-rag-types-implementations/',
+    author: 'By Alpixn Technologies',
+    link: 'https://www.Alpixntechnologies.com/similarity-scoring-rag-types-implementations/',
   },
   {
     image: articleImg4,
     title: 'Deep Learning Explained: History, Key Components, Applications, Benefits & Industry Challenges',
     author: 'By Vivek Sadh',
-    link: 'https://www.jellyfishtechnologies.com/deep-learning-explained-applications-benefits-challenges/',
+    link: 'https://www.Alpixntechnologies.com/deep-learning-explained-applications-benefits-challenges/',
   },
   {
     image: articleImg5,
     title: 'Prompt-to-Flowchart: Generating Flowcharts from Natural Language using GenAI',
-    author: 'By Jellyfish Technologies',
-    link: 'https://www.jellyfishtechnologies.com/generating-flowcharts-from-natural-language-using-genai/',
+    author: 'By Alpixn Technologies',
+    link: 'https://www.Alpixntechnologies.com/generating-flowcharts-from-natural-language-using-genai/',
   },
   {
     image: articleImg6,
     title: 'Understanding MCP Servers: Bridging AI Models with the World',
-    author: 'By Jellyfish Technologies',
-    link: 'https://www.jellyfishtechnologies.com/understanding-mcp-servers-bridging-ai-models-with-the-world/',
+    author: 'By Alpixn Technologies',
+    link: 'https://www.Alpixntechnologies.com/understanding-mcp-servers-bridging-ai-models-with-the-world/',
   },
 ];
 
@@ -126,69 +126,69 @@ const latestInsightsData = [
     {
         image: insightImg1,
         title: 'Understanding Similarity Scoring in RAG Systems: Types and Implementations',
-        author: 'By Jellyfish Technologies',
-        link: 'https://www.jellyfishtechnologies.com/similarity-scoring-rag-types-implementations/'
+        author: 'By Alpixn Technologies',
+        link: 'https://www.Alpixntechnologies.com/similarity-scoring-rag-types-implementations/'
     },
     {
         image: insightImg2,
         title: 'Deep Learning Explained: History, Key Components, Applications, Benefits & Industry Challenges',
         author: 'By Vivek Sadh',
-        link: 'https://www.jellyfishtechnologies.com/deep-learning-explained-applications-benefits-challenges/'
+        link: 'https://www.Alpixntechnologies.com/deep-learning-explained-applications-benefits-challenges/'
     },
     {
         image: insightImg3,
         title: 'Prompt-to-Flowchart: Generating Flowcharts from Natural Language using GenAI',
-        author: 'By Jellyfish Technologies',
-        link: 'https://www.jellyfishtechnologies.com/generating-flowcharts-from-natural-language-using-genai/'
+        author: 'By Alpixn Technologies',
+        link: 'https://www.Alpixntechnologies.com/generating-flowcharts-from-natural-language-using-genai/'
     },
     {
         image: insightImg4,
         title: 'How Natural Language Processing is Transforming Industries',
         author: 'By Vivek Sadh',
-        link: 'https://www.jellyfishtechnologies.com/how-nlp-is-transforming-industries/'
+        link: 'https://www.Alpixntechnologies.com/how-nlp-is-transforming-industries/'
     },
     {
         image: insightImg5,
         title: 'Cache-Augmented Generation (CAG): A Revolutionary Alternative to RAG',
-        author: 'By Jellyfish Technologies',
-        link: 'https://www.jellyfishtechnologies.com/cag-a-revolutionary-alternative-to-rag/'
+        author: 'By Alpixn Technologies',
+        link: 'https://www.Alpixntechnologies.com/cag-a-revolutionary-alternative-to-rag/'
     },
     {
         image: insightImg6,
         title: 'Generative AI in Insurance: Use Case and Benefits',
         author: 'By Neeraj Kumar',
-        link: 'https://www.jellyfishtechnologies.com/generative-ai-in-insurance-use-case-and-benefits/'
+        link: 'https://www.Alpixntechnologies.com/generative-ai-in-insurance-use-case-and-benefits/'
     },
 ];
 
 const categoriesData = [
-  { icon: catImg1, name: 'Application Moderization', link: 'https://www.jellyfishtechnologies.com/category/application-modernization/' },
-  { icon: catImg2, name: 'Cloud', link: 'https://www.jellyfishtechnologies.com/category/cloud/' },
-  { icon: catImg3, name: 'Healthcare', link: 'https://www.jellyfishtechnologies.com/category/healthcare/' },
-  { icon: catImg4, name: 'AR & VR', link: 'https://www.jellyfishtechnologies.com/category/vr-and-ar/' },
-  { icon: catImg5, name: 'Data Analytics', link: 'https://www.jellyfishtechnologies.com/category/data-analytics/' },
-  { icon: catImg6, name: 'Insurtech', link: 'https://www.jellyfishtechnologies.com/category/insurtech/' },
-  { icon: catImg7, name: 'Artificial Intelligence', link: 'https://www.jellyfishtechnologies.com/category/artificial-intelligence/' },
-  { icon: catImg8, name: 'DevOps', link: 'https://www.jellyfishtechnologies.com/category/devops/' },
-  { icon: catImg9, name: 'IoT', link: 'https://www.jellyfishtechnologies.com/category/iot/' },
-  { icon: catImg10, name: 'Blockchain', link: 'https://www.jellyfishtechnologies.com/category/blockchain/' },
-  { icon: catImg11, name: 'Digital Transformation', link: 'https://www.jellyfishtechnologies.com/category/digital-transformation/' },
-  { icon: catImg12, name: 'Logistics', link: 'https://www.jellyfishtechnologies.com/category/logistics/' },
-  { icon: catImg13, name: 'Business Intelligence', link: 'https://www.jellyfishtechnologies.com/category/business-intelligence/' },
-  { icon: catImg14, name: 'Facility Management', link: 'https://www.jellyfishtechnologies.com/category/facility-management/' },
-  { icon: catImg15, name: 'PowerBi', link: 'https://www.jellyfishtechnologies.com/category/power-bi/' },
-  { icon: catImg16, name: 'Fintech', link: 'https://www.jellyfishtechnologies.com/category/fintech/' },
-  { icon: catImg17, name: 'Mobile App Development', link: 'https://www.jellyfishtechnologies.com/category/mobile-app-development/' },
-  { icon: catImg18, name: 'Media and Entertainment', link: 'https://www.jellyfishtechnologies.com/category/media-and-entertainment/' },
-  { icon: catImg19, name: 'News', link: 'https://www.jellyfishtechnologies.com/category/news/' },
-  { icon: catImg20, name: 'Quality Assurance', link: 'https://www.jellyfishtechnologies.com/category/quality-assurance/' },
-  { icon: catImg21, name: 'Software Development', link: 'https://www.jellyfishtechnologies.com/category/software-development/' },
-  { icon: catImg22, name: 'Software Outsourcing', link: 'https://www.jellyfishtechnologies.com/category/software-outsourcing/' },
-  { icon: catImg23, name: 'Technologies', link: 'https://www.jellyfishtechnologies.com/category/technologies/' },
-  { icon: catImg24, name: 'UI/UX', link: 'https://www.jellyfishtechnologies.com/category/ui-ux/' },
-  { icon: catImg25, name: 'Transportation and Logistics', link: 'https://www.jellyfishtechnologies.com/category/transportation-and-logistics/' },
-  { icon: catImg26, name: 'Staff Augmentation', link: 'https://www.jellyfishtechnologies.com/category/staff-augmentation/' },
-  { icon: catImg27, name: 'Uncategorized', link: 'https://www.jellyfishtechnologies.com/category/uncategorized/' },
+  { icon: catImg1, name: 'Application Moderization', link: 'https://www.Alpixntechnologies.com/category/application-modernization/' },
+  { icon: catImg2, name: 'Cloud', link: 'https://www.Alpixntechnologies.com/category/cloud/' },
+  { icon: catImg3, name: 'Healthcare', link: 'https://www.Alpixntechnologies.com/category/healthcare/' },
+  { icon: catImg4, name: 'AR & VR', link: 'https://www.Alpixntechnologies.com/category/vr-and-ar/' },
+  { icon: catImg5, name: 'Data Analytics', link: 'https://www.Alpixntechnologies.com/category/data-analytics/' },
+  { icon: catImg6, name: 'Insurtech', link: 'https://www.Alpixntechnologies.com/category/insurtech/' },
+  { icon: catImg7, name: 'Artificial Intelligence', link: 'https://www.Alpixntechnologies.com/category/artificial-intelligence/' },
+  { icon: catImg8, name: 'DevOps', link: 'https://www.Alpixntechnologies.com/category/devops/' },
+  { icon: catImg9, name: 'IoT', link: 'https://www.Alpixntechnologies.com/category/iot/' },
+  { icon: catImg10, name: 'Blockchain', link: 'https://www.Alpixntechnologies.com/category/blockchain/' },
+  { icon: catImg11, name: 'Digital Transformation', link: 'https://www.Alpixntechnologies.com/category/digital-transformation/' },
+  { icon: catImg12, name: 'Logistics', link: 'https://www.Alpixntechnologies.com/category/logistics/' },
+  { icon: catImg13, name: 'Business Intelligence', link: 'https://www.Alpixntechnologies.com/category/business-intelligence/' },
+  { icon: catImg14, name: 'Facility Management', link: 'https://www.Alpixntechnologies.com/category/facility-management/' },
+  { icon: catImg15, name: 'PowerBi', link: 'https://www.Alpixntechnologies.com/category/power-bi/' },
+  { icon: catImg16, name: 'Fintech', link: 'https://www.Alpixntechnologies.com/category/fintech/' },
+  { icon: catImg17, name: 'Mobile App Development', link: 'https://www.Alpixntechnologies.com/category/mobile-app-development/' },
+  { icon: catImg18, name: 'Media and Entertainment', link: 'https://www.Alpixntechnologies.com/category/media-and-entertainment/' },
+  { icon: catImg19, name: 'News', link: 'https://www.Alpixntechnologies.com/category/news/' },
+  { icon: catImg20, name: 'Quality Assurance', link: 'https://www.Alpixntechnologies.com/category/quality-assurance/' },
+  { icon: catImg21, name: 'Software Development', link: 'https://www.Alpixntechnologies.com/category/software-development/' },
+  { icon: catImg22, name: 'Software Outsourcing', link: 'https://www.Alpixntechnologies.com/category/software-outsourcing/' },
+  { icon: catImg23, name: 'Technologies', link: 'https://www.Alpixntechnologies.com/category/technologies/' },
+  { icon: catImg24, name: 'UI/UX', link: 'https://www.Alpixntechnologies.com/category/ui-ux/' },
+  { icon: catImg25, name: 'Transportation and Logistics', link: 'https://www.Alpixntechnologies.com/category/transportation-and-logistics/' },
+  { icon: catImg26, name: 'Staff Augmentation', link: 'https://www.Alpixntechnologies.com/category/staff-augmentation/' },
+  { icon: catImg27, name: 'Uncategorized', link: 'https://www.Alpixntechnologies.com/category/uncategorized/' },
 ];
 
 const ArticleCard = ({ article, className = '', isWide = false }) => (
@@ -339,9 +339,9 @@ const ResourcesPage = () => {
                     Read Full Article →
                 </button>
                 <div className="flex items-center gap-3">
-                    <img src={authorAvatar} alt="Jellyfish Technologies" className="w-12 h-12 rounded-full bg-gray-700" />
+                    <img src={authorAvatar} alt="Alpixn Technologies" className="w-12 h-12 rounded-full bg-gray-700" />
                     <div>
-                        <p className="font-semibold text-lg">Jellyfish Technologies</p>
+                        <p className="font-semibold text-lg">Alpixn Technologies</p>
                         <p className="text-base text-gray-400">AI Research Team</p>
                     </div>
                 </div>

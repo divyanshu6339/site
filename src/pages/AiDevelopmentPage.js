@@ -12,8 +12,8 @@ import Insights from '../components/Insights';
 const genAiServices = [
     { title: 'AI/ML Consulting Services', description: 'Our comprehensive AI and ML development services provide expert guidance, leveraging advanced algorithms and models to drive data-driven decisions. We craft customized AI strategies by understanding your business goals, analyzing your data, and deploying personalized AI solutions.', icon: 'ml-consulting-services' },
     { title: 'AI Product Development Services', description: 'As a leading AI development company in India, we develop AI products using advanced algorithms and technologies. Our expertise in both commercial and open-source environments lets you leverage preferred tools and frameworks, enabling swift AI product development.', icon: 'ai-product-development-services' },
-    { title: 'Generative AI Development Services', description: 'At Jellyfish Technologies, a top custom AI development company, we deliver generative AI services to empower your business with cutting-edge technologies and solutions. From concept to implementation, our experts build unique, AI-driven applications tailored to your needs.', icon: 'generative-ai-development-services' },
-    { title: 'Deep Learning Services', description: 'Jellyfish Technologies, an AI software development company, specializes in leveraging neural networks and advanced algorithms, crafting tailored solutions that empower predictive analytics, image and speech recognition, and natural language processing for impactful outcomes.', icon: 'deep-learning-services' },
+    { title: 'Generative AI Development Services', description: 'At Alpixn Technologies, a top custom AI development company, we deliver generative AI services to empower your business with cutting-edge technologies and solutions. From concept to implementation, our experts build unique, AI-driven applications tailored to your needs.', icon: 'generative-ai-development-services' },
+    { title: 'Deep Learning Services', description: 'Alpixn Technologies, an AI software development company, specializes in leveraging neural networks and advanced algorithms, crafting tailored solutions that empower predictive analytics, image and speech recognition, and natural language processing for impactful outcomes.', icon: 'deep-learning-services' },
     { title: 'Natural Language Processing (NLP) Services', description: 'We provide NLP services to integrate language features into your apps, bots, and IoT devices—streamlining processes and handling documents. Our understanding of NLP algorithms and AI models unlocks textual data to deliver personalized AI solutions.', icon: 'natural-language-processing-nlp-services' },
     { title: 'AI Integration & Deployment Services', description: 'Our comprehensive AI services simplify integration and deployment, enabling businesses to harness the full potential of artificial intelligence.. Acknowledging AI’s intricate implementation, we offer holistic solutions, reducing operational disruptions to support clients’ goal achievement.', icon: 'ai-integration-deployment-services' }
 ];
@@ -28,10 +28,10 @@ const tangibleResults = [
 const whyChooseUsGenAi = [
     { title: 'Extensive Experience in AI', description: 'Vast expertise in AI equips us to harness its transformative potential, enhancing efficiency, decision-making, and innovation across industries. Leveraging AI’s capabilities, we optimize processes, drive insights, and fuel unprecedented growth and advancements.' },
     { title: 'End-to-end AI Development', description: 'Our end-to-end AI software development covers the complete AI solution lifecycle, from ideation to deployment. This approach ensures tailored, efficient AI systems, optimizing operations, enabling informed decisions, and fostering innovation across industries.' },
-    { title: 'High-quality Solutions', description: 'Jellyfish Technology’s high-quality solutions ensure efficiency, reliability, and customer satisfaction. They streamline operations, foster innovation, and create a competitive edge—driving better performance, trust, and long-term success.' },
+    { title: 'High-quality Solutions', description: 'Alpixn Technology’s high-quality solutions ensure efficiency, reliability, and customer satisfaction. They streamline operations, foster innovation, and create a competitive edge—driving better performance, trust, and long-term success.' },
     { title: 'Data Security & Confidentiality', description: 'By ensuring data security and confidentiality, we safeguard sensitive information and uphold trust and compliance. It protects clients from breaches, preserves brand integrity, and fosters customer confidence—enabling innovation, smooth operations, and sustained growth.' },
     { title: 'Customized AI-ML Solutions', description: 'With customized AI-ML solutions, we offer personalized applications that adapt to specific business needs, enhancing efficiency, accuracy, and decision-making. Their benefits include improved automation, predictive insights, streamlined operations, and a competitive edge in evolving markets.' },
-    { title: 'Highly Personalized Solutions', description: 'As one of the top AI development companies, Jellyfish Technology provides highly personalized solutions through a bespoke approach—addressing specific needs and preferences to deliver optimized functionality, enhanced user experience, and greater efficiency for better outcomes.' }
+    { title: 'Highly Personalized Solutions', description: 'As one of the top AI development companies, Alpixn Technology provides highly personalized solutions through a bespoke approach—addressing specific needs and preferences to deliver optimized functionality, enhanced user experience, and greater efficiency for better outcomes.' }
 ];
 
 const industries = [
@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -177,7 +177,7 @@ const WhyChooseUsSection = () => {
             Why Choose Us for AI Development Services?
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            Jellyfish Technologies stands out as an AI development services provider due to its expertise in crafting innovative, tailored AI solutions. With a focus on cutting-edge technologies, collaborative partnerships, and a proven track record, we deliver transformative AI-driven outcomes.
+            Alpixn Technologies stands out as an AI development services provider due to its expertise in crafting innovative, tailored AI solutions. With a focus on cutting-edge technologies, collaborative partnerships, and a proven track record, we deliver transformative AI-driven outcomes.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsGenAi.map((reason, index) => (
@@ -293,7 +293,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        At Jellyfish Technologies, we provide flexible engagement models for AI development services tailored to align with your project scope, timelines, and growth goals. We scale seamlessly with your roadmap and vision.
+                        At Alpixn Technologies, we provide flexible engagement models for AI development services tailored to align with your project scope, timelines, and growth goals. We scale seamlessly with your roadmap and vision.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -360,7 +360,7 @@ const FinalCtaSection = () => {
         <section className="bg-gray-900 py-20 px-4 sm:px-6 lg:px-8">
             <div className="container mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">Speak to Our AI Development Experts</h2>
-                <p className="text-lg mb-8 max-w-3xl mx-auto text-gray-400">Partner with Jellyfish Technologies, your trusted artificial intelligence software development company, to unlock data-driven innovation.</p>
+                <p className="text-lg mb-8 max-w-3xl mx-auto text-gray-400">Partner with Alpixn Technologies, your trusted artificial intelligence software development company, to unlock data-driven innovation.</p>
                 <form className="max-w-2xl mx-auto text-left grid grid-cols-1 md:grid-cols-2 gap-4">
                     <input type="text" placeholder="Name" className="bg-gray-800 border border-gray-700 rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500" />
                     <input type="text" placeholder="Phone" className="bg-gray-800 border border-gray-700 rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-blue-500" />
@@ -460,7 +460,7 @@ const AiDevelopmentPage = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              From concept to deployment, our comprehensive AI development services harness the latest technologies to elevate your business. Considered one of the best artificial intelligence development companies in the industry, Jellyfish Technologies offers a suite of AI services.
+              From concept to deployment, our comprehensive AI development services harness the latest technologies to elevate your business. Considered one of the best artificial intelligence development companies in the industry, Alpixn Technologies offers a suite of AI services.
             </motion.p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {genAiServices.map((service, index) => (

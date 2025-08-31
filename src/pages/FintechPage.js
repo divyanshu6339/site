@@ -11,32 +11,32 @@ import Insights from '../components/Insights';
 // --- NEW AND UPDATED DATA ARRAYS ---
 const fintechServices = [
     { title: 'FinTech Software Consulting', description: 'Explore our unmatched FinTech software consulting services. Our expert consultants provide insights into niche identification, unique value propositions, optimal feature sets, architecture, UX/UI design, toolkit selection, security & compliance, and detailed implementation plans, ensuring the success of your FinTech venture.' },
-    { title: 'Custom FinTech Software Development', description: 'Jellyfish Technologies is a leading finance software development company providing custom fintech software development according to your business’s unique requirements. Our qualified engineers integrate the latest technological solutions for bespoke software development.' },
+    { title: 'Custom FinTech Software Development', description: 'Alpixn Technologies is a leading finance software development company providing custom fintech software development according to your business’s unique requirements. Our qualified engineers integrate the latest technological solutions for bespoke software development.' },
     { title: 'Accounting Information Systems', description: 'Our accounting management systems revitalize the financial processes of businesses. We are a fintech software company providing development solutions that streamline accounting processes, ensuring accuracy, compliance, and efficient financial reporting.' },
     { title: 'FinTech Mobile App Development', description: 'Transform your financial services with our FinTech mobile app development. Our expertise in crafting intuitive UI/UX designs and the latest technology integration provides innovative & secure mobile app solutions across multiple platforms—iOS & Android.' },
     { title: 'FinTech Software Modernization', description: 'Embrace FinTech software modernization to stay ahead in the rapidly evolving fintech industry. Our services revamp and upgrade your existing systems, integrating the latest technologies and providing a smooth technological transition for enhanced performance and competitiveness.' },
-    { title: 'Trading Software Development', description: 'Jellyfish Technologies is a leading finance software development company committed to providing businesses with innovative solutions. Our specialty is fintech custom software development leveraging cutting-edge technologies to enhance market analysis, execution, and automation.' }
+    { title: 'Trading Software Development', description: 'Alpixn Technologies is a leading finance software development company committed to providing businesses with innovative solutions. Our specialty is fintech custom software development leveraging cutting-edge technologies to enhance market analysis, execution, and automation.' }
 ];
 
 const scopeOfServices = [
     { number: '01', title: 'Banking App Development', description: 'Explore our banking app development services– our FinTech developers offer user-friendly banking applications. We provide fintech custom software development solutions for web and mobile banking, innovative open banking platforms, API integrations, digital asset management platforms, and online KYC, ensuring seamless operations.' },
-    { number: '02', title: 'Digital Wallet Development', description: 'Jellyfish Technologies specializes in delivering bespoke payment solutions that address unique requirements. Our services include digital wallet solutions, seamless peer-to-peer (P2P) payments, reliable digital money transfers, and innovative digital payment solutions. We incorporate a customized and innovative approach to enhance overall financial transactions.' },
-    { number: '03', title: 'Insurance Software Development', description: 'Explore Jellyfish Technologies’ insurance software development services for innovative solutions tailored to the insurance industry. From simplifying insurance underwriting, claims processing, and policy management to providing emerging insurance solutions, our developers ensure seamless integration of technology and excellence in the insurance sector.' },
+    { number: '02', title: 'Digital Wallet Development', description: 'Alpixn Technologies specializes in delivering bespoke payment solutions that address unique requirements. Our services include digital wallet solutions, seamless peer-to-peer (P2P) payments, reliable digital money transfers, and innovative digital payment solutions. We incorporate a customized and innovative approach to enhance overall financial transactions.' },
+    { number: '03', title: 'Insurance Software Development', description: 'Explore Alpixn Technologies’ insurance software development services for innovative solutions tailored to the insurance industry. From simplifying insurance underwriting, claims processing, and policy management to providing emerging insurance solutions, our developers ensure seamless integration of technology and excellence in the insurance sector.' },
     { number: '04', title: 'FinTech CRM Software Development', description: 'We specialize in delivering smart solutions that enhance customer relationship management in the fintech industry. We offer user-friendly design, feature-rich CRM platforms, seamless payment API integrations, and innovative solutions designed to optimize client interactions and enhance FinTech operations.' },
     { number: '05', title: 'Payment App Development', description: 'Redefine your financial transactions with our Payment App Development Services. Enable automated invoicing and seamless send/receive payments from diverse sources to your account. Our fintech custom software development facilitates low-cost money transfers, sales analysis, and transparency, ensuring an efficient financial ecosystem.' },
     { number: '06', title: 'FinOps Services', description: 'Optimize your financial operations with our FinOps services to upscale your businesses. Our dedicated team of fintech developers specializes in cost management, financial efficiency, and cloud governance, ensuring your business achieves optimal financial performance in the dynamic landscape of modern operations.' },
-    { number: '07', title: 'Financial Fraud Detection Software', description: 'Mitigate risks effectively with our financial fraud detection software services. We at Jellyfish Technologies integrate advanced algorithms and analytics; we provide data security & privacy solutions to identify and prevent fraudulent activities, safeguarding your financial operations with heightened security.' },
+    { number: '07', title: 'Financial Fraud Detection Software', description: 'Mitigate risks effectively with our financial fraud detection software services. We at Alpixn Technologies integrate advanced algorithms and analytics; we provide data security & privacy solutions to identify and prevent fraudulent activities, safeguarding your financial operations with heightened security.' },
     { number: '08', title: 'Wealth Management Software', description: 'Transform financial asset management with our wealth management software. Seamlessly track consumer trends, ensuring informed decision-making. Improve communication channels for enhanced client engagement, providing a sophisticated solution to optimize wealth management strategies and upgrade overall financial performance.' },
     { number: '09', title: 'Online Banking Software Development', description: 'Revolutionize your banking experience with our online banking software development. Our certified finance software engineers develop software with secure and seamless transactions, real-time account management, and enhanced data security, ensuring your customers enjoy the convenience of modern online banking.' }
 ];
 
 const whyChooseUsFintech = [
-    { title: 'Security and Regulatory Compliance', description: 'Jellyfish Technologies incorporates an emerging tech stack for security and regulatory compliance. From identity and access management to Secure Access Service Edge (SASE), and advanced AI/ML solutions, we fortify your systems. Our expertise extends to cutting-edge advanced threat detection, providing a resilient defense against evolving cybersecurity challenges.' },
-    { title: 'Dedicated Fintech Engineers', description: 'We at Jellyfish Technologies are a team of dedicated finance software engineers. We provide expert developers for a particular niche, from code to production. Our fintech developers are highly qualified to provide innovative industry solutions with knowledge of industry trends, technological advancements, and advanced data security measures with quick time-to-market solutions.' },
-    { title: 'Quality Assurance', description: 'Jellyfish Technologies ensures quality assurance in projects with constructive testing methodologies. We undertake periodic testing from development to deployment of every product, guaranteeing the reliability, functionality, and performance of your FinTech solution through comprehensive testing, ensuring a seamless and error-free user experience.' },
-    { title: 'Agile Approach', description: 'Jellyfish Technologies embraces an agile approach to dynamic and responsive software development. Our Agile methodology ensures flexibility, adaptability, and continuous collaboration, allowing us to swiftly respond to changing requirements and deliver a FinTech solution that encompasses customer satisfaction.' },
+    { title: 'Security and Regulatory Compliance', description: 'Alpixn Technologies incorporates an emerging tech stack for security and regulatory compliance. From identity and access management to Secure Access Service Edge (SASE), and advanced AI/ML solutions, we fortify your systems. Our expertise extends to cutting-edge advanced threat detection, providing a resilient defense against evolving cybersecurity challenges.' },
+    { title: 'Dedicated Fintech Engineers', description: 'We at Alpixn Technologies are a team of dedicated finance software engineers. We provide expert developers for a particular niche, from code to production. Our fintech developers are highly qualified to provide innovative industry solutions with knowledge of industry trends, technological advancements, and advanced data security measures with quick time-to-market solutions.' },
+    { title: 'Quality Assurance', description: 'Alpixn Technologies ensures quality assurance in projects with constructive testing methodologies. We undertake periodic testing from development to deployment of every product, guaranteeing the reliability, functionality, and performance of your FinTech solution through comprehensive testing, ensuring a seamless and error-free user experience.' },
+    { title: 'Agile Approach', description: 'Alpixn Technologies embraces an agile approach to dynamic and responsive software development. Our Agile methodology ensures flexibility, adaptability, and continuous collaboration, allowing us to swiftly respond to changing requirements and deliver a FinTech solution that encompasses customer satisfaction.' },
     { title: 'AI/ML Driven Solution', description: 'Experience an AI/ML-driven solution tailored to your FinTech requirements. We integrate advanced artificial intelligence and machine learning technologies, providing data-driven insights, automation, and enhanced decision-making capabilities for an intelligent and competitive financial solution.' },
-    { title: 'DevOps Approach', description: 'We at Jellyfish Technologies offer a DevOps approach for streamlined development and deployment. Our DevOps practices ensure a seamless and efficient workflow, enabling faster releases, continuous integration, and collaborative development, ultimately optimizing the entire lifecycle of your FinTech software.' }
+    { title: 'DevOps Approach', description: 'We at Alpixn Technologies offer a DevOps approach for streamlined development and deployment. Our DevOps practices ensure a seamless and efficient workflow, enabling faster releases, continuous integration, and collaborative development, ultimately optimizing the entire lifecycle of your FinTech software.' }
 ];
 
 const clutchTestimonials = [
@@ -51,23 +51,23 @@ const clutchTestimonials = [
 const engagementModelsFintech = [
     {
         title: 'Offshore Development',
-        description: 'Jellyfish Technologies’ offshore engagement model functions as an Offshore Development Center (ODC), delivering a tailored approach. This specialized center works exclusively on the client’s project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, and high-quality standards.',
+        description: 'Alpixn Technologies’ offshore engagement model functions as an Offshore Development Center (ODC), delivering a tailored approach. This specialized center works exclusively on the client’s project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, and high-quality standards.',
         points: ['Client-Centric Team Formation', 'Direct Reporting And Transparency', 'Scalability And Flexibility', 'Quality And Efficiency']
     },
     {
         title: 'Dedicated Team Model',
-        description: 'Jellyfish Technologies offers a dedicated team approach, bolstering a client’s in-house team with specialized skills, fostering collaboration, and optimizing project results. Ideal for companies aiming to enhance their workforce with specific expertise for better project outcomes.',
+        description: 'Alpixn Technologies offers a dedicated team approach, bolstering a client’s in-house team with specialized skills, fostering collaboration, and optimizing project results. Ideal for companies aiming to enhance their workforce with specific expertise for better project outcomes.',
         points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication']
     },
     {
         title: 'Project-Based',
-        description: 'Jellyfish Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery meeting quality standards, and fostering collaboration for successful outcomes.',
+        description: 'Alpixn Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery meeting quality standards, and fostering collaboration for successful outcomes.',
         points: ['Fixed Budget', 'Milestones & Deliverables', 'Resource Allocation', 'Risk Mitigation']
     },
 ];
 
 const faqsFintech = [
-    { q: 'What sets a Fintech Application Development Company apart?', a: 'A leading Fintech Application Development Company combines expertise in financial software development with a focus on innovation, delivering cutting-edge solutions for the dynamic needs of the industry. Jellyfish Technologies is among the leading financial software development companies with its dynamic banking software development services and user-centric approach.' },
+    { q: 'What sets a Fintech Application Development Company apart?', a: 'A leading Fintech Application Development Company combines expertise in financial software development with a focus on innovation, delivering cutting-edge solutions for the dynamic needs of the industry. Alpixn Technologies is among the leading financial software development companies with its dynamic banking software development services and user-centric approach.' },
     { q: "What are your team's qualifications and expertise in FinTech development?", a: "Our team consists of dedicated finance software engineers with deep expertise in industry trends, technological advancements, and advanced data security measures. We are skilled in emerging technologies like AI/ML, IoT, and DevOps, ensuring we deliver innovative and compliant FinTech solutions. Our focus is on providing quick time-to-market solutions, from code to production." },
     { q: 'What are your rates and fees for FinTech software development?', a: "Our rates are tailored to the specific needs of each project. Pricing depends on factors such as the project's scope and complexity, the engagement model you choose (Offshore, Dedicated Team, or Project-Based), and the specific expertise required. We recommend connecting with our experts for a detailed estimate and a custom quote based on your unique requirements." }
 ];
@@ -109,7 +109,7 @@ const userGuideContent = {
         ]
     },
     'Key FinTech Software/Products Types We Have Worked On': {
-        intro: "With a twelve-year history of success in the field of software development. Throughout the fintech industry, Jellyfish Technologies has delivered several projects. Let us examine a few areas of our expertise:",
+        intro: "With a twelve-year history of success in the field of software development. Throughout the fintech industry, Alpixn Technologies has delivered several projects. Let us examine a few areas of our expertise:",
         points: [
             { title: 'Mobile Banking Apps', text: 'Crafted user-friendly mobile banking applications, providing customers with convenient access to financial services on the go.' },
             { title: 'Payment Processing Platforms', text: 'Developed secure and efficient payment processing solutions, facilitating seamless transactions and digital payment methods.' },
@@ -200,10 +200,10 @@ const WhyChooseUsSection = () => {
     <div ref={ref} className="py-24 bg-black">
       <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
         <h2 className={`text-4xl md:text-5xl font-bold mb-4 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            Why Choose Jellyfish Technologies as a Fintech Software Development Company?
+            Why Choose Alpixn Technologies as a Fintech Software Development Company?
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            Prioritize Jellyfish Technologies as your FinTech software company for cutting-edge banking solutions. Our expertise lies in delivering innovative financial technology products, ensuring data security, and seamless payment API integration. We transform your financial operations and drive sustainable growth in the dynamic FinTech landscape.
+            Prioritize Alpixn Technologies as your FinTech software company for cutting-edge banking solutions. Our expertise lies in delivering innovative financial technology products, ensuring data security, and seamless payment API integration. We transform your financial operations and drive sustainable growth in the dynamic FinTech landscape.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsFintech.map((reason, index) => (
@@ -276,7 +276,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Model</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        The engagement model for mobile app development services involves a collaborative approach tailored to client needs. Take a look at Jellyfish Technologies’ engagement model for mobile app development.
+                        The engagement model for mobile app development services involves a collaborative approach tailored to client needs. Take a look at Alpixn Technologies’ engagement model for mobile app development.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -442,7 +442,7 @@ const FintechPage = () => {
                 >
                     <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">FinTech Software Development Company</h1>
                     <p className="text-lg md:text-xl mb-6">
-                        Jellyfish Technologies is a leading FinTech software development company, specializing in crafting innovative solutions for the financial industry. With expertise in the latest technologies and a commitment to excellence, we deliver bespoke FinTech software that empowers businesses to thrive in the digital financial landscape.
+                        Alpixn Technologies is a leading FinTech software development company, specializing in crafting innovative solutions for the financial industry. With expertise in the latest technologies and a commitment to excellence, we deliver bespoke FinTech software that empowers businesses to thrive in the digital financial landscape.
                     </p>
                     <motion.button
                         className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"
@@ -485,7 +485,7 @@ const FintechPage = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Explore our advanced FinTech software development services at Jellyfish Technologies. We offer unparalleled services like E-Wallet Integration, Mobile Banking Applications, Artificial Intelligence in Finance, and many more tailored to businesses’ unique requirements in the financial technology sector.
+              Explore our advanced FinTech software development services at Alpixn Technologies. We offer unparalleled services like E-Wallet Integration, Mobile Banking Applications, Artificial Intelligence in Finance, and many more tailored to businesses’ unique requirements in the financial technology sector.
             </motion.p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {fintechServices.map((service, index) => (

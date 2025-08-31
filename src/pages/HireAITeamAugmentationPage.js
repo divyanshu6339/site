@@ -28,16 +28,16 @@ const aiTechStack = ['Tensorflow', 'Streamlit', 'RAY', 'PyTorch', 'ONNX', 'MLflo
 
 const clientTestimonials = [
     { author: 'James Anderson', company: 'Co-Founder, Shootzu', text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment. About 1,200 users are registered to the platform, and the app is fully-functioning. The team added value with their responsiveness and efficiency." },
-    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Jellyfish provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
-    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Jellyfish Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
-    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Jellyfish Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
-    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Jellyfish Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
+    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Alpixn provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
+    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Alpixn Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
+    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Alpixn Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
+    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Alpixn Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
 ];
 
 const aiAugmentationSolutions = [
     { title: 'AI-Augmented Staffing Solutions', description: 'Our AI-augmented staffing solutions bridge your talent gap with specialists who deliver innovation, scalability, and on-demand expertise.' },
     { title: 'API Integrations with AI Services', description: 'We integrate AI APIs into your systems, unlocking smart features without overhauling your existing infrastructure or workflows.' },
-    { title: 'Custom Solutions', description: 'At Jellyfish Technologies, we tailor AI-powered solutions by augmenting your IT teams with skilled engineers and scalable engagement models.' },
+    { title: 'Custom Solutions', description: 'At Alpixn Technologies, we tailor AI-powered solutions by augmenting your IT teams with skilled engineers and scalable engagement models.' },
     { title: 'Managed AI Services', description: 'We manage your AI initiatives end-to-end, offering seamless delivery, continuous improvement, and reduced operational complexity at scale.' },
     { title: 'AI-Generated Code Reviews', description: 'Our dedicated AI developers audit generated code for logic flaws, ensuring clean, secure, and production-ready software every time.' },
     { title: 'API Integration', description: 'We seamlessly connect external AI APIs with your applications—boosting automation, responsiveness, and operational efficiency in real time.' },
@@ -245,29 +245,29 @@ const FeaturedCaseStudyAIAugmentation = () => {
     const caseStudies = {
         'AI Chatbot': {
             tech: 'Python | LangChain',
-            title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-            description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+            title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+            description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
             points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
             link: 'Explore IT & SaaS Services'
         },
         'AI Document Intelligence': {
             tech: 'NLP | OCR | Python',
-            title: 'Jellyfish Technologies Transforms Medicaid Verification for a Leading Community Care Provider with AI Document Intelligence',
-            description: 'Jellyfish Technologies built an AI-powered document intelligence system for a leading community care provider, using NLP, OCR, and machine learning to automate validation, enhance accuracy, and streamline Medicaid approvals while reducing errors and fraud.',
+            title: 'Alpixn Technologies Transforms Medicaid Verification for a Leading Community Care Provider with AI Document Intelligence',
+            description: 'Alpixn Technologies built an AI-powered document intelligence system for a leading community care provider, using NLP, OCR, and machine learning to automate validation, enhance accuracy, and streamline Medicaid approvals while reducing errors and fraud.',
             points: ['Intelligent Data Extraction & Validation', 'Automated Cross-Document Analysis', 'Real-Time Processing & Fraud Detection', 'Scalable & Secure Infrastructure'],
             link: 'Explore Healthcare Services'
         },
         'AI Entity Extraction System': {
             tech: 'Gen AI | Neo4J | OCR',
-            title: 'AI-Driven Entity Extraction System by Jellyfish Technologies Transforms Document Processing for a Leading InsurTech Firm',
-            description: 'Jellyfish Technologies partnered with a top InsurTech firm to build an AI-powered entity extraction system. Using AI models, OCR, and GraphDB, the solution seamlessly automates document verification, reduces manual effort, and enables real-time data extraction.',
+            title: 'AI-Driven Entity Extraction System by Alpixn Technologies Transforms Document Processing for a Leading InsurTech Firm',
+            description: 'Alpixn Technologies partnered with a top InsurTech firm to build an AI-powered entity extraction system. Using AI models, OCR, and GraphDB, the solution seamlessly automates document verification, reduces manual effort, and enables real-time data extraction.',
             points: ['AI-Driven Data Extraction & Validation', 'Integrated RAG models and LLMs for smart responses', 'Enabled real-time user analytics and performance tracking', 'Seamless integration with enterprise systems'],
             link: 'Explore Insurtech Services'
         },
         'AI Obstacle & Track Monitoring System': {
             tech: 'OPENCV | ONNX',
             title: 'AI-based obstacle detection and track monitoring system enhanced safety for a top North American railway contractor.',
-            description: 'Jellyfish Technologies built an AI-powered track monitoring system using computer vision and edge computing. It detects obstacles, identifies faults, reduces manual inspections, and enables proactive maintenance with real-time processing and seamless integration.',
+            description: 'Alpixn Technologies built an AI-powered track monitoring system using computer vision and edge computing. It detects obstacles, identifies faults, reduces manual inspections, and enables proactive maintenance with real-time processing and seamless integration.',
             points: ['Real-Time Obstacle & Fault Detection', 'Automated Monitoring & Proactive Alerts', 'Edge Computing for Fast Processing', 'Integrated Dashboard for Easy Access'],
             link: 'Explore Transportation Services'
         }
@@ -280,7 +280,7 @@ const FeaturedCaseStudyAIAugmentation = () => {
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-5xl font-bold">Case Studies: Solving Business Challenges with AI Team Support</h2>
                     <p className="mt-4 text-lg text-gray-400 max-w-4xl mx-auto">
-                        Jellyfish Technologies empowers businesses to unlock AI’s true potential by embedding generative AI experts directly into their teams. With deep technical know-how and strategic foresight, our specialists co-develop intelligent, future-focused solutions tailored to your operational needs.
+                        Alpixn Technologies empowers businesses to unlock AI’s true potential by embedding generative AI experts directly into their teams. With deep technical know-how and strategic foresight, our specialists co-develop intelligent, future-focused solutions tailored to your operational needs.
                     </p>
                 </div>
                 <div className="flex justify-center mb-8 border-b border-gray-700">
@@ -397,7 +397,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Our Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        At Jellyfish Technologies, we offer flexible engagement models to help you hire AI experts tailored to your unique needs, whether scaling teams, launching AI initiatives, or building custom solutions within your timeline and budget.
+                        At Alpixn Technologies, we offer flexible engagement models to help you hire AI experts tailored to your unique needs, whether scaling teams, launching AI initiatives, or building custom solutions within your timeline and budget.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

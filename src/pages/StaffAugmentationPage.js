@@ -15,7 +15,7 @@ const caseStudies = [
     logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/FMIntegrated-logo.svg', 
     image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/FM-Integrated-768x768.webp', 
     title: 'Unify All FM Operations On A Single Platform To Enhance Efficiency And Cut Costs.', 
-    description: 'Integrated FM Group, a leading facility management provider, collaborated with Jellyfish Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.', 
+    description: 'Integrated FM Group, a leading facility management provider, collaborated with Alpixn Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.', 
     points: ['Analyzed client\'s operations and FM trends, and followed a structured dev process.', 'The work order and management feature was added to create, assign, and track.', 'Conducted constructive user testing sessions during the development phase.', 'Enhanced facility managers to oversee service providers and suppliers.'], 
     tags: ['US', 'REACT', 'FACILITY MANAGEMENT'] 
   },
@@ -24,7 +24,7 @@ const caseStudies = [
     logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patra-corp.svg', 
     image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/PatraCorp-768x768.webp', 
     title: 'Empowers Brokers and Integrates With Top US Insurers For Swift Certificate Issuance And Optimal Premium Quotes.', 
-    description: 'Patra Corporation partnered with Jellyfish Technologies to develop a secure, web-based payment automation solution.', 
+    description: 'Patra Corporation partnered with Alpixn Technologies to develop a secure, web-based payment automation solution.', 
     points: ['API integration module with configuration capabilities.', 'The integration module has robust authorization systems.', 'XML transports diverse data formats efficiently.', 'Underwriting questions for comprehensive risk assessment.'], 
     tags: ['US', 'NODE.JS', 'SAILS', 'INSURTECH'] 
   },
@@ -33,7 +33,7 @@ const caseStudies = [
     logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg', 
     image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/Patronum-768x768.webp', 
     title: 'A SaaS Solution to Streamline Google Workspace User Management, Automating Tasks for Efficiency.', 
-    description: 'Jellyfish Technologies facilitated the launch of Patronum (Bespin Labs). The developed platform streamlines Google Workspace tasks.', 
+    description: 'Alpixn Technologies facilitated the launch of Patronum (Bespin Labs). The developed platform streamlines Google Workspace tasks.', 
     points: ['Code optimized for seamless handling of complex operations.', 'Real-time updates for unstructured data management.', 'Integrated Google API, enhancing product functionality.', 'Automated provisioning and de-provisioning workflows.'], 
     tags: ['US', 'JS', 'GOLANG', 'IT'] 
   },
@@ -42,7 +42,7 @@ const caseStudies = [
     logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/heffernan.svg', 
     image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/Heffernan-768x768.webp', 
     title: 'Develop An Internal Insurance App For Daily Storage Of Client\'s Private Data By Employees.', 
-    description: 'Heffernan, a leading US insurance brokerage, partnered with Jellyfish Technologies to develop a secure internal application.', 
+    description: 'Heffernan, a leading US insurance brokerage, partnered with Alpixn Technologies to develop a secure internal application.', 
     points: ['With planning & research, evaluated app requirements thoroughly.', 'Top-notch user experience drove the design process.', 'Developed a responsive UI with full accessibility features.', 'App creates reports in CSV/PDF formats efficiently.'], 
     tags: ['US', 'JAVA-SPRING BOOT', 'INSURTECH'] 
   },
@@ -51,7 +51,7 @@ const caseStudies = [
     logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/149.svg', 
     image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/Builder-Digital-768x768.webp', 
     title: 'Visual Solutions For Builders/Homebuyers And Provides Weekly Build Progress Reports Via Photos.', 
-    description: 'Jellyfish Technologies collaborated with Builder Digital Solutions to create and deliver various visual marketing solutions.', 
+    description: 'Alpixn Technologies collaborated with Builder Digital Solutions to create and deliver various visual marketing solutions.', 
     points: ['Improved UI with enhanced design patterns.', 'Identified key features for mobile and web applications.', '24/7 maintenance & support for uninterrupted service.', 'We addressed bugs, refining existing features continuously.'], 
     tags: ['US', 'IONIC-ANGULAR', 'PROPTECH'] 
   }
@@ -59,7 +59,7 @@ const caseStudies = [
 
 const expertiseAreas = [
   { num: '01', title: 'Software Developers', description: 'As a renowned technical staffing augmentation company, we provide skilled software professionals who specialize in software development. Our certified software developers prioritize stability and scalability, seamlessly incorporating the latest technologies to boost the productivity of businesses.' },
-  { num: '02', title: 'eCommerce Developers', description: 'We at Jellyfish Technologies understand the potential of every business. We provide a distinctively dedicated team of eCommerce developers to propel your business forward with our technical IT augmentation services. Our skilled team masters offer seamless UX, responsive design, and secure transactions that drive growth and enhance customer satisfaction.' },
+  { num: '02', title: 'eCommerce Developers', description: 'We at Alpixn Technologies understand the potential of every business. We provide a distinctively dedicated team of eCommerce developers to propel your business forward with our technical IT augmentation services. Our skilled team masters offer seamless UX, responsive design, and secure transactions that drive growth and enhance customer satisfaction.' },
   { num: '03', title: 'Web Developers', description: 'We are a team of qualified professionals providing dedicated developers for your web development projects. Our skilled web developers integrate trending technologies such as React, Angular, Vue.js, Node.js, and Django to take your project beyond excellence and enhance the user experience.' },
   { num: '04', title: 'Mobile App Developers', description: 'Our skilled mobile app developers excel in crafting and maintaining applications across diverse industries—fintech, insurtech, proptech, healthcare, and more. Proficient in mobile app development, our qualified developers seamlessly integrate cutting-edge technologies such as Flutter, React Native, and SwiftUI, ensuring innovative and robust solutions for your specific industry needs.' },
   { num: '05', title: 'DevOps Engineers', description: 'Our qualified DevOps engineers are dedicated to optimizing your development and operations processes. With expertise in automation, continuous integration, and deployment, they streamline workflows and enhance collaboration. With expertise in tools like Git, Jenkins, Docker, Slack, etc., our team ensures your software development lifecycle runs seamlessly from code to production.' },
@@ -70,12 +70,12 @@ const expertiseAreas = [
 ];
 
 const whyChooseUsFeatures = [
-  { title: 'Diverse Agile Team', description: 'We at Jellyfish Technologies provide certified individuals with different backgrounds, experiences, and perspectives through our IT augmentation services, bringing together a spectrum of skills toward a common goal using agile methodologies. This ensures innovative problem-solving, increased adaptability & resilience, and the ability to tailor solutions to the project\'s unique needs.' },
-  { title: 'Cost-Effective Services', description: 'Jellyfish Technologies prioritizes cost efficiency, offering services that maximize value for your investment. Our streamlined processes and strategic resource allocation ensure you receive high-quality IT staff augmentation without compromising your budget, fostering a mutually beneficial partnership for success.' },
-  { title: 'High Quality & Flexibility', description: 'Jellyfish Technologies offers a perfect blend of high-quality solutions and unparalleled flexibility. Our commitment to excellence ensures that every project performs beyond expectations. Our flexible approach ensures your project meets its requirements, enhancing success in dynamic business environments.' },
-  { title: 'Experienced Software Engineers', description: 'Opt for Jellyfish Technologies to access a team of certified software engineers. Our professionals bring years of expertise to the project, ensuring a depth of knowledge, precision in code to production, and the latest technology integration that accelerates project success.' },
-  { title: '24*7 Dedicated Support', description: 'Jellyfish Technologies stands out with round-the-clock dedicated support. We prioritize your success by providing regular assistance, ensuring that your IT operations run seamlessly at any hour. Our team is ready to address your concerns promptly and keep your projects on track.' },
-  { title: 'Immediate Joining', description: 'Jellyfish Technologies offers immediate resource augmentation services integrated with prominent IT staffing augmentation services. Our streamlined onboarding process ensures swift and efficient placements, allowing you to address urgent project needs promptly. Choose us for a quick response to your staffing requirements and accelerated project timelines.' },
+  { title: 'Diverse Agile Team', description: 'We at Alpixn Technologies provide certified individuals with different backgrounds, experiences, and perspectives through our IT augmentation services, bringing together a spectrum of skills toward a common goal using agile methodologies. This ensures innovative problem-solving, increased adaptability & resilience, and the ability to tailor solutions to the project\'s unique needs.' },
+  { title: 'Cost-Effective Services', description: 'Alpixn Technologies prioritizes cost efficiency, offering services that maximize value for your investment. Our streamlined processes and strategic resource allocation ensure you receive high-quality IT staff augmentation without compromising your budget, fostering a mutually beneficial partnership for success.' },
+  { title: 'High Quality & Flexibility', description: 'Alpixn Technologies offers a perfect blend of high-quality solutions and unparalleled flexibility. Our commitment to excellence ensures that every project performs beyond expectations. Our flexible approach ensures your project meets its requirements, enhancing success in dynamic business environments.' },
+  { title: 'Experienced Software Engineers', description: 'Opt for Alpixn Technologies to access a team of certified software engineers. Our professionals bring years of expertise to the project, ensuring a depth of knowledge, precision in code to production, and the latest technology integration that accelerates project success.' },
+  { title: '24*7 Dedicated Support', description: 'Alpixn Technologies stands out with round-the-clock dedicated support. We prioritize your success by providing regular assistance, ensuring that your IT operations run seamlessly at any hour. Our team is ready to address your concerns promptly and keep your projects on track.' },
+  { title: 'Immediate Joining', description: 'Alpixn Technologies offers immediate resource augmentation services integrated with prominent IT staffing augmentation services. Our streamlined onboarding process ensures swift and efficient placements, allowing you to address urgent project needs promptly. Choose us for a quick response to your staffing requirements and accelerated project timelines.' },
 ];
 
 
@@ -161,7 +161,7 @@ const ExpertiseSection = () => {
             The Right Software Expert To Scale Your In-House IT Development Team
           </h2>
           <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            Discover the perfect software experts to scale your in-house development team with precision. Leverage our certified developers at Jellyfish Technologies for seamless integration, enhanced efficiency, and accelerated project growth. Boost your development capabilities with the right qualified talent, aligned to your expectations.
+            Discover the perfect software experts to scale your in-house development team with precision. Leverage our certified developers at Alpixn Technologies for seamless integration, enhanced efficiency, and accelerated project growth. Boost your development capabilities with the right qualified talent, aligned to your expectations.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -188,7 +188,7 @@ const WhyChooseUsSection = () => {
     <div ref={ref} className="py-24 bg-black">
       <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
         <h2 className={`text-4xl md:text-5xl font-bold mb-4 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-          Why Choose Jellyfish Technologies As Your IT Staff Augmentation Company?
+          Why Choose Alpixn Technologies As Your IT Staff Augmentation Company?
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
           We provide certified, highly skilled IT resources who are equipped with the excellence of tailored precision and innovation, allowing you to strengthen your business's technological foundation and keep up with evolving trends. Let's find out more about our key performance metrics:
@@ -373,18 +373,18 @@ const EngagementModelsSection = () => {
     const models = [
         {
             title: 'Dedicated Team',
-            description: 'Jellyfish Technologies’ dedicated team model functions as an Offshore Development Center (ODC), delivering a tailored approach. ',
+            description: 'Alpixn Technologies’ dedicated team model functions as an Offshore Development Center (ODC), delivering a tailored approach. ',
             
             points: ['Client-Centric Approach ', 'Direct Reporting and Transparency', 'Scalability and Flexibility', 'Quality and Efficiency']
         },
         {
             title: 'Team Augmentation',
-            description: 'Jellyfish Technologies offers a staff augmentation approach, bolstering a client’s in-house team with specialized skills, fostering collaboration, and optimizing project results. ',
+            description: 'Alpixn Technologies offers a staff augmentation approach, bolstering a client’s in-house team with specialized skills, fostering collaboration, and optimizing project results. ',
             points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication']
         },
         {
             title: 'Project-Based',
-            description: 'Jellyfish Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. ',
+            description: 'Alpixn Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. ',
             points: ['Fixed Budget', 'Milestones and Deliverables', 'Resource Allocation', 'Risk Mitigation']
         },
     ];
@@ -395,7 +395,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-2xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers versatile engagement models for staff augmentation services, providing tailored solutions to meet diverse client needs. Let’s explore these engagement models:
+                        Alpixn Technologies offers versatile engagement models for staff augmentation services, providing tailored solutions to meet diverse client needs. Let’s explore these engagement models:
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -443,15 +443,15 @@ const StaffAugmentationPage = () => {
   const services = [
     {
       title: 'Staff Augmentation',
-      description: 'At Jellyfish Technologies, we augment your tech department with our certified resources, bringing the expertise you need. Build your custom development team with our varied skill set to convert your potential business goals quickly and more cost-effectively.',
+      description: 'At Alpixn Technologies, we augment your tech department with our certified resources, bringing the expertise you need. Build your custom development team with our varied skill set to convert your potential business goals quickly and more cost-effectively.',
     },
     {
       title: 'IT Outstaffing Consulting',
-      description: 'We provide expert consulting on hiring options. We at Jellyfish Technologies assist in selecting the finest technology personnel, ensuring you acquire the specific tech staff required for your project from our extensive pool of IT experts. We convert your potential business goals faster and more cost-effectively with our cutting-edge solutions.',
+      description: 'We provide expert consulting on hiring options. We at Alpixn Technologies assist in selecting the finest technology personnel, ensuring you acquire the specific tech staff required for your project from our extensive pool of IT experts. We convert your potential business goals faster and more cost-effectively with our cutting-edge solutions.',
     },
     {
       title: 'Dedicated IT Specialists',
-      description: 'At Jellyfish Technologies, our focus lies on delivering dedicated teams tailored to specific project development needs like software development, mobile app development, DevOps Services, API Integration, etc. Our IT professionals embody a high caliber of expertise in the latest technological advancements.',
+      description: 'At Alpixn Technologies, our focus lies on delivering dedicated teams tailored to specific project development needs like software development, mobile app development, DevOps Services, API Integration, etc. Our IT professionals embody a high caliber of expertise in the latest technological advancements.',
     },
     {
       title: 'Remote Managed Services',
@@ -487,7 +487,7 @@ const StaffAugmentationPage = () => {
             >
               <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">IT Staff Augmentation Services</h1>
               <p className="text-lg md:text-xl mb-6">
-                At Jellyfish Technologies, we understand that every business is unique, and your technical needs are as distinctive as your goals. Add certified IT staff to your team, such as software developers, business analysts, scrum masters, and QA specialists. Boost your project's progress and scale up with our IT team augmentation services.
+                At Alpixn Technologies, we understand that every business is unique, and your technical needs are as distinctive as your goals. Add certified IT staff to your team, such as software developers, business analysts, scrum masters, and QA specialists. Boost your project's progress and scale up with our IT team augmentation services.
               </p>
               <motion.button
                 className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"
@@ -529,7 +529,7 @@ const StaffAugmentationPage = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              We at Jellyfish Technologies offer extended IT staff augmentation services and provide on-demand skills and resources for the scalability of your project. Following is the list of services we offer under the IT resource augmentation process:
+              We at Alpixn Technologies offer extended IT staff augmentation services and provide on-demand skills and resources for the scalability of your project. Following is the list of services we offer under the IT resource augmentation process:
             </motion.p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (

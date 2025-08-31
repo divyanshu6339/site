@@ -17,7 +17,7 @@ const APIIntegrationPage = () => {
   const services = [
     {
       title: 'Custom API Development',
-      description: 'We provide custom API development for desktop, mobile, and cloud apps, Web Sockets, Service-Oriented Architectures (SOA), firmware/middleware, browsers, databases, and operating systems. At Jellyfish Technologies, we offer support at each stage of creating an API for your product, from research and design to performance optimization.',
+      description: 'We provide custom API development for desktop, mobile, and cloud apps, Web Sockets, Service-Oriented Architectures (SOA), firmware/middleware, browsers, databases, and operating systems. At Alpixn Technologies, we offer support at each stage of creating an API for your product, from research and design to performance optimization.',
     },
     {
       title: 'Third-party API Integrations',
@@ -25,7 +25,7 @@ const APIIntegrationPage = () => {
     },
     {
       title: 'API Consulting Services',
-      description: 'Jellyfish Technologies is among the leading API development companies, providing customized API solutions. Our API consulting services guide you from initial concept to long-term management, ensuring effective planning and revenue maximization. Rely on our qualified team for advanced development and integration support throughout the API cycle.',
+      description: 'Alpixn Technologies is among the leading API development companies, providing customized API solutions. Our API consulting services guide you from initial concept to long-term management, ensuring effective planning and revenue maximization. Rely on our qualified team for advanced development and integration support throughout the API cycle.',
     },
     {
       title: 'API Automation',
@@ -33,7 +33,7 @@ const APIIntegrationPage = () => {
     },
     {
       title: 'API Configuration',
-      description: 'Our API configuration services provide end-to-end solutions to optimize API setups. Jellyfish Technologies specializes in configuring APIs for seamless integration, ensuring compatibility, security, and optimal performance. Our skilled developers automate tasks that your project requires, frequently or in large batches.',
+      description: 'Our API configuration services provide end-to-end solutions to optimize API setups. Alpixn Technologies specializes in configuring APIs for seamless integration, ensuring compatibility, security, and optimal performance. Our skilled developers automate tasks that your project requires, frequently or in large batches.',
     },
     {
       title: 'API Support and Maintenance',
@@ -61,7 +61,7 @@ const APIIntegrationPage = () => {
             >
               <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">API Integration Services</h1>
               <p className="text-lg md:text-xl mb-6">
-                At Jellyfish Technologies we streamline your business with custom API development services across multiple platforms—iOS/Android/web app. Our certified developers use different API authentication methods, including basic OAuth, OAuth1, OAuth2, JSON Web Token (JWT), SAML, and many more. Our IT services drive modernization, ensuring a synchronized and streamlined digital ecosystem.
+                At Alpixn Technologies we streamline your business with custom API development services across multiple platforms—iOS/Android/web app. Our certified developers use different API authentication methods, including basic OAuth, OAuth1, OAuth2, JSON Web Token (JWT), SAML, and many more. Our IT services drive modernization, ensuring a synchronized and streamlined digital ecosystem.
               </p>
               <motion.button
                 className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"
@@ -103,7 +103,7 @@ const APIIntegrationPage = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Jellyfish Technologies is a premier API development company specializing in API development and integration. We are the finest API integration company, providing top-tier quality services such as API development, consulting, and many more that will enhance your project's success.
+              Alpixn Technologies is a premier API development company specializing in API development and integration. We are the finest API integration company, providing top-tier quality services such as API development, consulting, and many more that will enhance your project's success.
             </motion.p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (

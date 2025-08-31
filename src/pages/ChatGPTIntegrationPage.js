@@ -13,7 +13,7 @@ const chatGptServices = [
     { title: 'ChatGPT Consulting', description: 'We help businesses identify potential high-impact use cases, define integration strategies, and ensure successful deployment. Through expert ChatGPT consulting services, we make AI adoption uncomplicated, scalable, and aligned with actual business goals.', icon: 'chatgpt-consulting' },
     { title: 'GPT App Development', description: 'Our developers build secure, scalable GPT-powered applications tailored to your business objectives, streamlining user interaction, automating services, and delivering intelligent, real-time experiences that boost engagement and operational efficiency.', icon: 'gpt-app-development' },
     { title: 'ChatGPT API Integration', description: 'We integrate ChatGPT into your systems via secure APIs, automating communication, improving responsiveness, and facilitating seamless, intelligent interactions within your current platforms, CRMs, ERPs, or customer service tools and workflows.', icon: 'chatgpt-api-integration' },
-    { title: 'Custom ChatGPT Development', description: 'At Jellyfish Technologies, we develop AI solutions tailored for your business—automating workflows, enhancing user experiences, and tackling complex challenges with custom ChatGPT integration aligned with your objectives and infrastructure.', icon: 'custom-chatgpt-development' },
+    { title: 'Custom ChatGPT Development', description: 'At Alpixn Technologies, we develop AI solutions tailored for your business—automating workflows, enhancing user experiences, and tackling complex challenges with custom ChatGPT integration aligned with your objectives and infrastructure.', icon: 'custom-chatgpt-development' },
     { title: 'Chatbot Integration', description: 'We deploy advanced, contextually aware AI chatbots that deliver 24/7 support, reduce ticket volumes, and significantly improve user satisfaction, revolutionizing how your business engages customers, automates workflows, and addresses repetitive mundane tasks.', icon: 'chatbot-integration' },
     { title: 'Voice Assistant Integration', description: 'Our team integrates voice-enabled assistants using ChatGPT, enabling hands-free, natural conversations that streamline tasks, improve accessibility, and enhance the customer experience across mobile apps, web platforms, and enterprise systems.', icon: 'voice-assistant-integration' }
 ];
@@ -22,11 +22,11 @@ const chatGptBenefits = [
     { title: 'Seamless System Integration', description: 'Our ChatGPT integration services seamlessly integrate with your existing systems, such as CRM, ERP, or helpdesk, to foster unified, AI-driven workflows without disrupting your current operations. We provide smooth deployments with trusted chatbot integration and scalable AI integration services.', icon: 'seamless-system-integration' },
     { title: 'Real-Time Data Insights', description: 'With custom ChatGPT integration services, businesses gain instant access to user behavior, intent, and feedback. This enables better decision-making, continuous optimization, and more intelligent automation through context-driven AI chatbot development services.', icon: 'real-time-data-insights' },
     { title: 'Reduced Operational Workloads', description: 'ChatGPT development services automate repetitive queries and manual tasks, liberating your team for more strategic initiatives. Our ChatGPT business integration services reduce costs, increase efficiency, and boost service quality at scale.', icon: 'reduced-operational-workloads' },
-    { title: 'Streamlined Internal Workflows', description: 'Using ChatGPT AI integration, we streamline internal processes like ticket routing, scheduling, and employee onboarding. Jellyfish Technologies’ chatGPT consulting services build efficient internal systems that drive productivity and reduce friction across departments.', icon: 'streamlined-internal-workflows' }
+    { title: 'Streamlined Internal Workflows', description: 'Using ChatGPT AI integration, we streamline internal processes like ticket routing, scheduling, and employee onboarding. Alpixn Technologies’ chatGPT consulting services build efficient internal systems that drive productivity and reduce friction across departments.', icon: 'streamlined-internal-workflows' }
 ];
 
 const whyChooseUsChatGpt = [
-    { title: 'Expertise in ChatGPT Integration', description: 'Jellyfish Technologies brings expertise in delivering ChatGPT integration services that are scalable, secure, and aligned with your objectives. This enables enterprise-ready chatbot integration that transforms user experience and workflow efficiency.', icon: 'expertise-in-chatgpt-integration' },
+    { title: 'Expertise in ChatGPT Integration', description: 'Alpixn Technologies brings expertise in delivering ChatGPT integration services that are scalable, secure, and aligned with your objectives. This enables enterprise-ready chatbot integration that transforms user experience and workflow efficiency.', icon: 'expertise-in-chatgpt-integration' },
     { title: 'Certified AI Development Team', description: 'Our certified team specializes in ChatGPT development services and AI integration services. We enable businesses to deploy robust, high-impact solutions by combining technical precision with real-world domain knowledge.', icon: 'certified-ai-development-team' },
     { title: 'Secure, Compliant Deployments', description: 'We ensure that every ChatGPT API integration meets enterprise security standards, data privacy regulations, and industry compliance, making us a reliable partner for businesses requiring safe, stable, and auditable deployments.', icon: 'secure-compliant-deployments' },
     { title: 'Custom Business-Focused Solutions', description: 'Our bespoke ChatGPT integration services are tailored to your systems, objectives, and customer touchpoints, providing AI chatbot development services that add value, reduce costs, and foster long-term growth.', icon: 'custom-business-focused-solutions' },
@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -177,7 +177,7 @@ const WhyChooseUsSection = () => {
             Why Choose Us for ChatGPT Integration Services
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            At Jellyfish Technologies, our ChatGPT integration & development services focus on driving real business impact. We bring cutting-edge AI, agile execution, and full-lifecycle support to help your business move faster, think smarter, and turn ChatGPT into a strategic growth engine.
+            At Alpixn Technologies, our ChatGPT integration & development services focus on driving real business impact. We bring cutting-edge AI, agile execution, and full-lifecycle support to help your business move faster, think smarter, and turn ChatGPT into a strategic growth engine.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsChatGpt.map((reason, index) => (
@@ -201,7 +201,7 @@ const IndustriesServedSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Industries We Serve</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies delivers ChatGPT business integration services for the education, SaaS, and enterprise sectors—helping businesses automate tasks, improve engagement, and leverage real-time insights through custom AI chatbot development.
+                        Alpixn Technologies delivers ChatGPT business integration services for the education, SaaS, and enterprise sectors—helping businesses automate tasks, improve engagement, and leverage real-time insights through custom AI chatbot development.
                     </p>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
@@ -294,7 +294,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies provides flexible engagement models to suit your unique project needs. Whether scaling fast or launching a targeted solution, our models guarantee efficiency, clarity, and optimal delivery.
+                        Alpixn Technologies provides flexible engagement models to suit your unique project needs. Whether scaling fast or launching a targeted solution, our models guarantee efficiency, clarity, and optimal delivery.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -322,13 +322,13 @@ const EngagementModelsSection = () => {
 const FaqSection = () => {
     const [open, setOpen] = useState(null);
     const faqs = [
-        { q: 'What are ChatGPT integration services, and how can they benefit my business?', a: 'ChatGPT integration services allow you to embed conversational AI into your systems. With scalable AI-powered solutions, Jellyfish Technologies helps companies automate support, simplify processes, and enhance engagement, improving productivity, lowering costs, and giving your company a competitive advantage.' },
+        { q: 'What are ChatGPT integration services, and how can they benefit my business?', a: 'ChatGPT integration services allow you to embed conversational AI into your systems. With scalable AI-powered solutions, Alpixn Technologies helps companies automate support, simplify processes, and enhance engagement, improving productivity, lowering costs, and giving your company a competitive advantage.' },
         { q: 'Can ChatGPT be integrated into existing CRM or ERP systems?', a: 'Yes, absolutely. We specialize in integrating ChatGPT with a wide range of enterprise systems, including CRMs like Salesforce and HubSpot, and various ERPs. This allows you to automate data entry, generate reports using natural language, and create intelligent assistants for your sales and support teams directly within the platforms they already use.' },
         { q: 'What are the prerequisites for implementing ChatGPT API integration?', a: 'The primary prerequisites are a clear business use case, access to the relevant data for context (e.g., product info, FAQs), and an available API endpoint in your existing system if you want seamless data flow. Our consulting team works with you to define these prerequisites and ensure your technical environment is ready for a smooth integration.' },
         { q: 'How secure is ChatGPT integration in terms of data privacy and compliance?', a: 'Security is paramount. We implement secure authentication methods, data encryption, and role-based access controls. For businesses with strict data privacy needs, we can utilize solutions like the private endpoints with major cloud providers or deploy models in your own virtual private cloud. We ensure all integrations adhere to GDPR, HIPAA, and other relevant data protection regulations.' },
         { q: 'Can I customize ChatGPT responses to align with my brand\'s tone and guidelines?', a: 'Yes. Customization is key to our service. We use techniques like prompt engineering, fine-tuning on your company\'s documents, and Retrieval-Augmented Generation (RAG) to ensure the AIs responses are consistently aligned with your brand’s specific voice, tone, and factual information. This prevents generic replies and creates an authentic brand experience.' },
         { q: 'What is the typical timeline for deploying ChatGPT integration & development services?', a: 'A standard ChatGPT API integration for a chatbot or a simple workflow automation can take as little as 2-4 weeks. More complex projects, like custom GPT app development or deep integration into multiple enterprise systems, may range from 1 to 3 months. We prioritize an agile approach to deliver value quickly.' },
-        { q: 'What distinguishes Jellyfish Technologies\' ChatGPT consulting services from others?', a: 'We focus on business outcomes, not just technology. Our consulting goes beyond technical implementation to include strategic use-case identification, ROI analysis, and building a scalable AI roadmap. Our full-lifecycle support, from ideation to post-launch optimization, ensures your investment delivers continuous value.' },
+        { q: 'What distinguishes Alpixn Technologies\' ChatGPT consulting services from others?', a: 'We focus on business outcomes, not just technology. Our consulting goes beyond technical implementation to include strategic use-case identification, ROI analysis, and building a scalable AI roadmap. Our full-lifecycle support, from ideation to post-launch optimization, ensures your investment delivers continuous value.' },
         { q: 'Can I hire ChatGPT integration developers for ongoing support and maintenance?', a: 'Yes, we offer flexible engagement models, including staff augmentation and dedicated teams for ongoing support. This ensures your ChatGPT solution remains optimized, up-to-date with the latest AI advancements, and continuously aligned with your evolving business needs.' },
         { q: 'What factors influence the cost of ChatGPT development services?', a: 'The main factors are the complexity of the integration, the level of customization required (e.g., fine-tuning vs. standard API use), the number of systems to integrate with, and the chosen engagement model. We provide transparent, detailed quotes based on a thorough analysis of your project scope.' },
         { q: 'Are there any hidden costs associated with ChatGPT integration services in India?', a: 'No, we operate with full transparency. All costs, including development, third-party API usage (like OpenAI\'s fees), and maintenance, are clearly outlined in our proposals. Our goal is to provide cost-effective solutions without any hidden fees, ensuring a predictable and positive ROI for your business.' }
@@ -537,7 +537,7 @@ const ChatGPTIntegrationPage = () => {
         <section className="py-20 bg-black text-center">
             <h2 className="text-3xl font-bold mb-4">Trusted By</h2>
             <p className="max-w-4xl mx-auto text-gray-400 mb-10">
-                Leading organizations rely on Jellyfish Technologies for ChatGPT API integration, citing our reliability, technical depth, and ability to deliver scalable solutions that drive operational efficiency.
+                Leading organizations rely on Alpixn Technologies for ChatGPT API integration, citing our reliability, technical depth, and ability to deliver scalable solutions that drive operational efficiency.
             </p>
             <TrustedBy backgroundColor="bg-black" />
         </section>

@@ -18,9 +18,9 @@ const proptechServices = [
 ];
 
 const whyChooseUsProptech = [
-    { title: 'Cost-effective services', content: 'Jellyfish Technologies provide cost-effective IT consulting and software development services that are tailored to meet the specific needs and budgets of proptech companies, helping them save costs while achieving their business goals.' },
+    { title: 'Cost-effective services', content: 'Alpixn Technologies provide cost-effective IT consulting and software development services that are tailored to meet the specific needs and budgets of proptech companies, helping them save costs while achieving their business goals.' },
     { title: 'Seamless integration', content: 'Our team of experts helps proptech companies streamline their systems and ensures seamless integration of new technologies to improve overall efficiency.' },
-    { title: 'Advanced data security', content: 'Jellyfish Technologies provides secure and reliable cloud solutions and data encryption services that help ensure our client’s data remains safe and protected.' },
+    { title: 'Advanced data security', content: 'Alpixn Technologies provides secure and reliable cloud solutions and data encryption services that help ensure our client’s data remains safe and protected.' },
     { title: 'Top-notch technical expertise', content: 'We provide advanced software solutions and IT support to stay ahead of the competition.' },
     { title: 'Data analysis and insights', content: 'We use data analytics tools and techniques to provide our clients with valuable insights into their business operations, helping them identify areas for improvement and optimization.' },
     { title: '24/7 support', content: 'Our team of dedicated professionals is always available to address any concerns or issues that may arise, ensuring that our clients’ businesses run smoothly without interruption.' }
@@ -29,13 +29,13 @@ const whyChooseUsProptech = [
 const caseStudies = [
     {
         title: 'Builder Digital',
-        description: 'Builder Digital, a real estate platform, sought to enhance its 149Photos web and mobile apps. Jellyfish Technologies provided solutions including feature enhancement, bug fixing, UI design, and a custom file transfer app, resulting in improved customer engagement and increased sales.',
-        image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp' // Reusing image as per instruction
+        description: 'Builder Digital, a real estate platform, sought to enhance its 149Photos web and mobile apps. Alpixn Technologies provided solutions including feature enhancement, bug fixing, UI design, and a custom file transfer app, resulting in improved customer engagement and increased sales.',
+        image: 'https://www.Alpixntechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp' // Reusing image as per instruction
     },
     {
         title: 'Keey',
         description: 'Keey, a proptech startup, sought a development partner to bring their real-estate booking platform to life. Leveraging React Native and Node.js, we crafted a mobile app enabling users to discreetly rent properties to friends or family.',
-        image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg' // Reusing image as per instruction
+        image: 'https://www.Alpixntechnologies.com/wp-content/uploads/2024/01/patronum.svg' // Reusing image as per instruction
     }
 ];
 
@@ -71,7 +71,7 @@ const IntroSection = () => {
                 </h2>
                 <p className={`max-w-4xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
                     Technology has revolutionized the way we interact with the world, and the real estate industry is no exception. From mobile apps and online platforms to smart home technology and predictive analytics, technology is making real estate more accessible, efficient, and customer-centric.
-                    As a trusted IT partner for proptech companies, Jellyfish Technologies is committed to providing bespoke IT outsourcing services that help companies leverage technology to achieve their business goals. Whether it’s developing custom software applications, providing cloud solutions, or offering end-to-end IT support, our team of experts is committed to delivering high-quality services that exceed expectations.
+                    As a trusted IT partner for proptech companies, Alpixn Technologies is committed to providing bespoke IT outsourcing services that help companies leverage technology to achieve their business goals. Whether it’s developing custom software applications, providing cloud solutions, or offering end-to-end IT support, our team of experts is committed to delivering high-quality services that exceed expectations.
                     Contact us today to learn more about our services and how we can help you drive growth and success.
                 </p>
             </div>
@@ -121,7 +121,7 @@ const WhyChooseUsAccordion = () => {
     return (
         <div className="py-24 bg-black">
             <div className="w-full px-4 sm:px-6 lg:px-8">
-                <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">Why Jellyfish Technologies is the Right Choice for Your Custom Proptech Software Development Needs</h2>
+                <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">Why Alpixn Technologies is the Right Choice for Your Custom Proptech Software Development Needs</h2>
                 <div className="max-w-4xl mx-auto">
                     {whyChooseUsProptech.map((item, index) => (
                         <div key={index} className="border-b border-gray-700 py-4">

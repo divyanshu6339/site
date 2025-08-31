@@ -20,7 +20,7 @@ const chatbotServices = [
 
 const whyTrustUs = [
     { title: 'Proven Industry Experience', description: 'We bring deep experience across industries like healthcare, fintech, SaaS, and retail, so you don’t waste time explaining your world. We build industry-standard chatbots based on user-driven, authentic analysis created using real business objectives. This allows for quicker deployment, less rework, and a solution that provides value from day one.', icon: 'proven-industry-experience' },
-    { title: 'Dedicated Delivery Teams', description: 'Your project has its expert team — no distractions, no divided attention. Our dedicated model ensures consistent communication, clear ownership, and seamless execution. With Jellyfish Technologies, you always know who’s developing your chatbot and what’s coming next.', icon: 'dedicated-delivery-teams' },
+    { title: 'Dedicated Delivery Teams', description: 'Your project has its expert team — no distractions, no divided attention. Our dedicated model ensures consistent communication, clear ownership, and seamless execution. With Alpixn Technologies, you always know who’s developing your chatbot and what’s coming next.', icon: 'dedicated-delivery-teams' },
     { title: 'Agile and Adaptive Execution', description: 'Business needs shift. We build with that in mind. Our agile approach keeps your chatbot project on track, even when requirements evolve. You maintain a competitive edge with faster iterations, quicker decisions, and solutions that adjust as your business evolves.', icon: 'agile-and-adaptive-execution' },
     { title: 'Client-Centric Development Approach', description: 'We don’t just deliver software—we collaborate. Our approach is centered around you, your customers, and your results. From discovery through development to deployment, we work alongside your team every step of the way, ensuring that your chatbot solves the right problems.', icon: 'client-centric-development-approach' }
 ];
@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -177,7 +177,7 @@ const WhyChooseUsSection = () => {
             Why Choose Us for AI Chatbot Development Services
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-           We create AI chatbots that do more than chat —they drive engagement, convert leads, automate workflows, and support users 24/7. At Jellyfish Technologies, we are the bot development company you need, with a strategic approach and a proven tech stack that helps you create a scalable bot solution.
+           We create AI chatbots that do more than chat —they drive engagement, convert leads, automate workflows, and support users 24/7. At Alpixn Technologies, we are the bot development company you need, with a strategic approach and a proven tech stack that helps you create a scalable bot solution.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsChatbot.map((reason, index) => (
@@ -201,7 +201,7 @@ const IndustriesServedSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Industries We Serve</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Boasting a variety of clients ranging from startups to enterprises in numerous fields, including healthcare, retail, SaaS, education, insurance, and logistics, Jellyfish Technologies specializes in creating personalized and scalable AI chatbot solutions for real-world problems, delivering tangible results and industry-level performance.
+                        Boasting a variety of clients ranging from startups to enterprises in numerous fields, including healthcare, retail, SaaS, education, insurance, and logistics, Alpixn Technologies specializes in creating personalized and scalable AI chatbot solutions for real-world problems, delivering tangible results and industry-level performance.
                     </p>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
@@ -224,7 +224,7 @@ const TestimonialsSection = () => {
                 <div className="text-center mb-12">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>See what our clients have to say</h2>
                      <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Clients choose Jellyfish Technologies for one reason—real results. Through our custom AI chatbot development services, we’ve helped teams drive down overhead, increase engagement, and automate smarter. Their feedback reflects the value we deliver at each stage.
+                        Clients choose Alpixn Technologies for one reason—real results. Through our custom AI chatbot development services, we’ve helped teams drive down overhead, increase engagement, and automate smarter. Their feedback reflects the value we deliver at each stage.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -294,7 +294,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        We at Jellyfish Technologies understand that every business has unique requirements. That’s why we provide flexible engagement models to help you build intelligent, scalable chatbots on your schedule. Whether you need full-cycle delivery or just some hands-on deck, we’ve got you covered.
+                        We at Alpixn Technologies understand that every business has unique requirements. That’s why we provide flexible engagement models to help you build intelligent, scalable chatbots on your schedule. Whether you need full-cycle delivery or just some hands-on deck, we’ve got you covered.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -329,7 +329,7 @@ const FaqSection = () => {
         { q: 'How secure are the AI chatbots we develop, and what data privacy measures are in place?', a: 'Security is a top priority. Our AI chatbot development services follow strict security protocols, including data encryption, secure API integrations, and adherence to industry compliance standards like GDPR and HIPAA where applicable. We ensure that all user information is handled with the utmost confidentiality and integrity.' },
         { q: 'Do we provide post-launch support and maintenance for your AI chatbots?', a: 'Yes, our commitment continues after launch. We offer comprehensive support and maintenance packages that include performance monitoring, regular updates, bug fixes, and feature enhancements. This ensures your chatbot remains reliable, performs optimally, and evolves with your business needs over time.' },
         { q: 'What is the cost of AI chatbot development, and are there any hidden fees?', a: 'The cost of chatbot development depends on factors like complexity, features, and the engagement model you choose (e.g., project-based, dedicated team). We provide transparent, upfront pricing with a detailed breakdown of costs. There are no hidden fees; we discuss all potential expenses, including any third-party service costs, before starting the project.' },
-        { q: 'What makes Jellyfish Technologies\' AI chatbot development company stand out, and why should I hire your developers?', a: 'We stand out due to our client-centric approach, deep domain expertise across various industries, and commitment to delivering tangible business outcomes. You should hire our developers for their technical proficiency in creating scalable, secure, and intelligent chatbot solutions, our agile methodology that ensures fast delivery, and our dedicated team model that guarantees clear communication and ownership.' },
+        { q: 'What makes Alpixn Technologies\' AI chatbot development company stand out, and why should I hire your developers?', a: 'We stand out due to our client-centric approach, deep domain expertise across various industries, and commitment to delivering tangible business outcomes. You should hire our developers for their technical proficiency in creating scalable, secure, and intelligent chatbot solutions, our agile methodology that ensures fast delivery, and our dedicated team model that guarantees clear communication and ownership.' },
         { q: 'Can I train the chatbot after development, and how can I ensure it performs optimally post-launch?', a: 'Yes, we can build chatbots with user-friendly content management systems (CMS) that allow you to train and update its knowledge base without needing technical expertise. To ensure optimal performance, we recommend continuous monitoring of conversation logs, analyzing user feedback, and regularly retraining the model with new data to improve its accuracy and understanding over time.' },
         { q: 'How do I get started with AI chatbot development and choose the right development company?', a: 'Getting started is easy. Begin by booking a free consultation with our experts. We’ll help you define your goals and roadmap. When choosing a development company, look for one with a proven track record, relevant industry experience, strong technical capabilities, and a portfolio of successful chatbot projects. Prioritize partners who focus on a strategic, collaborative approach to ensure the final product truly meets your business needs.' }
     ];
@@ -406,7 +406,7 @@ const AIChatbot = () => {
                 >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">AI Chatbot Development Services & Solutions</h1>
                 <p className="text-lg md:text-xl mb-6">
-                    Accelerate business efficiency with our cutting-edge AI chatbot development services. Jellyfish Technologies designs sophisticated, scalable chatbots focused on real-world use cases—enabling organizations to automate smarter, engage faster, and offer seamless user experiences across customer touchpoints and industries.
+                    Accelerate business efficiency with our cutting-edge AI chatbot development services. Alpixn Technologies designs sophisticated, scalable chatbots focused on real-world use cases—enabling organizations to automate smarter, engage faster, and offer seamless user experiences across customer touchpoints and industries.
                 </p>
                 <motion.button
                     className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"

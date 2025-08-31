@@ -28,10 +28,10 @@ const metaverseTechExpertise = ['Ai-And-Machine-Learning', 'Augmented Reality AR
 
 const clientTestimonials = [
     { author: 'James Anderson', company: 'Co-Founder, Shootzu', text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment. About 1,200 users are registered to the platform, and the app is fully-functioning. The team added value with their responsiveness and efficiency." },
-    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Jellyfish provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
-    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Jellyfish Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
-    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Jellyfish Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
-    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Jellyfish Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
+    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Alpixn provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
+    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Alpixn Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
+    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Alpixn Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
+    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Alpixn Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
 ];
 
 const metaverseSolutions = [
@@ -60,14 +60,14 @@ const faqsMetaverse = [
     { q: 'What skills are required for a Metaverse developer?', a: 'A skilled Metaverse developer should have a strong foundation in 3D modeling and game engines (like Unity or Unreal Engine), proficiency in programming languages such as C++ or Python, and expertise in blockchain technology for creating NFTs and decentralized systems. Knowledge of AR/VR development is also essential.' },
     { q: 'How long does it usually take to complete a Metaverse development project?', a: 'The timeline for a Metaverse project varies depending on its complexity. A simple proof-of-concept might take a few weeks, while a fully-featured, immersive virtual world with complex integrations could take several months to over a year to develop.' },
     { q: 'What is the approximate Metaverse development cost for the Metaverse development project?', a: 'The cost of a Metaverse project depends on its scope, features, and the size of the development team. A small-scale project can start from around $20,000, while large, complex Metaverse platforms can cost several hundred thousand dollars or more.' },
-    { q: 'What is the quality assurance process for Metaverse development projects at Jellyfish Technologies?', a: 'Our quality assurance process is comprehensive. It includes rigorous testing of functionality, performance, and security across all aspects of the virtual environment. We conduct thorough user experience testing to ensure the platform is immersive and intuitive, and we perform extensive testing on the blockchain components to ensure they are secure and reliable.' },
-    { q: 'Why is Jellyfish Technologies the best choice for hiring Metaverse experts?', a: 'Jellyfish Technologies is your best choice because we provide access to the top 1% of vetted Metaverse developers. Our experts have a proven track record of delivering innovative, secure, and scalable solutions. We offer flexible engagement models, a commitment to quality, and end-to-end support to ensure your project\'s success.' },
+    { q: 'What is the quality assurance process for Metaverse development projects at Alpixn Technologies?', a: 'Our quality assurance process is comprehensive. It includes rigorous testing of functionality, performance, and security across all aspects of the virtual environment. We conduct thorough user experience testing to ensure the platform is immersive and intuitive, and we perform extensive testing on the blockchain components to ensure they are secure and reliable.' },
+    { q: 'Why is Alpixn Technologies the best choice for hiring Metaverse experts?', a: 'Alpixn Technologies is your best choice because we provide access to the top 1% of vetted Metaverse developers. Our experts have a proven track record of delivering innovative, secure, and scalable solutions. We offer flexible engagement models, a commitment to quality, and end-to-end support to ensure your project\'s success.' },
     { q: 'Do you sign NDAs?', a: 'Yes, we take client confidentiality very seriously. We sign a Non-Disclosure Agreement (NDA) at the beginning of every engagement to ensure that your project ideas and proprietary information are fully protected.' }
 ];
 
 const userGuideContentMetaverse = {
     'Understanding Metaverse Development': {
-        intro: 'Metaverse development involves creating immersive, interactive virtual environments powered by advanced technologies like blockchain, AI, and 3D modeling. These virtual worlds enable businesses to offer unique digital experiences, including NFT marketplaces, decentralized platforms, and Metaverse gaming ecosystems. To succeed in this space, hiring skilled Metaverse developers who bring deep technical expertise and creative vision is critical. When you hire Metaverse engineers from Jellyfish Technologies, you gain access to certified professionals proficient in tools like Unity, Unreal Engine, and Web3 frameworks. Our team specializes in delivering scalable, future-ready solutions tailored to your business requirements, ensuring your Metaverse platform stands out.',
+        intro: 'Metaverse development involves creating immersive, interactive virtual environments powered by advanced technologies like blockchain, AI, and 3D modeling. These virtual worlds enable businesses to offer unique digital experiences, including NFT marketplaces, decentralized platforms, and Metaverse gaming ecosystems. To succeed in this space, hiring skilled Metaverse developers who bring deep technical expertise and creative vision is critical. When you hire Metaverse engineers from Alpixn Technologies, you gain access to certified professionals proficient in tools like Unity, Unreal Engine, and Web3 frameworks. Our team specializes in delivering scalable, future-ready solutions tailored to your business requirements, ensuring your Metaverse platform stands out.',
         points: []
     },
     'Key Skills to Look for in a Metaverse Developer': {
@@ -79,7 +79,7 @@ const userGuideContentMetaverse = {
             { title: 'AR/VR Knowledge', text: 'Expertise in augmented and virtual reality tools helps enhance user experience and interactivity.' },
             { title: 'Understanding of AI/ML', text: 'AI-powered avatars and behavior-driven algorithms require developers skilled in machine learning and artificial intelligence.' }
         ],
-        outro: 'When you hire certified Metaverse experts or hire top Metaverse developers from Jellyfish Technologies, you’re ensuring access to professionals equipped with these essential skills. Whether you’re hiring offshore Metaverse developers or engaging our remote team, we deliver unparalleled quality and innovation.'
+        outro: 'When you hire certified Metaverse experts or hire top Metaverse developers from Alpixn Technologies, you’re ensuring access to professionals equipped with these essential skills. Whether you’re hiring offshore Metaverse developers or engaging our remote team, we deliver unparalleled quality and innovation.'
     },
     'Steps to Hire the Right Metaverse Developer': {
         intro: '',
@@ -91,7 +91,7 @@ const userGuideContentMetaverse = {
             { title: 'Conduct Technical Interviews', text: 'Test the candidate’s coding ability, problem-solving skills, and knowledge of Metaverse-specific technologies.' },
             { title: 'Ensure Security Expertise', text: 'Verify their ability to implement robust security measures to protect user data and digital assets.' }
         ],
-        outro: 'Hiring Metaverse developers online with Jellyfish Technologies ensures access to certified experts who can bring your Metaverse vision to life with precision and innovation.'
+        outro: 'Hiring Metaverse developers online with Alpixn Technologies ensures access to certified experts who can bring your Metaverse vision to life with precision and innovation.'
     },
     'Benefits of Hiring Dedicated Metaverse Developers': {
         intro: '',
@@ -102,7 +102,7 @@ const userGuideContentMetaverse = {
             { title: 'Seamless Integration', text: 'Hire Metaverse app developers to ensure flawless integration of third-party services, NFTs, and payment gateways.' },
             { title: 'Post-Development Support', text: 'Dedicated developers provide ongoing support and maintenance, guaranteeing a smooth user experience and long-term success.' }
         ],
-        outro: 'Choose Jellyfish Technologies to hire certified Metaverse experts and elevate your project with innovative, secure, and high-performing Metaverse applications. Whether you hire Metaverse developers remotely or engage our full-service team, you’ll benefit from unparalleled expertise.'
+        outro: 'Choose Alpixn Technologies to hire certified Metaverse experts and elevate your project with innovative, secure, and high-performing Metaverse applications. Whether you hire Metaverse developers remotely or engage our full-service team, you’ll benefit from unparalleled expertise.'
     }
 };
 
@@ -279,7 +279,7 @@ const FeaturedCaseStudyMetaverse = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Jellyfish Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Alpixn Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
                         <img src={StaffAugmentationImage} alt="FM Integrated Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -368,7 +368,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Engagement Models to Hire Best Metaverse Programmers</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers flexible engagement models for Metaverse development, delivering tailored solutions to align with your project needs. Explore our engagement models.
+                        Alpixn Technologies offers flexible engagement models for Metaverse development, delivering tailored solutions to align with your project needs. Explore our engagement models.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

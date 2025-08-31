@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -293,7 +293,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        At Jellyfish Technologies, we offer flexible engagement models tailored to your business objectives, technical requirements, and budget. Whether you need full-time experts, on-demand specialists, or a defined project scope, we’ve got you covered.
+                        At Alpixn Technologies, we offer flexible engagement models tailored to your business objectives, technical requirements, and budget. Whether you need full-time experts, on-demand specialists, or a defined project scope, we’ve got you covered.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -321,11 +321,11 @@ const EngagementModelsSection = () => {
 const FaqSection = () => {
     const [open, setOpen] = useState(null);
     const faqs = [
-        { q: 'How does Jellyfish Technologies deliver reliable data annotation services for AI projects?', a: 'We deliver precision at scale. Combining expert teams, bespoke workflows, and multi-stage QA, our annotation services generate consistent, high-quality data, powering accurate AI training and enabling businesses to accelerate from raw input to production-grade intelligence.' },
+        { q: 'How does Alpixn Technologies deliver reliable data annotation services for AI projects?', a: 'We deliver precision at scale. Combining expert teams, bespoke workflows, and multi-stage QA, our annotation services generate consistent, high-quality data, powering accurate AI training and enabling businesses to accelerate from raw input to production-grade intelligence.' },
         { q: 'How do your image annotation services support computer vision applications?', a: 'Content for this answer is not available yet.' },
         { q: 'What tools and platforms do you use for data annotation and labeling?', a: 'Content for this answer is not available yet.' },
         { q: 'Is your data annotation platform scalable for enterprise-level machine learning models?', a: 'Content for this answer is not available yet.' },
-        { q: 'What makes Jellyfish Technologies a trusted data annotation company?', a: 'Content for this answer is not available yet.' },
+        { q: 'What makes Alpixn Technologies a trusted data annotation company?', a: 'Content for this answer is not available yet.' },
         { q: 'How do your audio annotation services handle complex, multi-language datasets?', a: 'Content for this answer is not available yet.' },
         { q: 'How secure is my data during the annotation process?', a: 'Content for this answer is not available yet.' },
         { q: 'How do you ensure data quality and consistency in machine learning data annotation?', a: 'Content for this answer is not available yet.' },
@@ -405,7 +405,7 @@ const AIDataAnnotationPage = () => {
                 >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Trusted AI Data Annotation Services</h1>
                 <p className="text-lg md:text-xl mb-6">
-                    When your AI model is data-driven, accuracy is not an option, it’s a necessity. That’s where we come in. Jellyfish Technologies offers AI Data Annotation Services tailored for next-gen AI applications. Our team carefully labels every tag, frame and element, giving your algorithms the structured input they need to perform in real-world scenarios.
+                    When your AI model is data-driven, accuracy is not an option, it’s a necessity. That’s where we come in. Alpixn Technologies offers AI Data Annotation Services tailored for next-gen AI applications. Our team carefully labels every tag, frame and element, giving your algorithms the structured input they need to perform in real-world scenarios.
                 </p>
                 <motion.button
                     className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"

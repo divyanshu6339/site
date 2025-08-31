@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -85,10 +85,10 @@ const useOnScreen = (options) => {
 const AiSuccessStorySection = () => {
     const [ref, isVisible] = useOnScreen({ threshold: 0.1 });
     const activeStudy = {
-        logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
-        image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        logo: 'https://www.Alpixntechnologies.com/wp-content/uploads/2024/01/patronum.svg',
+        image: 'https://www.Alpixntechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -177,7 +177,7 @@ const WhyChooseUsSection = () => {
             Why Choose Us for Predictive Analytics Development Services?
         </h2>
         <p className={`max-w-3xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-            Jellyfish Technologies stands apart for predictive analytics development through precision-driven engineering, reliable delivery, and domain-focused thinking, helping organizations transform raw information into prudent action across divisions and decision-making layers.
+            Alpixn Technologies stands apart for predictive analytics development through precision-driven engineering, reliable delivery, and domain-focused thinking, helping organizations transform raw information into prudent action across divisions and decision-making layers.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyChooseUsGenAi.map((reason, index) => (
@@ -293,7 +293,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        We offer flexible engagement models tailored to your business objectives, technical needs, and budget at Jellyfish Technologies. We have you covered, whether you need full-time professionals, part-time experts, or a clearly defined project scope.
+                        We offer flexible engagement models tailored to your business objectives, technical needs, and budget at Alpixn Technologies. We have you covered, whether you need full-time professionals, part-time experts, or a clearly defined project scope.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -462,7 +462,7 @@ const PredictiveAnalyticsPage = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              At Jellyfish Technologies, predictive analytics isn’t one-size-fits-all. We build intelligent solutions that integrate with your reality: predicting demand, mitigating risks, and enabling you to sidestep uncertainty confidently.
+              At Alpixn Technologies, predictive analytics isn’t one-size-fits-all. We build intelligent solutions that integrate with your reality: predicting demand, mitigating risks, and enabling you to sidestep uncertainty confidently.
             </motion.p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {genAiServices.map((service, index) => (

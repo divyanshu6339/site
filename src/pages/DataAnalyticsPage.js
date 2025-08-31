@@ -596,7 +596,7 @@ return (
           >
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Data Analytics Services and Solutions</h1>
             <p className="text-lg md:text-xl mb-6">
-              At Jellyfish Technologies, we understand that every business is unique, and your data needs are as distinctive as your goals. Add certified data experts to your team, such as data analysts, data scientists, BI developers, and data engineers. Boost your project's insights and scale up with our data analytics services and solutions.
+              At Alpixn Technologies, we understand that every business is unique, and your data needs are as distinctive as your goals. Add certified data experts to your team, such as data analysts, data scientists, BI developers, and data engineers. Boost your project's insights and scale up with our data analytics services and solutions.
             </p>
             <motion.button
               className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"
@@ -638,7 +638,7 @@ return (
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            We at Jellyfish Technologies offer extended data analytics services and provide on-demand skills and insights for the scalability of your project. Following is the list of services we offer under the data analytics process:
+            We at Alpixn Technologies offer extended data analytics services and provide on-demand skills and insights for the scalability of your project. Following is the list of services we offer under the data analytics process:
           </motion.p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (

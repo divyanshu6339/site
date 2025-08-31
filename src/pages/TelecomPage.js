@@ -15,20 +15,20 @@ const telecomServices = [
     { title: 'Operations Support Systems (OSS)', description: 'Our dedicated software professionals are prompt with new-age technologies and a depth of telecom industry expertise. Our custom Operations Support Systems solutions include calling accounting, telecom expense management, security monitoring, ensuring cost-effectiveness, and safeguarding against potential threats.' },
     { title: 'Business Support Systems (BSS)', description: 'Our Business Support Systems (BSS) services offer web and telecom application development, custom automation solutions, billing software, and CRM integrations. From modernizing BSS infrastructure to developing tailored solutions, we optimize telecom operations, enhance efficiency, and empower providers with advanced capabilities in their businesses.' },
     { title: 'Call Accounting Software', description: 'We deliver custom call accounting software solutions for your telecom business infrastructure to easily manage incoming, outgoing, local, and long-distance calls. Our developers integrate advanced algorithms to track different types of calls, capture records and documents, and optimize your network, security, and PCI-DSS compliance.' },
-    { title: 'Omnichannel Customer Services', description: 'We at Jellyfish Technologies provide client-centric solutions to meet bespoke specifications. Our skilled developers deliver custom solutions like user portals, help desks, and SMS mobile applications of varying complexity, ensuring businesses provide smart and efficient services.' },
+    { title: 'Omnichannel Customer Services', description: 'We at Alpixn Technologies provide client-centric solutions to meet bespoke specifications. Our skilled developers deliver custom solutions like user portals, help desks, and SMS mobile applications of varying complexity, ensuring businesses provide smart and efficient services.' },
     { title: 'Telecom Digital Services', description: 'Our custom telecom digital services include VoIP solutions, a business messaging system, bespoke telecom application development, network data analytics, and dashboard creation. With our innovative services transform your business in the evolving digital landscape.' }
 ];
 
 const exploreSolutions = [
-    { number: '01', title: 'Telephony VoIP Solutions', description: 'Our certified developers engineer custom-built VoIP-based telecom software solutions enhancing automatic data conversions, intelligent call routing, and voice traffic transmissions. Jellyfish Technologies provides a transformation from telephony to a voice-over IP solution that is smooth and built as per your business objectives.' },
-    { number: '02', title: 'Digital Media Streaming', description: 'We at Jellyfish Technologies provide software development services to develop solutions that offer seamless live streaming and media recording features. Our services include the integration of modern-day technologies into your existing telecom infrastructure. we provide engaging solutions to enhance digital media distribution and consumption.' },
+    { number: '01', title: 'Telephony VoIP Solutions', description: 'Our certified developers engineer custom-built VoIP-based telecom software solutions enhancing automatic data conversions, intelligent call routing, and voice traffic transmissions. Alpixn Technologies provides a transformation from telephony to a voice-over IP solution that is smooth and built as per your business objectives.' },
+    { number: '02', title: 'Digital Media Streaming', description: 'We at Alpixn Technologies provide software development services to develop solutions that offer seamless live streaming and media recording features. Our services include the integration of modern-day technologies into your existing telecom infrastructure. we provide engaging solutions to enhance digital media distribution and consumption.' },
     { number: '03', title: 'International Calling Systems', description: 'Our telecom software development services specialize in creating international calling systems. Incorporating industry-leading technology and expertise, we craft smart solutions to meet the diverse needs of global communication, ensuring seamless and reliable international calling capabilities for enhanced connectivity and user experience.' },
     { number: '04', title: 'AI-powered Telecom Data Analytics', description: 'Utilizing AI, our telecom development services offer cutting-edge solutions in network optimization, predictive maintenance, demand forecasting, and IoT data analytics. Empowering telecom providers with advanced insights, we drive efficiency, reliability, and agility in operations, ensuring readiness for future demands and challenges.' },
     { number: '05', title: 'Intelligent Telecom Data Analytics', description: 'With proven expertise in telecom application development and integration, we offer a full-cycle development, re-engineering, and modernization of telecom infrastructure. From business analysis, design, and architecture to deployment, testing, and ongoing support, we ensure seamless solutions tailored to telecom industry requirements and challenges.' },
     { number: '06', title: 'Telecom Billing Software', description: 'Our Telecom Billing Software solutions offer to streamline the billing process from invoicing to revenue management, ensuring accuracy and efficiency. By simplifying operations, we enable precise record-keeping and enhanced revenue collection, empowering telecom businesses to thrive in a competitive landscape. Optimize your telecom operations with our custom telecom solutions.' },
-    { number: '07', title: 'Telecom BI Solutions', description: 'Jellyfish Technologies offers custom telecommunications BI services for analyzing telecom data, enabling providers to make informed decisions. From custom dashboards to predictive analytics, our expertise ensures efficient utilization of resources, improved customer satisfaction, and strategic business insights, fostering growth in the telecommunications industry.' },
+    { number: '07', title: 'Telecom BI Solutions', description: 'Alpixn Technologies offers custom telecommunications BI services for analyzing telecom data, enabling providers to make informed decisions. From custom dashboards to predictive analytics, our expertise ensures efficient utilization of resources, improved customer satisfaction, and strategic business insights, fostering growth in the telecommunications industry.' },
     { number: '08', title: 'Third-Party Software Integration', description: 'Our Telecom Software Development Services specialize in seamless third-party integrations utilizing APIs and ESB frameworks. By ensuring correct operation, we minimize development costs and enhance functionality, enabling smooth operations and optimal performance for our clients.' },
-    { number: '09', title: 'Telecom Security Management', description: 'We at Jellyfish Technologies prioritize security with bespoke telecom security management software solutions. We ensure network integrity with end-to-end security solutions, safeguarding every device within the network. With a focus on protection, we empower businesses to thrive in an increasingly connected landscape.' }
+    { number: '09', title: 'Telecom Security Management', description: 'We at Alpixn Technologies prioritize security with bespoke telecom security management software solutions. We ensure network integrity with end-to-end security solutions, safeguarding every device within the network. With a focus on protection, we empower businesses to thrive in an increasingly connected landscape.' }
 ];
 
 const whyChooseUsTelecom = [
@@ -52,17 +52,17 @@ const clutchTestimonials = [
 const engagementModelsTelecom = [
     {
         title: 'Offshore Development',
-        description: 'Jellyfish Technologies’ dedicated team model functions as an Offshore Development Center (ODC), delivering a tailored approach. This works exclusively on the client’s project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, & high-quality standards.',
+        description: 'Alpixn Technologies’ dedicated team model functions as an Offshore Development Center (ODC), delivering a tailored approach. This works exclusively on the client’s project, ensuring cost-effectiveness, scalability, optimized outcomes, efficiency, & high-quality standards.',
         points: ['Client-Centric Team Formation', 'Direct Reporting And Transparency', 'Scalability And Flexibility', 'Quality And Efficiency']
     },
     {
         title: 'Dedicated Team Model',
-        description: 'Jellyfish Technologies offers a team augmentation approach and access to top-notch UI and UX design services tailored to your specific needs. Ideal for short-term support or filling skill gaps, this model provides flexibility and immediate access to the expertise required.',
+        description: 'Alpixn Technologies offers a team augmentation approach and access to top-notch UI and UX design services tailored to your specific needs. Ideal for short-term support or filling skill gaps, this model provides flexibility and immediate access to the expertise required.',
         points: ['Tailored Expertise', 'Seamless Integration', 'Cost-Effective Solution', 'Transparent Communication']
     },
     {
         title: 'Project-Based',
-        description: 'Jellyfish Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery, meeting quality standards, and fostering collaboration for successful outcomes.',
+        description: 'Alpixn Technologies’ project-based engagement model offers a structured approach for well-defined projects within a set scope, time, and budget. This model guarantees timely, on-budget delivery, meeting quality standards, and fostering collaboration for successful outcomes.',
         points: ['Fixed Budget', 'Milestones & Deliverables', 'Resource Allocation', 'Risk Mitigation']
     },
 ];
@@ -183,7 +183,7 @@ const FeaturedCaseStudySection = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Jellyfish Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Alpixn Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
                         <img src={StaffAugmentationImage} alt="FM Integrated Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -205,7 +205,7 @@ const ExploreSolutionsSection = () => {
                         Explore Our Telecom Software Development Solutions
                     </h2>
                     <p className={`mt-4 text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers custom telecom software solutions that are high-value and evolutionary. We deliver software utilizing industry-leading technologies in the telecommunications industry to secure and maintain their businesses and networks, expand service coverage, and increase customer engagement.
+                        Alpixn Technologies offers custom telecom software solutions that are high-value and evolutionary. We deliver software utilizing industry-leading technologies in the telecommunications industry to secure and maintain their businesses and networks, expand service coverage, and increase customer engagement.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -257,10 +257,10 @@ const WhyChooseUsSection = () => {
       <div ref={ref} className="py-24 bg-black">
         <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
           <h2 className={`text-4xl md:text-5xl font-bold mb-4 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-              Why Choose Jellyfish Technologies as a Telecommunications Software Development Company?
+              Why Choose Alpixn Technologies as a Telecommunications Software Development Company?
           </h2>
           <p className={`max-w-4xl mx-auto text-lg text-gray-400 mb-16 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-              Jellyfish Technologies offers custom telecommunications software development services with industry expertise, innovative solutions, and a commitment to excellence. With a proven track record, we deliver engaging software solutions for your business needs, ensuring reliability, security, and scalability to propel your business forward.
+              Alpixn Technologies offers custom telecommunications software development services with industry expertise, innovative solutions, and a commitment to excellence. With a proven track record, we deliver engaging software solutions for your business needs, ensuring reliability, security, and scalability to propel your business forward.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {whyChooseUsTelecom.map((reason, index) => (
@@ -329,7 +329,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Model</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers versatile engagement models for telecommunications software development services, providing innovative solutions to match clients’ unique requirements. Let’s explore these engagement models.
+                        Alpixn Technologies offers versatile engagement models for telecommunications software development services, providing innovative solutions to match clients’ unique requirements. Let’s explore these engagement models.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -425,7 +425,7 @@ const TelecomPage = () => {
                 >
                     <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Telecom Software Development Services</h1>
                     <p className="text-lg md:text-xl mb-6">
-                        Jellyfish Technologies offers tailor-made telecommunication software solutions that streamline your businesses with custom OSS/BSS software, VolP services, and other next-gen technological solutions. Our telecom software solutions ensure high-performance application development services, low latency, and stable operations.
+                        Alpixn Technologies offers tailor-made telecommunication software solutions that streamline your businesses with custom OSS/BSS software, VolP services, and other next-gen technological solutions. Our telecom software solutions ensure high-performance application development services, low latency, and stable operations.
                     </p>
                     <motion.button
                         className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"

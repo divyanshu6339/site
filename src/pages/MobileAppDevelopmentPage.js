@@ -42,7 +42,7 @@ const mobileAppServices = [
   {
     imgSrc: iosDev,
     title: 'iOS App Development',
-    description: 'At Jellyfish Technologies, our high-caliber mobile app developers specialize in iPhone app development, designing, and building code right up to support, and maintenance of your app. Incorporating advanced technologies- Swift, Xcode, SwiftUI, and React Native—we ensure fast performance and secure iPhone & iPad applications, aligning seamlessly with your business goals.',
+    description: 'At Alpixn Technologies, our high-caliber mobile app developers specialize in iPhone app development, designing, and building code right up to support, and maintenance of your app. Incorporating advanced technologies- Swift, Xcode, SwiftUI, and React Native—we ensure fast performance and secure iPhone & iPad applications, aligning seamlessly with your business goals.',
   },
   {
     imgSrc: androidDev,
@@ -52,7 +52,7 @@ const mobileAppServices = [
   {
     imgSrc: hybridDev,
     title: 'Hybrid App Development',
-    description: 'Jellyfish Technologies provides end-to-end hybrid app development, ensuring seamless deployment from ideation. Our expert hybrid app developers employ leading hybrid application technologies like React Native, Ionic Framework, NativeScript, and Quasar. Experience robust mobile app development, which offers a smooth development approach, cost savings, and compatibility across a variety of platforms.',
+    description: 'Alpixn Technologies provides end-to-end hybrid app development, ensuring seamless deployment from ideation. Our expert hybrid app developers employ leading hybrid application technologies like React Native, Ionic Framework, NativeScript, and Quasar. Experience robust mobile app development, which offers a smooth development approach, cost savings, and compatibility across a variety of platforms.',
   },
   {
     imgSrc: ondemandDev,
@@ -62,7 +62,7 @@ const mobileAppServices = [
   {
     imgSrc: wearableDev,
     title: 'Wearable App Development',
-    description: 'We at Jellyfish Technologies are proficient in wearable app development with advanced technology integration—Agile. Our wearable tech app developers provide custom wearable applications that track movement, heart action, mind action, and muscle exercises seamlessly with multiplatform integration. Advance your business with us by utilizing this trending technology.',
+    description: 'We at Alpixn Technologies are proficient in wearable app development with advanced technology integration—Agile. Our wearable tech app developers provide custom wearable applications that track movement, heart action, mind action, and muscle exercises seamlessly with multiplatform integration. Advance your business with us by utilizing this trending technology.',
   },
   {
     imgSrc: crossplatformDev,

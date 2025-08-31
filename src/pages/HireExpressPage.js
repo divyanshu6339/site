@@ -18,7 +18,7 @@ const expressStrengths = [
 ];
 
 const whatYouGetExpress = [
-    { title: 'Cost-Effective Solutions', description: 'By choosing Jellyfish Technologies to hire Express.js developers, you can access cost-effective services tailored to your budget. Our team ensures maximum ROI by leveraging efficient frameworks and best practices.' },
+    { title: 'Cost-Effective Solutions', description: 'By choosing Alpixn Technologies to hire Express.js developers, you can access cost-effective services tailored to your budget. Our team ensures maximum ROI by leveraging efficient frameworks and best practices.' },
     { title: 'Robust Software Build', description: 'Work with our hiring dedicated Express.js developers to create scalable, high-performing, and secure applications. We ensure optimal results, whether you need to hire ExpressJS backend developers for complex server-side logic or Express.js programmers for front-end integration.' },
     { title: 'Rapid Prototyping', description: 'Speed up your innovation cycle with rapid prototyping. Our hiring ExpressJS developers services transform your ideas into working prototypes with agility.' },
     { title: 'Post-Launch Maintenance', description: 'With ongoing monitoring and updates, our dedicated ExpressJS programmers ensure your software stays secure, functional, and aligned with evolving business needs.' }
@@ -28,10 +28,10 @@ const expressTechExpertise = ['TypeORM', 'Sequelize', 'Passport JS', 'Nodemon', 
 
 const clientTestimonials = [
     { author: 'James Anderson', company: 'Co-Founder, Shootzu', text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment. About 1,200 users are registered to the platform, and the app is fully-functioning. The team added value with their responsiveness and efficiency." },
-    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Jellyfish provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
-    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Jellyfish Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
-    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Jellyfish Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
-    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Jellyfish Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
+    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Alpixn provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
+    { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Alpixn Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
+    { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Alpixn Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
+    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Alpixn Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
 ];
 
 const expressSolutions = [
@@ -58,7 +58,7 @@ const faqsExpress = [
     { q: 'What is the process to hire Express.js developers?', a: 'The process typically starts with you defining and sharing your project requirements. The agency or platform then provides you with a list of vetted candidate profiles. You can then interview the shortlisted developers, and once selected, they are onboarded to your project. [1, 2, 3, 16]' },
     { q: 'What Express JS development tool stacks and technologies are your developers proficient with?', a: 'Our Express.js developers are proficient in a wide range of technologies, including Node.js, databases like MongoDB and PostgreSQL, RESTful API and GraphQL development, and tools like Docker and Passport.js. They also have experience with front-end frameworks like React and Angular. [1, 17]' },
     { q: 'How will I get the updates regarding my project?', a: 'You will receive regular project updates through various communication channels and project management tools. [1, 27] Teams often use platforms like Jira, Trello, or Asana for task tracking and tools like Slack or Microsoft Teams for real-time communication, ensuring you are always informed about the project\'s progress. [14, 19, 26]' },
-    { q: 'What are the benefits of hiring ExpressJS developers from Jellyfish Technologies?', a: 'Hiring Express.js developers from a specialized agency like Jellyfish Technologies gives you access to pre-vetted, top-tier talent, ensuring high-quality and efficient development. [1] It leads to faster project delivery, cost-effective solutions, and reliable post-launch support and maintenance. [1, 2]' },
+    { q: 'What are the benefits of hiring ExpressJS developers from Alpixn Technologies?', a: 'Hiring Express.js developers from a specialized agency like Alpixn Technologies gives you access to pre-vetted, top-tier talent, ensuring high-quality and efficient development. [1] It leads to faster project delivery, cost-effective solutions, and reliable post-launch support and maintenance. [1, 2]' },
     { q: 'Will I be able to change or replace Express JS developers if I’m not satisfied with the performance?', a: 'Yes, reputable agencies typically offer the flexibility to replace a developer if their performance is not satisfactory. [1] They usually have a satisfaction guarantee and will work with you to find a better fit for your team to ensure the project\'s success.' },
     { q: 'Can I hire Express JS developers for my business based on project-specific tasks?', a: 'Absolutely. You can hire Express.js developers for specific tasks, modules, or short-term projects. [1, 4, 16] This flexibility allows you to leverage specialized expertise precisely where you need it, optimizing both cost and resources.' },
     { q: 'Will I have complete control and authority over the code for my project?', a: 'Yes, in most standard outsourcing agreements, the client retains full ownership of the intellectual property, including the source code. [1, 13] This should be clearly stated in your contract to ensure there are no ambiguities. [8, 11, 12]' },
@@ -71,9 +71,9 @@ const userGuideContentExpress = {
         intro: '',
         points: [
             { title: 'Define Your Project Requirements', text: 'Outline your project’s scope, complexity, and specific features. Whether you need to hire remote Express.js developers or build a team, having clarity ensures you hire the right talent.' },
-            { title: 'Evaluate and Their Technical Expertise', text: 'Look for professionals skilled in Node.js, MongoDB, and REST APIs. When you hire Express.js coders from Jellyfish Technologies, you gain access to developers with proven expertise in these technologies.' },
+            { title: 'Evaluate and Their Technical Expertise', text: 'Look for professionals skilled in Node.js, MongoDB, and REST APIs. When you hire Express.js coders from Alpixn Technologies, you gain access to developers with proven expertise in these technologies.' },
             { title: 'Prioritize Experience with Full-Stack Development', text: 'Developers familiar with front-end frameworks like React, Angular, and Vue.js can deliver seamless solutions. Opt for Remote ExpressJS developers for hire to ensure your full-stack requirements are met.' },
-            { title: 'Look for Transparent Processes', text: 'Ensure regular updates and reports through project management tools. Jellyfish Technologies ensures complete transparency in every Express.js developer hiring process.' },
+            { title: 'Look for Transparent Processes', text: 'Ensure regular updates and reports through project management tools. Alpixn Technologies ensures complete transparency in every Express.js developer hiring process.' },
             { title: 'Test Their Technical Skills', text: 'Conduct coding tests or review past projects to validate expertise. With Express.js programmers for hire, we guarantee proficiency through thorough vetting.' }
         ]
     },
@@ -84,7 +84,7 @@ const userGuideContentExpress = {
             { title: 'Custom Solutions', text: 'Dedicated developers deliver customized applications tailored to your specific business needs. By choosing ExpressJS developers for hire, you ensure your project aligns with your goals.' },
             { title: 'Seamless Collaboration', text: 'With full control over the team, you can coordinate efficiently. Opting for Remote ExpressJS developers for hire ensures flexibility and smooth communication across time zones.' },
             { title: 'Cost Efficiency', text: 'Reduce overhead costs associated with hiring in-house teams. Hire remote Express.js developers to save on infrastructure and resources while receiving high-quality deliverables.' },
-            { title: 'Access to Advanced Tools', text: 'Expert developers leverage the latest technologies and tools to deliver innovative solutions. Jellyfish Technologies provides hire Expressjs coders with access to cutting-edge development stacks.' }
+            { title: 'Access to Advanced Tools', text: 'Expert developers leverage the latest technologies and tools to deliver innovative solutions. Alpixn Technologies provides hire Expressjs coders with access to cutting-edge development stacks.' }
         ]
     }
 };
@@ -261,7 +261,7 @@ const FeaturedCaseStudyExpress = () => {
                          </div>
                     </div>
                     <div className="w-full md:w-3/5">
-                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Jellyfish Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
+                        <p className="text-gray-300 mb-6 text-lg">Integrated FM Group, a leading facility management provider, collaborated with Alpixn Technologies to streamline operations. The developed platform integrates work orders, asset management, preventive maintenance, and vendor management, enhancing efficiency and reducing costs.</p>
                         <img src={StaffAugmentationImage} alt="FM Integrated Case Study" className="rounded-xl shadow-2xl shadow-blue-500/10" />
                         <div className="text-center mt-6">
                             <button className="text-blue-400 font-semibold hover:text-blue-300 transition-colors flex items-center gap-2 mx-auto">View Case Study <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg></button>
@@ -350,7 +350,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>Engagement Models to Hire Best Express.js Developers</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-5'}`}>
-                        Jellyfish Technologies offers flexible engagement models for Express.js development services, tailored to meet your unique business requirements. Explore our engagement options.
+                        Alpixn Technologies offers flexible engagement models for Express.js development services, tailored to meet your unique business requirements. Explore our engagement options.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
