@@ -25,7 +25,7 @@ const whyPartnerNodeJs = [
 ];
 
 const backendTechStack = [
-    'Node js Developer', 'Python Developer', 'Php Developer', 'Java Developer', 'Golang Developer', 
+    'Node js Developer', 'Python Developer', 'Php Developer', 'Java Developer', 'Golang Developer',
     'SQL Developer', '.Net Developer', 'Django Developer', 'Express Developer', 'Spring Boot Developer'
 ];
 
@@ -58,17 +58,17 @@ const engagementModelsNodeJs = [
 ];
 
 const faqsNodeJs = [
-    { q: "How does node.js differ from other server-side programming languages?", a: "Node.js differs from other server-side languages like Python or PHP due to its event-driven, non-blocking I/O model, which allows it to handle many concurrent connections efficiently. [2, 5] This makes it exceptionally fast and scalable for I/O-heavy applications, whereas traditional languages often use a multi-threaded approach that can be more resource-intensive. [1, 2]" },
-    { q: "Which companies use node.js for software development?", a: "Many major tech companies use Node.js, including Netflix, Uber, PayPal, LinkedIn, and Trello. [8] Its ability to handle high traffic, real-time data, and microservices architecture makes it a popular choice for large-scale enterprise applications. [8, 9]" },
-    { q: "Why should you outsource node.js development?", a: "Outsourcing Node.js development provides access to a global talent pool of specialized experts, which can be more cost-effective than hiring in-house. [10] It also allows companies to scale their development team quickly, reduce development time, and focus on core business activities while benefiting from the expertise of a dedicated development firm. [10, 11]" },
-    { q: "What kind of applications can you build using node.js?", a: "Node.js is versatile and can be used to build a wide range of applications, including real-time chat apps, streaming services, single-page applications (SPAs), RESTful APIs, e-commerce platforms, IoT solutions, and collaborative tools. [4, 6]" },
-    { q: "What is the cost of node.js development?", a: "The cost of Node.js development varies based on project complexity, features, and the location and experience of the developers. A project can range from a few thousand dollars for a simple application to over $100,000 for a complex, enterprise-level solution. [3]" },
-    { q: "Is Node.js suitable for building real-time applications?", a: "Yes, Node.js is exceptionally well-suited for real-time applications like chat apps, online gaming, and live data streaming. Its event-driven, non-blocking architecture and support for WebSockets enable efficient, two-way communication between the server and client. [7]" },
-    { q: "Is Node.js good for eCommerce website development?", a: "Yes, Node.js is an excellent choice for e-commerce websites. Its high performance and scalability can handle large amounts of traffic and real-time data processing for inventory management and transactions, which are critical for online stores. [14]" },
+    { q: "How does node.js differ from other server-side programming languages?", a: "Node.js differs from other server-side languages like Python or PHP due to its event-driven, non-blocking I/O model, which allows it to handle many concurrent connections efficiently. This makes it exceptionally fast and scalable for I/O-heavy applications, whereas traditional languages often use a multi-threaded approach that can be more resource-intensive." },
+    { q: "Which companies use node.js for software development?", a: "Many major tech companies use Node.js, including Netflix, Uber, PayPal, LinkedIn, and Trello. Its ability to handle high traffic, real-time data, and microservices architecture makes it a popular choice for large-scale enterprise applications." },
+    { q: "Why should you outsource node.js development?", a: "Outsourcing Node.js development provides access to a global talent pool of specialized experts, which can be more cost-effective than hiring in-house. It also allows companies to scale their development team quickly, reduce development time, and focus on core business activities while benefiting from the expertise of a dedicated development firm." },
+    { q: "What kind of applications can you build using node.js?", a: "Node.js is versatile and can be used to build a wide range of applications, including real-time chat apps, streaming services, single-page applications (SPAs), RESTful APIs, e-commerce platforms, IoT solutions, and collaborative tools." },
+    { q: "What is the cost of node.js development?", a: "The cost of Node.js development varies based on project complexity, features, and the location and experience of the developers. A project can range from a few thousand dollars for a simple application to over $100,000 for a complex, enterprise-level solution." },
+    { q: "Is Node.js suitable for building real-time applications?", a: "Yes, Node.js is exceptionally well-suited for real-time applications like chat apps, online gaming, and live data streaming. Its event-driven, non-blocking architecture and support for WebSockets enable efficient, two-way communication between the server and client." },
+    { q: "Is Node.js good for eCommerce website development?", a: "Yes, Node.js is an excellent choice for e-commerce websites. Its high performance and scalability can handle large amounts of traffic and real-time data processing for inventory management and transactions, which are critical for online stores." },
     { q: "Why should I hire Node.js developers from your company?", a: "We are a trusted team of Nodejs developers with extensive experience in building high-performance applications. Our developers use the latest technologies to ensure your Node.js project is scalable, secure, and efficient." },
     { q: "How can I hire senior Node.js developers for my project?", a: "Hiring senior Node.js developers involves defining your project requirements, searching on talent platforms or partnering with a development company, conducting technical interviews to assess their expertise in Node.js core concepts and frameworks, and reviewing their portfolio of past projects." },
     { q: "Can I hire dedicated Node.js developers for my project?", a: "Yes, you can hire dedicated Node.js developers. This model provides you with a team of developers who work exclusively on your project, offering deep focus, better communication, and seamless integration with your existing team and processes." },
-    { q: "What are the benefits of hiring offshore Node.js developers?", a: "Hiring offshore Node.js developers offers significant cost savings, access to a larger pool of skilled talent, and the ability to scale your team quickly. It also allows for around-the-clock development cycles, potentially speeding up project delivery. [12, 13]" }
+    { q: "What are the benefits of hiring offshore Node.js developers?", a: "Hiring offshore Node.js developers offers significant cost savings, access to a larger pool of skilled talent, and the ability to scale your team quickly. It also allows for around-the-clock development cycles, potentially speeding up project delivery." }
 ];
 
 const userGuideContentNodeJs = {
@@ -130,14 +130,14 @@ const userGuideContentNodeJs = {
 const useOnScreen = (options) => {
     const [ref, setRef] = useState(null);
     const [isVisible, setIsVisible] = useState(false);
-  
+
     React.useEffect(() => {
       if (!ref) return;
       const observer = new IntersectionObserver(([entry]) => setIsVisible(entry.isIntersecting), options);
       observer.observe(ref);
       return () => observer.disconnect();
     }, [ref, options]);
-  
+
     return [setRef, isVisible];
 };
 
@@ -452,7 +452,7 @@ const FaqSection = () => {
 
 
 // --- MAIN PAGE COMPONENT ---
-const HireNodeJsPage = () => {
+const HireNodeJSPage = () => {
   return (
     <div className="bg-black text-white">
       <Header />
@@ -496,7 +496,6 @@ const HireNodeJsPage = () => {
         <TechStackGridSection />
         <TestimonialsSection />
         <ReliableSolutionsSection />
-        <Insights />
 
         <section className="bg-blue-600 py-16 px-4 sm:px-6 lg:px-8 text-center">
             <motion.h2 className="text-3xl md:text-4xl font-bold mb-6" initial={{ y: 50, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
@@ -520,4 +519,4 @@ const HireNodeJsPage = () => {
   );
 };
 
-export default HireNodeJsPage;
+export default HireNodeJSPage;

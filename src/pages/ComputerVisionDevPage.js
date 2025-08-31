@@ -54,7 +54,7 @@ const genAiTechStack = [
 ];
 
 const newTestimonials = [
-    { text: "Working with Jellyfish Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
+    { text: "Working with Alpixn Technologies has been a truly positive experience. The developers integrated seamlessly with our team, quickly understood our requirements, and delivered reliable, high-quality solutions...", author: "Sajin J SN", title: "Project Management Officer, Gojo & Company, Inc." },
     { text: "Not only would I hire them again without hesitation, but I will point out that after the first two test projects were done, they earned my repeat business...", author: "Karl Margrain", title: "Founder and Managing Director, Payleadr" },
     { text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment...", author: "James Anderson", title: "Co-Founder, Shootzu" }
 ];
@@ -87,8 +87,8 @@ const AiSuccessStorySection = () => {
     const activeStudy = {
         logo: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/01/patronum.svg',
         image: 'https://www.jellyfishtechnologies.com/wp-content/uploads/2024/05/AI-Chatbot.webp',
-        title: 'Jellyfish Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
-        description: 'Jellyfish Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
+        title: 'Alpixn Technologies Redefines Chatbot Development for a Top IT Organization with Next- Gen AI SaaS Platform',
+        description: 'Alpixn Technologies partnered with a global enterprise to develop an AI-powered SaaS platform, integrating AI models, automation, and real-time analytics to optimize workflow automation, customer engagement, and data-driven decision-making.',
         points: ['Smart AI Training & Adaptability', 'Automated & Scalable Management', 'Real-Time Insights & Optimization', 'Seamless Deployment & Integration'],
         tags: ['PYTHON', 'LANGCHAIN'],
         storyLink: "#",
@@ -103,7 +103,7 @@ const AiSuccessStorySection = () => {
                         Case Studies: AI Innovation Rooted in Real-World Execution
                     </h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        Innovation is nothing without execution. At Jellyfish Technologies, we bring together the theoretical abstraction of AI and the practical reality of the enterprise—delivering intelligent automation that works at scale in the real world.
+                        Innovation is nothing without execution. At Alpixn Technologies, we bring together the theoretical abstraction of AI and the practical reality of the enterprise—delivering intelligent automation that works at scale in the real world.
                     </p>
                 </div>
                 <div className={`bg-gray-900/50 ring-1 ring-white/10 rounded-2xl p-6 md:p-8 transition-all duration-700 ease-out delay-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
@@ -293,7 +293,7 @@ const EngagementModelsSection = () => {
                 <div className="text-center mb-16">
                     <h2 className={`text-4xl md:text-5xl font-bold transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>Engagement Models</h2>
                     <p className={`mt-4 max-w-3xl mx-auto text-lg text-gray-400 transition-all duration-700 ease-out delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
-                        At Jellyfish Technologies, we offer flexible engagement models for computer vision development services, catering to your timeline, resource needs, and business goals, whether you need full-time support or project-based delivery.
+                        At Alpixn Technologies, we offer flexible engagement models for computer vision development services, catering to your timeline, resource needs, and business goals, whether you need full-time support or project-based delivery.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -321,7 +321,7 @@ const EngagementModelsSection = () => {
 const FaqSection = () => {
     const [open, setOpen] = useState(null);
     const faqs = [
-        { q: 'Can you integrate computer vision models into our existing enterprise software?', a: 'Yes, integration is completely feasible. Computer vision systems can be built that interface with your ERP, CRM, or custom apps through APIs or SDKs. Our specialists facilitate trouble-free integration without disturbing current processes. At Jellyfish Technologies, we create computer vision software solutions that are enterprise-ready regarding compatibility and performance.' },
+        { q: 'Can you integrate computer vision models into our existing enterprise software?', a: 'Yes, integration is completely feasible. Computer vision systems can be built that interface with your ERP, CRM, or custom apps through APIs or SDKs. Our specialists facilitate trouble-free integration without disturbing current processes. At Alpixn Technologies, we create computer vision software solutions that are enterprise-ready regarding compatibility and performance.' },
         { q: 'Do you offer edge deployment for real-time processing?', a: 'Yes, we specialize in edge deployment. This involves optimizing computer vision models to run efficiently on devices with limited computational power, such as IoT cameras, drones, or mobile phones. Edge deployment is critical for applications requiring real-time, low-latency processing without relying on a constant cloud connection.' },
         { q: 'How do you handle sensitive visual data during development?', a: 'We handle sensitive data with the strictest security protocols. This includes data encryption at rest and in transit, access control, and data anonymization techniques like blurring faces or redacting private information. Our practices are designed to comply with data privacy regulations like GDPR and HIPAA.' },
         { q: 'What if we don’t have enough labeled data for training?', a: 'This is a common challenge we solve. Our services include data augmentation (creating modified versions of existing data), synthetic data generation (creating artificial, photorealistic data), and leveraging transfer learning from pre-trained models. We also provide complete data annotation and sourcing services to build high-quality datasets for you.' },
@@ -405,7 +405,7 @@ const ComputerVisionDevPage = () => {
                 >
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">AI-Powered Computer Vision Development Services</h1>
                 <p className="text-lg md:text-xl mb-6">
-                    Computer vision is transforming industries, from smart surveillance to autonomous systems and quality inspection. At Jellyfish Technologies, we engineer AI that sees, interprets, and responds to visual data, enabling instantaneous decisions, automation, and operational intelligence at scale.
+                    Computer vision is transforming industries, from smart surveillance to autonomous systems and quality inspection. At Alpixn Technologies, we engineer AI that sees, interprets, and responds to visual data, enabling instantaneous decisions, automation, and operational intelligence at scale.
                 </p>
                 <motion.button
                     className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"

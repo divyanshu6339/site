@@ -19,9 +19,9 @@ const reactNativeStrengths = [
 
 const whatYouGetReactNative = [
     { title: 'Cross-Platform Expertise', description: 'Leverage the capabilities of our expert React Native developers to build applications that seamlessly run across iOS and Android. Our team ensures code reusability, reducing development time while maintaining a native-like user experience.' },
-    { title: 'Fast Time-to-Market', description: 'Accelerate your app’s launch with our streamlined development process. By utilizing the robust features of React Native, our development team minimizes delays without compromising quality.' },
+    { title: 'Fast Time-to-Market', description: 'Accelerate your apps launch with our streamlined development process. By utilizing the robust features of React Native, our development team minimizes delays without compromising quality.' },
     { title: 'Performance Optimization', description: 'Our React Native experts ensure that your application is highly performant by optimizing memory usage, reducing load times, and enhancing responsiveness.' },
-    { title: 'Real-Time Development Updates', description: 'Stay updated with the progress of your project through our transparent communication channels. When you hire React Native consultants or engage with our React Native software development team, you’ll receive real-time updates, ensuring every milestone aligns with your business goals.' }
+    { title: 'Real-Time Development Updates', description: 'Stay updated with the progress of your project through our transparent communication channels. When you hire React Native consultants or engage with our React Native software development team, youll receive real-time updates, ensuring every milestone aligns with your business goals.' }
 ];
 
 const frontendDeveloperTech = ['React js Developer', 'Angular Developer', 'Vue js Developer', 'Javascript Developer', 'Next js Developer', 'Typescript Developer'];
@@ -29,10 +29,10 @@ const reactNativeTechExpertise = ['AXIOS', 'Expo', 'Fastlane', 'Jest', 'Paper', 
 
 const clientTestimonials = [
     { author: 'James Anderson', company: 'Co-Founder, Shootzu', text: "The team enabled the app to launch in both New Zealand and the United States, seamlessly handling multiple currencies and transactions upon deployment. About 1,200 users are registered to the platform, and the app is fully-functioning. The team added value with their responsiveness and efficiency." },
-    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Jellyfish provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overall–collaborative, responsive, and quick to turn around deliverables." },
+    { author: 'Earl VanBuskirk', company: 'Strategic Product Manager, Patra Corp', text: "Jellyfish provides high-quality design and development services that have already received a lot of positive feedback from other providers taking notice of their work. They're also great to work with overallcollaborative, responsive, and quick to turn around deliverables." },
     { author: 'Anonymous', company: 'Executive, Sagita Learning', text: "Jellyfish Technologie's platform increased efficiency and reduced the administrative burden of the client's processes. The team was reliable and accurate, with responsive and transparent communication. The team was also proactive in addressing challenges and providing regular status updates." },
     { author: 'Ricardo Henriquez', company: 'Co-Founder & CEO, BlackGull', text: "The client was utterly amazed at the quality of the product and speed of delivery of Jellyfish Technologies. Their team did an excellent job given the short amount of time and stood out for their performance and great price. They kept an open and fluid communication via Slack and Zoom." },
-    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Jellyfish Technologies successfully produces deliverables that satisfy internal stakeholders’ expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
+    { author: 'Jan Menzen', company: 'Founder & Managing Director, ImmoSnapp GmbH', text: "Jellyfish Technologies successfully produces deliverables that satisfy internal stakeholders expectations. A dedicated and capable team, they effectively tackle a myriad of challenges. By introducing project management tools to the engagement, the team augmented collaboration." }
 ];
 
 const reactNativeSolutions = [
